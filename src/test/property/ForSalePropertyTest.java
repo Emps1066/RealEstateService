@@ -32,7 +32,8 @@ class ForSalePropertyTest {
     @Test
     void setBedrooms() {
         Property c1 = new ForSaleProperty("2 Bourke Street Melbourne",2,3);
-        c1.setBedrooms(3);
+        System.out.println(c1.getBathrooms());
+        c1.setBedrooms(4);
         System.out.println(c1.getBedrooms());
     }
 
