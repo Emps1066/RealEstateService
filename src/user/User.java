@@ -5,7 +5,7 @@ import java.util.Collection;
 import java.util.ArrayList;
 
 public abstract class User {
-
+    private String userName;
     private String password;
     private String name;
     private String Id;
