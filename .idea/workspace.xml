@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2053651-aeaf-4b3f-926a-01623365f6d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/property/RentalPropertyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/user/CustomerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/user/EmployeeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/projectTrainwreck/property/ForSalePropertyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/projectTrainwreck/property/ForSalePropertyTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/property/ForSalePropertyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/property/ForSalePropertyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/property/RentalPropertyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/property/RentalPropertyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/user/CustomerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/user/CustomerTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,13 +15,48 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/projectTrainwreck$ForSalePropertyTest_setBedrooms.ic" NAME="ForSalePropertyTest.setBedrooms Coverage Results" MODIFIED="1568007358773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>property.*</FILTER>
+    </SUITE>
+  </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/property/ForSalePropertyTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-177">
-              <caret line="4" column="40" lean-forward="true" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+            <state relative-caret-position="255">
+              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/user/Employee.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/user/EmployeeTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="935">
+              <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/user/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -34,11 +70,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/user/CustomerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+            <state relative-caret-position="435">
+              <caret line="59" column="5" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="59" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -49,8 +85,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/property/RentalPropertyTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-211">
-              <caret line="2" column="34" lean-forward="true" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+            <state relative-caret-position="255">
+              <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -73,6 +112,7 @@
         <option value="$PROJECT_DIR$/src/test/property/RentalPropertyTest.java" />
         <option value="$PROJECT_DIR$/src/test/property/ForSalePropertyTest.java" />
         <option value="$PROJECT_DIR$/src/test/user/CustomerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/user/EmployeeTest.java" />
       </list>
     </option>
   </component>
@@ -93,6 +133,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -109,14 +151,18 @@
               <item name="projectTrainwreck" type="b2602c69:ProjectViewProjectNode" />
               <item name="projectTrainwreck" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="property" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projectTrainwreck" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectTrainwreck" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -125,7 +171,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567927699140" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568012899501" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
@@ -157,7 +203,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ForSalePropertyTest.setBedrooms">
+  <component name="RunManager" selected="JUnit.ForSalePropertyTest.setAddress">
     <configuration name="ForSalePropertyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="projectTrainwreck" />
       <extension name="coverage">
@@ -188,7 +234,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ForSalePropertyTest.getBedrooms" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ForSalePropertyTest.setAddress" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="projectTrainwreck" />
       <extension name="coverage">
         <pattern>
@@ -198,23 +244,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="property" />
       <option name="MAIN_CLASS_NAME" value="property.ForSalePropertyTest" />
-      <option name="METHOD_NAME" value="getBedrooms" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ForSalePropertyTest.setBathrooms" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="projectTrainwreck" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="property.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="property" />
-      <option name="MAIN_CLASS_NAME" value="property.ForSalePropertyTest" />
-      <option name="METHOD_NAME" value="setBathrooms" />
+      <option name="METHOD_NAME" value="setAddress" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -236,20 +266,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RentalPropertyTest.getAddress" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="projectTrainwreck" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="property.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="property" />
+      <option name="MAIN_CLASS_NAME" value="property.RentalPropertyTest" />
+      <option name="METHOD_NAME" value="getAddress" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="JUnit.ForSalePropertyTest.getAddress" />
-      <item itemvalue="JUnit.ForSalePropertyTest.getBedrooms" />
-      <item itemvalue="JUnit.ForSalePropertyTest.setBathrooms" />
       <item itemvalue="JUnit.ForSalePropertyTest" />
       <item itemvalue="JUnit.ForSalePropertyTest.setBedrooms" />
+      <item itemvalue="JUnit.RentalPropertyTest.getAddress" />
+      <item itemvalue="JUnit.ForSalePropertyTest.setAddress" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ForSalePropertyTest.setAddress" />
         <item itemvalue="JUnit.ForSalePropertyTest.setBedrooms" />
-        <item itemvalue="JUnit.ForSalePropertyTest" />
         <item itemvalue="JUnit.ForSalePropertyTest.getAddress" />
-        <item itemvalue="JUnit.ForSalePropertyTest.setBathrooms" />
-        <item itemvalue="JUnit.ForSalePropertyTest.getBedrooms" />
+        <item itemvalue="JUnit.RentalPropertyTest.getAddress" />
+        <item itemvalue="JUnit.ForSalePropertyTest" />
       </list>
     </recent_temporary>
   </component>
@@ -263,7 +309,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1567908922152</updated>
-      <workItem from="1567908927258" duration="2611000" />
+      <workItem from="1567908927258" duration="4887000" />
+      <workItem from="1567992850165" duration="71000" />
+      <workItem from="1568004433882" duration="5120000" />
     </task>
     <task id="LOCAL-00001" summary="Changed settings to get test to work">
       <created>1567927116820</created>
@@ -272,13 +320,17 @@
       <option name="project" value="LOCAL" />
       <updated>1567927116821</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added more test classes">
+      <created>1567927772777</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1567927772777</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ForSalePropertyTest_getAddress - 2019.09.08 at 17h 16m 28s.xml">
-      <configuration name="ForSalePropertyTest.getAddress" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ForSalePropertyTest_getAddress - 2019.09.08 at 17h 16m 54s.xml">
       <configuration name="ForSalePropertyTest.getAddress" configurationId="JUnit" />
     </history-entry>
@@ -291,25 +343,39 @@
     <history-entry file="ForSalePropertyTest_setBedrooms - 2019.09.08 at 17h 22m 39s.xml">
       <configuration name="ForSalePropertyTest.setBedrooms" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RentalPropertyTest_getAddress - 2019.09.08 at 18h 22m 14s.xml">
+      <configuration name="RentalPropertyTest.getAddress" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ForSalePropertyTest_setAddress - 2019.09.08 at 18h 23m 18s.xml">
+      <configuration name="ForSalePropertyTest.setAddress" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ForSalePropertyTest_getAddress - 2019.09.09 at 14h 50m 34s.xml">
+      <configuration name="ForSalePropertyTest.getAddress" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ForSalePropertyTest_getAddress - 2019.09.09 at 14h 50m 52s.xml">
+      <configuration name="ForSalePropertyTest.getAddress" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ForSalePropertyTest_setBedrooms - 2019.09.09 at 15h 36m 05s.xml">
+      <configuration name="ForSalePropertyTest.setBedrooms" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ForSalePropertyTest_setAddress - 2019.09.09 at 16h 17m 12s.xml">
+      <configuration name="ForSalePropertyTest.setAddress" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2611000" />
+    <option name="totallyTimeSpent" value="10078000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1222" height="735" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24956971" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25817555" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" weight="0.32890365" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32890365" />
@@ -317,15 +383,21 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32890365" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32890365" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32960412" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -336,7 +408,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Changed settings to get test to work" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed settings to get test to work" />
+    <MESSAGE value="added more test classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="added more test classes" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
@@ -346,24 +419,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/property/Property.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/out/test/projectTrainwreck/property/ForSalePropertyTest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#1495#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/property/RentalProperty.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -372,7 +429,101 @@
         </state>
       </provider>
     </entry>
+    <entry file="uml://JAVA/">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="" y="">com</node>
+            <node x="" y="">images</node>
+            <node x="" y="">netscape</node>
+            <node x="" y="">org</node>
+            <node x="" y="">roles</node>
+            <node x="" y="">toolbarButtonGraphics</node>
+            <node x="" y="">sun</node>
+            <node x="" y="">jdk</node>
+            <node x="" y="">META-INF</node>
+            <node x="" y="">groovyjarjarasm</node>
+            <node x="" y="">java</node>
+            <node x="" y="">groovy</node>
+            <node x="" y="">javax</node>
+            <node x="" y="">property</node>
+            <node x="" y="">groovyjarjarcommonscli</node>
+            <node x="" y="">user</node>
+            <node x="" y="">groovyjarjarantlr</node>
+            <node x="" y="">properties</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="239.0" y="237.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram/C:/Users/mbapt/Documents/projectTrainwreck/src/com/company;C:/Users/mbapt/Documents/projectTrainwreck/src/properties;C:/Users/mbapt/Documents/projectTrainwreck/src/property;C:/Users/mbapt/Documents/projectTrainwreck/src/roles;C:/Users/mbapt/Documents/projectTrainwreck/src/test;C:/Users/mbapt/Documents/projectTrainwreck/src/user;">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/src/com/company;C:/Users/mbapt/Documents/projectTrainwreck/src/properties;C:/Users/mbapt/Documents/projectTrainwreck/src/property;C:/Users/mbapt/Documents/projectTrainwreck/src/roles;C:/Users/mbapt/Documents/projectTrainwreck/src/test;C:/Users/mbapt/Documents/projectTrainwreck/src/user;</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="436.0" y="276.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/property/RentalPropertyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="1539" selection-start-line="1539" selection-end-line="1539" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/property/Property.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/user/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/user/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/property/ForSaleProperty.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
@@ -386,34 +537,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/user/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/property/ForSalePropertyTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-177">
-          <caret line="4" column="40" lean-forward="true" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/property/RentalPropertyTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-211">
-          <caret line="2" column="34" lean-forward="true" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+        <state relative-caret-position="255">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/user/CustomerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        <state relative-caret-position="435">
+          <caret line="59" column="5" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="59" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/user/EmployeeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
         </state>
       </provider>
     </entry>

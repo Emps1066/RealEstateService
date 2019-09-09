@@ -9,7 +9,6 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class ForSalePropertyTest {
 
-
     @Test
     void getAddress() {
         Property c1 = new ForSaleProperty("2 Bourke Street Melbourne",2,3);
@@ -19,6 +18,7 @@ class ForSalePropertyTest {
     @Test
     void setAddress() {
         Property c1 = new ForSaleProperty("2 Bourke Street Melbourne",2,3);
+        System.out.println(c1.getAddress());
         c1.setAddress("10 Swanston Street Melbourne");
         System.out.println(c1.getAddress());
     }
