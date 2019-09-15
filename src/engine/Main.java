@@ -1,5 +1,9 @@
 package engine;
 
+import java.awt.*;
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.Scanner;
 
 public class Main {
@@ -12,6 +16,7 @@ public class Main {
         System.out.println("B. create a profile.");
 
     }
+
 
 
 
@@ -44,13 +49,47 @@ public class Main {
         }
         else{
 
-
         }
     }
 
     public void createCurrentUser()
     {
 
+    }
+
+    public String generateUniqueEmployeeID()
+    {
+        String fileName = "employeeInformation";
+        String ID = Integer.toString(findAmountOfUsers(fileName));
+        return ID;
+
+    }
+
+    public String generateUniqueCustomerID()
+    {
+        String fileName = "employeeInformation";
+        String ID = Integer.toString(findAmountOfUsers(fileName));
+        return ID;
+
+    }
+
+    public int findAmountOfUsers(String fileName)
+    {
+        int count = 0;
+        try
+        {
+            BufferedReader bufferedReader = new BufferedReader(new FileReader(fileName));
+            String input;
+            while ((input = bufferedReader.readLine()) != null) {
+                count++;
+            }
+        }
+        catch(IOException ex)
+        {
+            System.out.println("The file was not found");
+        }
+
+            return count;
     }
 
 
