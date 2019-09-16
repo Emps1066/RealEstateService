@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 
 class ForSalePropertyTest {
 
-    @Test
+/*    @Test
     void getAddress() {
         Property c1 = new ForSaleProperty("2 Bourke Street Melbourne",2,3);
         System.out.println(c1.getAddress());
@@ -46,7 +46,7 @@ class ForSalePropertyTest {
         Property c1 = new ForSaleProperty("2 Bourke Street Melbourne",2,3);
         c1.setBathrooms(2);
         System.out.println(c1.getBathrooms());
-    }
+    }*/
 
     @Test
     void addEmployee() {

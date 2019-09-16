@@ -1,4 +1,4 @@
-package user;
+package test.user;
 
 import org.junit.jupiter.api.Test;
 import user.Customer;
@@ -6,7 +6,7 @@ import user.User;
 
 class CustomerTest {
 // Basic test code to check if the methods are doing their jobs
-    @Test
+    /*@Test
     void getId() {
         User c1 = new Customer("user1","p1234","John","id123");
         System.out.println(c1.getId());
@@ -53,7 +53,7 @@ class CustomerTest {
         c1.setName("Jenny");
         System.out.println(c1.getName());
     }
-
+*/
     @Test
     void getRoles() {
 
