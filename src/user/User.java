@@ -7,18 +7,17 @@ public class User {
     private String password;
 
 
-    public User(String usename, String password){
-        this.username = usename;
+    public User(String username, String password){
+        this.username = username;
         this.password = password ;
-
     }
 
     // Test 3
-    public String getUsename() {
+    public String getUsername() {
         return username;
     }
 
-    public void setUsename(String usename) {
+    public void setUsername(String usename) {
         this.username = usename;
     }
 

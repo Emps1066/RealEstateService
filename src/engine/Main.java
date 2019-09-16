@@ -30,28 +30,10 @@ public class Main {
 
     }
 
-    private static void createUser()
-    {
-        int choice = 0;
-        String username;
-        String password;
-        System.out.println("Are you an employee or a customer? (1 for employee, 2 for customer");
-        System.out.println("What is your chosen username?");
-        System.out.println("What is your chosen password");
-        if(choice == 1)
-        {
-            System.out.println();
-        }
-        else{
 
 
-        }
-    }
 
-    public void createCurrentUser()
-    {
 
-    }
 
 
 
