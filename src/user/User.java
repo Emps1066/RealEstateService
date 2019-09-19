@@ -8,7 +8,6 @@ public abstract class User {
     private String email;
     private String Id = null;
 
-
     public User(String name, String email, String password){
         this.name = name;
         this.password = password;
@@ -29,6 +28,7 @@ public abstract class User {
 
     public void setName(String name) {
         this.name = name;
+
     }
 
     public String getPassword() {

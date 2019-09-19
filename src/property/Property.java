@@ -88,6 +88,7 @@ public abstract class Property {
         public boolean addEmployee(Employee employee) {
             boolean added;
 
+
             if(employees.containsKey(employee.getId())) {
                 employees.put(employee.getId(), employee);
                 added = true;
@@ -98,6 +99,8 @@ public abstract class Property {
         }
         public boolean addOwner(Customer owner) {
             boolean added;
+          
+
             if(ownerCustomers.containsKey(owner.getId())) {
                 ownerCustomers.put(owner.getId(), owner);
                 added = true;

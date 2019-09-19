@@ -1,5 +1,6 @@
 package engine;
 
+
 import counts.Count;
 import scanner.Scan;
 import enums.PropertyListType;
@@ -9,6 +10,7 @@ import fileHandler.FileHandler;
 public class PropertyManager {
 
     public void requestPropertyDetails() {
+
         String address = Scan.askForString("Address");
         String suburb = Scan.askForString("Suburb");
         int bedrooms = Scan.askForInt("bedrooms");
@@ -57,4 +59,5 @@ public class PropertyManager {
         }
         return approved;
     }
+
 }

@@ -12,6 +12,7 @@ public class Main {
 
 
     public static void main(String[] args) {
+
         /*PropertyManager propertymanager = new PropertyManager();
         propertymanager.createProperty(PropertyListType.FOR_SALE, "lon st", "mel", 5, 6, 4, "room");
         propertymanager.createProperty(PropertyListType.RENTAL, "king st", "mel", 5, 6, 4, "room");
@@ -48,23 +49,29 @@ public class Main {
     private static void logIn()
     {
         Scanner scanner = new Scanner(System.in);
-        String enteredUserName;
-        String enteredPassword;
+        String optionlog;
         System.out.println("Starting real estate manager start up...");
-        System.out.println("Please enter your username...");
-        enteredUserName = scanner.next();
-        System.out.println("Please enter your password...");
-        enteredPassword = scanner.next();
-
-
+        System.out.println("Are you a: ");
+        System.out.println("A. Customer");
+        System.out.println("B: Employee");
+        optionlog = scanner.next();
+        if (optionlog.equals("A")){
+            String enteredUserName;
+            String enteredPassword;
+            System.out.println("Starting real estate manager start up...");
+            System.out.println("Please enter your username...");
+            enteredUserName = scanner.next();
+            System.out.println("Please enter your password...");
+            enteredPassword = scanner.next();
+        }else if (optionlog.equals("B")){
+            String enteredUserName;
+            String enteredPassword;
+            System.out.println("Starting real estate manager start up...");
+            System.out.println("Please enter your username...");
+            enteredUserName = scanner.next();
+            System.out.println("Please enter your password...");
+            enteredPassword = scanner.next();
+        }
 
     }
-
-
-
-
-
-
-
-
 }
