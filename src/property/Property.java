@@ -88,8 +88,9 @@ public abstract class Property {
         public boolean addEmployee(Employee employee) {
             boolean added;
 
-            if(employees.containsKey(employee.getEmployeeId())) {
-                employees.put(employee.getEmployeeId(), employee);
+
+            if(employees.containsKey(employee.getId())) {
+                employees.put(employee.getId(), employee);
                 added = true;
             } else {
                 added = false;
@@ -98,8 +99,10 @@ public abstract class Property {
         }
         public boolean addOwner(Customer owner) {
             boolean added;
-            if(ownerCustomers.containsKey(owner.getCustomerId())) {
-                ownerCustomers.put(owner.getCustomerId(), owner);
+          
+
+            if(ownerCustomers.containsKey(owner.getId())) {
+                ownerCustomers.put(owner.getId(), owner);
                 added = true;
             } else {
                 added = false;
@@ -134,7 +137,7 @@ public abstract class Property {
             return Objects.hash(listed, address, bedrooms, bathrooms, ownerCustomers, employees);
         }
 
-        public String toCSV() {
+        public String toCsvFormat() {
             return String.format("%s, %s, %s, %d, %d, %d, %s", ID, address, suburb, bedrooms, bathrooms, carSpaces, type);
         }
     }
