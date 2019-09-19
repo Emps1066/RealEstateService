@@ -6,7 +6,7 @@ import  property.RentalProperty;
 
 class RentalPropertyTest {
 
-    @Test
+   /* @Test
     void getAddress() {
         Property c1 = new RentalProperty("2 Bourke Street Melbourne",2,3);
         System.out.println(c1.getAddress());
@@ -45,7 +45,7 @@ class RentalPropertyTest {
         Property c1 = new RentalProperty("2 Bourke Street Melbourne",2,3);
         c1.setBathrooms(2);
         System.out.println(c1.getBathrooms());
-    }
+    }*/
 
     @Test
     void addEmployee() {
