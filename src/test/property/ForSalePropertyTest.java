@@ -16,7 +16,9 @@ class ForSalePropertyTest {
     @Test
     void setID(){
         Property c1 = new ForSaleProperty("Room406","2 Bourke Street Melbourne","Docklands",2,3,2,"Apartment");
-        System.out.println(c1.setID("Room407"));
+        System.out.println(c1.getID());
+        c1.setID("10 Swanston Street Melbourne");
+        System.out.println(c1.getID());
     }
     
     @Test
