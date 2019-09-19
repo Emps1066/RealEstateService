@@ -2,25 +2,36 @@ package user;
 
 import java.util.List;
 
-public class User {
-    private String username ;
+public abstract class User {
+    private String name ;
     private String password;
     private String email;
 
+    private String Id = null;
 
-    public User(String username, String password, String email){
-        this.username = username;
-        this.password = password ;
+
+    public User(String name, String email, String password){
+        this.name = name;
+        this.password = password;
         this.email = email;
     }
 
-    // Test 3
-    public String getUsername() {
-        return username;
+    public String getId() {
+        return Id;
+
     }
 
-    public void setUsername(String usename) {
-        this.username = usename;
+    public void setId(String id) {
+        Id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+
     }
 
     public String getPassword() {
@@ -38,4 +49,7 @@ public class User {
     public void setEmail(String email) {
         this.email = email;
     }
+
+    public abstract String toCsvString();
+
 }

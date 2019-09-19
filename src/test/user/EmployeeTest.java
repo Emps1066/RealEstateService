@@ -8,7 +8,7 @@ class EmployeeTest {
 
     // Basic test code to check if the methods are doing their jobs
 
-    @Test
+   /* @Test
     void getId() {
         Employee e1 = new Employee("user1","p1234","John","id123");
         System.out.println(e1.getId());
@@ -55,7 +55,7 @@ class EmployeeTest {
         e1.setName("Jenny");
         System.out.println(e1.getName());
     }
-
+*/
     @Test
     void getRoles() {
 

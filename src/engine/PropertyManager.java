@@ -1,48 +1,63 @@
 package engine;
 
-import property.Property;
-import property.RentalProperty;
-import property.ForSaleProperty;
-import scanner.Scan;
 
-import java.io.FileWriter;
-import java.io.IOException;
+import counts.Count;
+import scanner.Scan;
+import enums.PropertyListType;
+import fileHandler.FileHandler;
+
 
 public class PropertyManager {
-    private int numIDs = 0;
 
+    public void requestPropertyDetails() {
 
-    public void requestProperyDetails() {
         String address = Scan.askForString("Address");
         String suburb = Scan.askForString("Suburb");
         int bedrooms = Scan.askForInt("bedrooms");
         int bathrooms = Scan.askForInt("bathrooms");
         int carSpaces = Scan.askForInt("car spaces");
         String type = Scan.askForString("Type");
-        int listType = Scan.askForInt("ListType");
-        createProperty(listType, address, suburb, bedrooms, bathrooms, carSpaces, type);
+        String listType = Scan.askForString("ListType");
+        createProperty(listType.equals("Rental") ? PropertyListType.RENTAL : PropertyListType.FOR_SALE, address, suburb, bedrooms, bathrooms, carSpaces, type);
     }
 
-    public void createProperty(int listType, String address, String suburb, int bedrooms,
+    //listType Rental/ForSale
+    public void createProperty(PropertyListType listType, String address, String suburb, int bedrooms,
                                int bathrooms, int carSpaces, String type) {
-        String id = String.format("%d", numIDs);
-        numIDs++;
-        Property pendingProperty = null;
-        if (listType == 0) {
-            pendingProperty = new RentalProperty(id, address, suburb, bedrooms, bathrooms, carSpaces, type);
-        } else if (listType == 1) {
-            pendingProperty = new ForSaleProperty(id, address, suburb, bedrooms, bathrooms, carSpaces, type);
+        String IdSerial = listType == PropertyListType.RENTAL ? "PR" : "PS";
+        String Id = String.format("%s%d", IdSerial, Count.getCount("src\\csv\\IdCounts\\pending" + listType + "Count.txt"));
+        String pendingProperty = String.format("%s, %s, %s, %d, %d, %d, %s", Id, address, suburb, bedrooms, bathrooms, carSpaces, type);
+        FileHandler.writeToFile(pendingProperty, "src\\csv\\properties\\pending" + listType + "Properties.txt", true);
+        FileHandler.writeToFile("\n", "src\\csv\\properties\\pending" + listType + "Properties.txt", true);
+        Count.incrementCount("src\\csv\\IdCounts\\pending" + listType + "Count.txt");
+    }
+
+    public boolean approveProperty(String Id) {
+        boolean approved = false;
+        PropertyListType listType = null;
+        String IdSerial = null;
+        if(Id.contains("PR")) {
+            listType = PropertyListType.RENTAL;
+            IdSerial = "R";
+        } else if(Id.contains("PS")) {
+            listType = PropertyListType.FOR_SALE;
+            IdSerial = "S";
         }
 
-        try {
-            FileWriter pendingPropertyFile = new FileWriter("pendingProperties.txt", true);
-            pendingPropertyFile.append(pendingProperty.toCSV());
-            pendingPropertyFile.append("\n");
-            pendingPropertyFile.flush();
-            pendingPropertyFile.close();
-        } catch (IOException ioe) {
-
+        String approvedProperty;
+        String newId;
+        if(listType != null) {
+            approvedProperty = FileHandler.get(Id, "src\\csv\\properties\\pending" + listType + "Properties.txt");
+            FileHandler.delete(Id, "src\\csv\\properties\\pending" + listType + "Properties.txt");
+            if(approvedProperty != null) {
+                newId = String.format("%s%d", IdSerial, Count.getCount("src\\csv\\IdCounts\\approved" + listType + "Count.txt"));
+                approvedProperty = approvedProperty.replaceFirst(Id, newId);
+                FileHandler.writeToFile(approvedProperty + "\n","src\\csv\\properties\\approved" + listType + "Properties.txt", true);
+                Count.incrementCount("src\\csv\\IdCounts\\approved" + listType + "Count.txt");
+                approved = true;
+            }
         }
+        return approved;
     }
 
 }

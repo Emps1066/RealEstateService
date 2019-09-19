@@ -15,10 +15,14 @@ public class Customer extends User {
 
     public String getCustomerId() {
         return customerId;
+      
+    public Customer(String name, String password, String email){
+        super(name, email, password);
+
     }
 
-    public void setCustomerId(String customerId) {
-        this.customerId = customerId;
+    public String toCsvString() {
+        return String.format("%s, %s, %s, %s", getId(), getName(), getEmail(), getPassword());
     }
 }
 
