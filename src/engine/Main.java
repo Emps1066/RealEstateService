@@ -1,5 +1,7 @@
 package engine;
 
+import user.Customer;
+
 import java.util.Scanner;
 
 public class Main {
@@ -7,9 +9,11 @@ public class Main {
 
 
     public static void main(String[] args) {
+        Customer customer = new Customer("Harry", "Hello", "harryluke@hotmail.com", "123", "41 Mills St Hampton");
         System.out.println("Do you want to...");
         System.out.println("A. log in.");
         System.out.println("B. create a profile.");
+        System.out.println("C. Send an alert");
 
     }
 

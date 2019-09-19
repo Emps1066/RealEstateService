@@ -20,5 +20,6 @@
       </library>
     </orderEntry>
     <orderEntry type="library" name="opencsv-4.6" level="project" />
+    <orderEntry type="library" name="javax.mail" level="project" />
   </component>
 </module>
