@@ -74,7 +74,7 @@ class ForSalePropertyTest {
         Property c1 = new ForSaleProperty("Room406","2 Bourke Street Melbourne","Docklands",2,3,2,"Apartment");
         c1.setBathrooms(2);
         System.out.println(c1.getBathrooms());
-    }
+    }*/
 
     @Test
     void addEmployee() {
