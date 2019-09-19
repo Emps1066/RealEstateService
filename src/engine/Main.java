@@ -1,5 +1,7 @@
 package engine;
 
+import user.Customer;
+
 import java.util.Scanner;
 import engine.PropertyManager;
 import counts.Count;

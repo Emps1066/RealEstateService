@@ -6,7 +6,9 @@ public abstract class User {
     private String name ;
     private String password;
     private String email;
+
     private String Id = null;
+
 
     public User(String name, String email, String password){
         this.name = name;
@@ -16,6 +18,7 @@ public abstract class User {
 
     public String getId() {
         return Id;
+
     }
 
     public void setId(String id) {
@@ -48,4 +51,5 @@ public abstract class User {
     }
 
     public abstract String toCsvString();
+
 }
