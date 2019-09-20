@@ -2,37 +2,66 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe4ff542-3d17-4a8a-854f-8a2ba744ee6f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/opencsv_4_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/javax.mail.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/opencsv-4.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/realEstateManagementSoftware/csv/roles/buyer - Copy (2).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/realEstateManagementSoftware/csv/roles/buyer.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/realEstateManagementSoftware/csv/roles/properties.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/realEstateManagementSoftware/csv/roles/rentals.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/realEstateManagementSoftware/csv/roles/seller.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/realEstateManagementSoftware.iml" beforeDir="false" afterPath="$PROJECT_DIR$/realEstateManagementSoftware.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/engine/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/engine/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/user/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/user/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/user/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/user/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/user/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/csv/roles/customer.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projectTrainwreck/com/company/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projectTrainwreck/properties/test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projectTrainwreck/property/ForSaleProperty.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projectTrainwreck/property/Property.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projectTrainwreck/property/RentalProperty.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projectTrainwreck/roles/BranchAdministrator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projectTrainwreck/roles/Buyer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projectTrainwreck/roles/Landlord.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projectTrainwreck/roles/Roles.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projectTrainwreck/roles/Tenant.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projectTrainwreck/roles/Vendor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projectTrainwreck/user/Customer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projectTrainwreck/user/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projectTrainwreck/user/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/projectTrainwreck/property/ForSalePropertyTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/realEstateManagementSoftware.iml" beforeDir="false" afterPath="$PROJECT_DIR$/realEstateManagementSoftware.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/engine/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/engine/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/property/ForSalePropertyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/property/ForSalePropertyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/property/RentalPropertyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/property/RentalPropertyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/user/CustomerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/user/CustomerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/user/EmployeeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/user/EmployeeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/alertSystem/Alert.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/alertSystem/AlertEngine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/alertSystem/MailSystemTLS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/counts/Count.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/csv/IdCounts/approvedForSaleCount.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/csv/IdCounts/approvedRentalCount.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/csv/IdCounts/customerCount.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/csv/IdCounts/employeeCount.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/csv/IdCounts/pendingForSaleCount.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/csv/IdCounts/pendingRentalCount.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/csv/properties/approvedForSaleProperties.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/csv/properties/approvedRentalProperties.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/csv/properties/pendingForSaleProperties.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/csv/properties/pendingRentalProperties.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/csv/roles/buyer.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/csv/roles/customer.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/csv/roles/properties.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/csv/roles/rentals.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/csv/roles/seller.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/csv/users/customer.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/csv/users/employee.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/engine/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/engine/PropertyManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/engine/UserManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/engine/rolesManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/enums/PropertyListType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fileHandler/FileHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inspections/Inspection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/property/ForSaleProperty.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/property/Property.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/property/RentalProperty.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/roles/BranchAdministrator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/roles/Buyer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/roles/Landlord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/roles/Roles.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/roles/Tenant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/roles/Vendor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scanner/Scan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/property/ForSalePropertyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/property/RentalPropertyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/user/CustomerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/user/EmployeeTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/user/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/user/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/user/User.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,45 +74,93 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/alertSystem/AlertEngine.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/user/Customer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="204">
+              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/alertSystem/MailSystemTLS.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/engine/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="29" column="17" lean-forward="true" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+            <state relative-caret-position="392">
+              <caret line="95" column="39" lean-forward="true" selection-start-line="95" selection-start-column="39" selection-end-line="95" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#666#916#0" expanded="true" />
-                <element signature="e#915#916#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/engine/General.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/inspections/Inspection.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/engine/UserManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="83">
+              <caret line="48" column="9" lean-forward="true" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/alertSystem/Alert.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/user/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="307">
+              <caret line="56" column="33" selection-start-line="56" selection-start-column="33" selection-end-line="56" selection-end-column="33" />
+              <folding>
+                <element signature="e#1052#1053#0" expanded="true" />
+                <element signature="e#1100#1101#0" expanded="true" />
+                <element signature="e#1140#1141#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/engine/PropertyManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="66" column="9" lean-forward="true" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/engine/rolesManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="25" column="35" lean-forward="true" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/user/Employee.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="239">
+              <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -97,47 +174,69 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>txt</find>
+      <find>src</find>
+      <find>main\\</find>
+    </findStrings>
+    <dirStrings>
+      <dir>C:\Users\harry\Documents\sf\projectTrainwreck 20-09-2019\src\main</dir>
+    </dirStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/property/ForSalePropertyTest.java" />
-        <option value="$PROJECT_DIR$/src/test/property/RentalPropertyTest.java" />
         <option value="$PROJECT_DIR$/src/test/user/EmployeeTest.java" />
-        <option value="$PROJECT_DIR$/src/test/user/CustomerTest.java" />
         <option value="$PROJECT_DIR$/src/engine/systemEngine.java" />
-        <option value="$PROJECT_DIR$/src/engine/userManager.java" />
-        <option value="$PROJECT_DIR$/src/property/Property.java" />
         <option value="$PROJECT_DIR$/src/property/ForSaleProperty.java" />
-        <option value="$PROJECT_DIR$/src/property/RentalProperty.java" />
         <option value="$PROJECT_DIR$/src/scanner/file.java" />
         <option value="$PROJECT_DIR$/src/scanner/scan.java" />
         <option value="$PROJECT_DIR$/src/scanner/Scan.java" />
         <option value="$PROJECT_DIR$/src/engine/propertiesManager.java" />
         <option value="$PROJECT_DIR$/src/engine/PropertiesManager.java" />
-        <option value="$PROJECT_DIR$/src/engine/PropertyManager.java" />
         <option value="$PROJECT_DIR$/src/engine/AlertEngine.java" />
         <option value="$PROJECT_DIR$/src/alertSystem/Alert.java" />
-        <option value="$PROJECT_DIR$/src/user/User.java" />
         <option value="$PROJECT_DIR$/src/user/Employee.java" />
-        <option value="$PROJECT_DIR$/src/user/Customer.java" />
-        <option value="$PROJECT_DIR$/src/engine/Main.java" />
-        <option value="$PROJECT_DIR$/src/engine/rolesManager.java" />
         <option value="$PROJECT_DIR$/src/alertSystem/SendEmail.java" />
         <option value="$PROJECT_DIR$/src/alertSystem/SendEmailTLS.java" />
         <option value="$PROJECT_DIR$/src/alertSystem/AlertEngine.java" />
-        <option value="$PROJECT_DIR$/src/alertSystem/MailSystemTLS.java" />
         <option value="$PROJECT_DIR$/src/inspections/Inspection.java" />
+        <option value="$PROJECT_DIR$/src/test/user/CustomerTest.java" />
+        <option value="$PROJECT_DIR$/src/alertSystem/MailSystemTLS.java" />
+        <option value="$PROJECT_DIR$/src/engine/userManager.java" />
+        <option value="$PROJECT_DIR$/src/user/User.java" />
+        <option value="$PROJECT_DIR$/src/user/Customer.java" />
+        <option value="$PROJECT_DIR$/src/property/Property.java" />
+        <option value="$PROJECT_DIR$/src/property/RentalProperty.java" />
+        <option value="$PROJECT_DIR$/src/test/property/ForSalePropertyTest.java" />
+        <option value="$PROJECT_DIR$/src/test/property/RentalPropertyTest.java" />
+        <option value="$PROJECT_DIR$/src/engine/Main.java" />
+        <option value="$PROJECT_DIR$/src/engine/UserManager.java" />
+        <option value="$PROJECT_DIR$/src/engine/rolesManager.java" />
+        <option value="$PROJECT_DIR$/src/engine/PropertyManager.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/alertSystem/MailSystemTLS.java" />
+        <option value="$PROJECT_DIR$/src/main/java/engine/General.java" />
+        <option value="$PROJECT_DIR$/src/main/java/engine/PropertyManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/engine/UserManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/user/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/user/Customer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/user/Employee.java" />
+        <option value="$PROJECT_DIR$/src/main/java/engine/Main.java" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="817" />
@@ -155,36 +254,54 @@
         <subPane>
           <expand>
             <path>
-              <item name="projectTrainwreck" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectTrainwreck" type="462c0819:PsiDirectoryNode" />
+              <item name="projectTrainwreck 20-09-2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectTrainwreck 20-09-2019" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="projectTrainwreck" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectTrainwreck" type="462c0819:PsiDirectoryNode" />
-              <item name="documents" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projectTrainwreck" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectTrainwreck" type="462c0819:PsiDirectoryNode" />
+              <item name="projectTrainwreck 20-09-2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectTrainwreck 20-09-2019" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="projectTrainwreck" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectTrainwreck" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="javax.mail.jar" type="ab9368bb:PsiFileNode" />
-            </path>
-            <path>
-              <item name="projectTrainwreck" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectTrainwreck" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="javax.mail.jar" type="ab9368bb:PsiFileNode" />
-              <item name="mail" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projectTrainwreck" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectTrainwreck" type="462c0819:PsiDirectoryNode" />
+              <item name="projectTrainwreck 20-09-2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectTrainwreck 20-09-2019" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projectTrainwreck 20-09-2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectTrainwreck 20-09-2019" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projectTrainwreck 20-09-2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectTrainwreck 20-09-2019" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projectTrainwreck 20-09-2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectTrainwreck 20-09-2019" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="engine" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projectTrainwreck 20-09-2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectTrainwreck 20-09-2019" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projectTrainwreck 20-09-2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectTrainwreck 20-09-2019" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -201,11 +318,16 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568914840383" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568950436815" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/target" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -257,17 +379,28 @@
       <workItem from="1568637360803" duration="1965000" />
       <workItem from="1568766804660" duration="10114000" />
       <workItem from="1568891058693" duration="6313000" />
+      <workItem from="1568914756623" duration="11566000" />
+      <workItem from="1568928802806" duration="16088000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45584000" />
+    <option name="totallyTimeSpent" value="73238000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1684435" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1716418" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -276,18 +409,17 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32890365" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32890365" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32827735" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.32890365" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32827735" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -297,13 +429,11 @@
       <window_info anchor="right" id="Maven" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="basic menu" />
@@ -312,135 +442,136 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/user/Renter.java" />
     <entry file="file://$PROJECT_DIR$/src/user/EstateTeamMember.java" />
-    <entry file="file://$PROJECT_DIR$/src/roles/BranchAdministrator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/roles/Buyer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/roles/Buyer.java">
+    <entry file="file://$PROJECT_DIR$/src/engine/systemEngine.java" />
+    <entry file="file://$PROJECT_DIR$/src/scanner/file.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/fileHandler/FileHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/inspections/Inspection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test/user/CustomerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/roles/BranchAdministrator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/roles/Roles.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/roles/Landlord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test/property/ForSalePropertyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="114" selection-start-line="114" selection-end-line="114" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test/property/RentalPropertyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1768">
+          <caret line="107" column="45" selection-start-line="107" selection-start-column="45" selection-end-line="107" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/engine/systemEngine.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/property/ForSalePropertyTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/.idea/libraries/opencsv_4_6.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scanner/file.java" />
-    <entry file="file://$PROJECT_DIR$/src/property/ForSaleProperty.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/property/ForSaleProperty.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/property/RentalProperty.java">
+    <entry file="file://$PROJECT_DIR$/realEstateManagementSoftware.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/property/RentalProperty.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/user/CustomerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/property/Property.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="146" column="5" lean-forward="true" selection-start-line="146" selection-start-column="5" selection-end-line="146" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#4093#4094#0" expanded="true" />
+            <element signature="e#4129#4130#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/property/Property.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/alertSystem/AlertEngine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="67" column="6" lean-forward="true" selection-start-line="67" selection-start-column="6" selection-end-line="67" selection-end-column="6" />
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/engine/userManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scanner/Scan.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="32" column="36" lean-forward="true" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/engine/PropertyManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/engine/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="51" lean-forward="true" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/engine/rolesManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/user/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/user/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/user/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
-          <folding>
-            <element signature="e#664#665#0" expanded="true" />
-            <element signature="e#692#693#0" expanded="true" />
-            <element signature="e#734#735#0" expanded="true" />
-            <element signature="e#768#769#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/alertSystem/Alert.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/alertSystem/Alert.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
@@ -450,38 +581,217 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/alertSystem/AlertEngine.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="714">
+          <caret line="42" column="43" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/alertSystem/MailSystemTLS.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/enums/PropertyListType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="29" column="17" lean-forward="true" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+        <state relative-caret-position="34">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/engine/securityEngine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alertSystem/MailSystemTLS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="38" column="43" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#666#916#0" expanded="true" />
-            <element signature="e#915#916#0" expanded="true" />
+            <element signature="e#562#816#0" expanded="true" />
+            <element signature="e#815#816#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/inspections/Inspection.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/alertSystem/offer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/scanner/Scan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/user/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/user/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/engine/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="95" column="39" lean-forward="true" selection-start-line="95" selection-start-column="39" selection-end-line="95" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/engine/General.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/user/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="56" column="33" selection-start-line="56" selection-start-column="33" selection-end-line="56" selection-end-column="33" />
+          <folding>
+            <element signature="e#1052#1053#0" expanded="true" />
+            <element signature="e#1100#1101#0" expanded="true" />
+            <element signature="e#1140#1141#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/engine/PropertyManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="66" column="9" lean-forward="true" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/engine/rolesManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="25" column="35" lean-forward="true" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/engine/UserManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="48" column="9" lean-forward="true" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>realEstateManagementSoftware:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>realEstateManagementSoftware</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>javax.mail</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
