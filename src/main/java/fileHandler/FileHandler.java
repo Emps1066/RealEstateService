@@ -3,14 +3,15 @@ package fileHandler;
 import java.io.*;
 
 public class FileHandler {
-    public static String get(String Id, String file) {
+    public static String get(String uniqueString, int uniqueIndex, String file) {
         String rowToGet = null;
         boolean found = false;
         try {
             BufferedReader fileReader = new BufferedReader(new FileReader(file));
             String row;
             while((row = fileReader.readLine()) != null && !found) {
-                if(row.startsWith(Id)) {
+                String rowArray[] = row.split(",");
+                if(rowArray[uniqueIndex].equals(uniqueString)) {
                     rowToGet = row;
                     found = true;
                 }

@@ -6,7 +6,7 @@ import property.ForSaleProperty;
 import org.junit.jupiter.api.Test;
 
 class ForSalePropertyTest {
-    
+   /*
     @Test
     void getID(){
         Property c1 = new ForSaleProperty("Room406","2 Bourke Street Melbourne","Docklands",2,3,2,"Apartment");
@@ -21,7 +21,7 @@ class ForSalePropertyTest {
         System.out.println(c1.getID());
     }
     */
-
+/*
     @Test
     void getAddress() {
         Property c1 = new ForSaleProperty("Room406","2 Bourke Street Melbourne","Docklands",2,3,2,"Apartment");
@@ -110,5 +110,5 @@ class ForSalePropertyTest {
         Property c1 = new ForSaleProperty("Room406","2 Bourke Street Melbourne","Docklands",2,3,2,"Apartment");
         c1.setCarSpaces(2);
         System.out.println(c1.getCarSpaces());
-    }
+    }*/
 }

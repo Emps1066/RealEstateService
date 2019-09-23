@@ -7,12 +7,9 @@ public class Employee extends User {
     private double paidSalary = 0.0;
     private double hoursWorked = 0.0;
     private boolean payed = false;
-    private String employeeID = null;
 
-
-
-    public Employee(String username, String name, String password, String email){
-    super(name, email, password, username);
+    public Employee(String Id, String name, String email, String password){
+    super(Id, name, email, password);
 }
 
     public double getCommission() {
@@ -48,7 +45,7 @@ public class Employee extends User {
     }
 
     public String toCsvString() {
-        return String.format("%s, %s, %s, %s, %s, %f, %f, %f, %s", getId(), getName(), getEmail(), getUsername(), getPassword(),
+        return String.format("%s,%s,%s,%s,%f,%f,%f,%s", getId(), getName(), getEmail(), getPassword(),
                 commission, hoursWorked, paidSalary, payed ? "True" : "False");
     }
 

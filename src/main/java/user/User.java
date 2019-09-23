@@ -6,16 +6,14 @@ public abstract class User {
     private String name ;
     private String password;
     private String email;
-    private String username;
-
-     String Id = null;
+    private String Id;
 
 
-    public User(String username, String name, String email, String password){
+    public User(String Id, String name, String email, String password){
+        this.Id = Id;
         this.name = name;
-        this.password = password;
         this.email = email;
-        this.username = username;
+        this.password = password;
     }
 
     public String getId() {
@@ -33,7 +31,6 @@ public abstract class User {
 
     public void setName(String name) {
         this.name = name;
-
     }
 
     public String getPassword() {
@@ -53,12 +50,4 @@ public abstract class User {
     }
 
     public abstract String toCsvString();
-
-    public String getUsername() {
-        return username;
-    }
-
-    public void setUsername(String username) {
-        this.username = username;
-    }
 }

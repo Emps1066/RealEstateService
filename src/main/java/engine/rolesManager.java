@@ -35,7 +35,7 @@ public class rolesManager {
         public boolean verifyRoleExistence(Customer customer, String roleToCheck)
         {
             boolean userLegitimate = false;
-            String customerID = customer.getCustomerId();
+            String customerID = customer.getId();
             List<List<String>> buyerIDs = initRolesFromCSV(roleToCheck);
             if (buyerIDs.contains(customerID)) {
                 userLegitimate = true;

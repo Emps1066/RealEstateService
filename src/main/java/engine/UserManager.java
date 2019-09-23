@@ -1,19 +1,85 @@
 package engine;
 
-import com.opencsv.CSVReader;
 import counts.Count;
 import fileHandler.FileHandler;
-import scanner.Scan;
 import user.Employee;
 import user.Customer;
 import user.User;
-
-import java.io.FileReader;
-import java.io.IOException;
-import java.util.Arrays;
+import enums.UserType;
 
 public class UserManager {
 
+    public void createUser(Customer customer)
+    {
+        UserType userType = UserType.CUSTOMER;
+        createUser(customer, userType);
+    }
+
+    public void createUser(Employee employee)
+    {
+        UserType userType = UserType.EMPLOYEE;
+        createUser(employee, userType);
+    }
+
+    private void createUser(User user, UserType userType) {
+        String Id = formatUserID(generateUniqueID(userType.toString()), userType.IdSerial());
+        user.setId(Id);
+        saveUserToFile(user, userType.toString());
+    }
+
+    public void printAllPendingEmployeeDetails()
+    {
+        String fileAddress = "src\\main\\java\\csv\\properties\\pendingEmployees.csv";
+        General general = new General();
+        general.printCSVToTerminal(fileAddress);
+    }
+
+    public boolean emailExists(String email, UserType userType) {
+        boolean exists = false;
+        int numOfUsers = generateUniqueID(userType.toString());
+        String userRow;
+        for(int loop = 0; loop < numOfUsers && !exists; loop++) {
+            userRow = FileHandler.get(email, 2,"src\\main\\java\\csv\\users\\" + userType + ".csv");
+            if(userRow != null) {
+                exists = true;
+            }
+        }
+        return exists;
+    }
+
+    public boolean passwordEmailMatch(String email, String password, UserType userType) {
+        boolean match = false;
+        int numOfUsers = generateUniqueID(userType.toString());
+        String userRow = null;
+        for(int loop = 0; loop < numOfUsers && !match; loop++) {
+            userRow = FileHandler.get(email, 2,"src\\main\\java\\csv\\users\\" + userType + ".csv");
+            if(userRow !=  null) {
+                String userDetails[] = userRow.split(",");
+                if (userDetails[2].equals(email) && userDetails[3].equals(password)) {
+                    match = true;
+                }
+            }
+        }
+        return match;
+    }
+
+    public User constructUserObject(String userRow, UserType userType) {
+        String userDetails[] = userRow.split(",");
+        User user = null;
+        if(userType == UserType.EMPLOYEE) {
+            user = new Employee(userDetails[0], userDetails[1], userDetails[2], userDetails[3]);
+        } else if(userType == UserType.CUSTOMER) {
+            user = new Customer(userDetails[0], userDetails[1], userDetails[2], userDetails[3]);
+        }
+        return user;
+    }
+
+    public boolean verifyAccount(String userType)
+    {
+        boolean verified = false;
+        //TODO verify username and password
+        return verified;
+    }
 
     private int generateUniqueID(String userType)
     {
@@ -32,57 +98,5 @@ public class UserManager {
         FileHandler.writeToFile("\n", "src\\main\\java\\csv\\users\\" + userType + ".csv", true);
         Count.incrementCount("src\\main\\java\\csv\\IdCounts\\" + userType + "Count.csv");
     }
-
-    public void createUser()
-    {
-        String userType = null;
-        String idSerial = null;
-        String choice = Scan.askForString("Make an employee account or a customer account? A = Employee, B = Customer");
-        String name = Scan.askForString("What is your name?");
-        String email = Scan.askForString("What is your email?");
-        String username = Scan.askForString("What is your username of choice?");
-        //TODO method to check if username, password are unique as well as roles chosen
-        String password = Scan.askForString("What is your password of choice?");
-
-
-        if(choice == "A")
-        {
-            idSerial = "E";
-            userType = "employee";
-            Employee employee = new Employee(username, name, email, password);
-            employee.setId(formatUserID(generateUniqueID(userType), idSerial));
-            saveUserToFile(employee, userType);
-        }
-        else if(choice == "B")
-        {
-            String address = Scan.askForString("What is your address?");
-            idSerial = "C";
-            userType = "customer";
-            Customer customer = new Customer(username, name, email, password, address);
-            customer.setId(formatUserID(generateUniqueID(userType), idSerial));
-            saveUserToFile(customer, userType);
-        }
-        else
-        {
-            System.out.println("Invalid input");
-        }
-    }
-
-    public void printAllPendingEmployeeDetails()
-    {
-
-        String fileAddress = "src\\main\\java\\csv\\properties\\pendingEmployees.csv";
-        General general = new General();
-        general.printCSVToTerminal(fileAddress);
-
-    }
-
-    public boolean logInVerification(String userType)
-    {
-        boolean verified = false;
-        //TODO verify username and password
-        return verified;
-    }
-
 
 }
