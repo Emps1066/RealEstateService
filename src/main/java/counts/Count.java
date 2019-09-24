@@ -12,6 +12,7 @@ public class Count {
         try {
             Scanner countScanner = new Scanner(new File(path));
             count = countScanner.nextInt();
+
         } catch(FileNotFoundException e) {
             System.err.println(String.format("Error could not find %s", path));
         }
