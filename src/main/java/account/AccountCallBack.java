@@ -9,11 +9,21 @@ public class AccountCallBack {
         return menu.toString();
     }
 
-    public String chooseLoginOptionMenu() {
+    public String customerChooseLoginOptionMenu()
+    {
         StringBuilder menu = new StringBuilder();
         menu.append("1.Sign in\n");
         menu.append("2.Sign up\n");
         menu.append("3.Back");
         return menu.toString();
     }
+
+    public String employeeChooseLoginOptionMenu()
+    {
+        StringBuilder menu = new StringBuilder();
+        menu.append("1.Sign in\n");
+        menu.append("2.Back");
+        return menu.toString();
+    }
+
 }

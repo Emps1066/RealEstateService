@@ -1,8 +1,10 @@
 package user;
 
 
-public class Customer extends User {
+import java.util.List;
 
+public class Customer extends User {
+    List<String> suburbs;
     public Customer(String Id, String name, String email, String password) {
         super(Id, name, email, password);
     }

@@ -26,7 +26,7 @@ public class SignIn {
         }
 
         String userRow = FileHandler.get(email, 2, "src\\main\\java\\csv\\users\\" + userType + ".csv");
-        User user = userManager.constructUserObject(userRow, userType);
+        User user = userManager.constructUserObjectFromString(userRow, userType);
         return user;
     }
 }
