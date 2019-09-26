@@ -17,8 +17,6 @@ public class FileHandler {
                 }
             }
             fileReader.close();
-        } catch(FileNotFoundException e) {
-            System.err.printf("Error could not find %s\n", file);
         } catch(IOException e) {
             System.err.printf("Error reading from %s\n", file);
         }
@@ -37,8 +35,6 @@ public class FileHandler {
                 }
             }
             fileReader.close();
-        } catch(FileNotFoundException e) {
-            System.err.printf("Error could not find %s\n", file);
         } catch(IOException e) {
             System.err.printf("Error reading from %s\n", file);
         }

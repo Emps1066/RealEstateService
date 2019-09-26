@@ -5,6 +5,7 @@ import property.*;
 import account.Account;
 import enums.PropertyListType;
 import idManager.IdManager;
+import menusForUsers.propertySeekaMenu.PropertySeekaMenu;
 
 public class Main {
 
@@ -103,6 +104,9 @@ public class Main {
 //        }
         Account account = new Account();
         User user = account.logUserIn();
+        PropertySeekaMenu menu = new PropertySeekaMenu();
+        menu.goToMainMenu();
+
 //        System.out.println(user.toCsvString());
 //        String email = Scan.askForString("your email");
 //        email = email.toLowerCase();

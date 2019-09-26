@@ -122,9 +122,7 @@ public abstract class Property
         this.employee = employee;
     }
 
-    public String toCsvFormat() {
-        return String.format("%s,%s,%s,%d,%d,%d,%s,%s,%s", ID, address, suburb, bedrooms,
-                bathrooms, carSpaces, type, ownerCustomer, employee);
-    }
+    public abstract String toCsvFormat();
 
+    public abstract String toListFormat();
 }

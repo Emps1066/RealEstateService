@@ -55,7 +55,7 @@ public class Scan {
             }
 
             if(!validOption) {
-                System.out.println("Unavailable option please choose one of:");
+                System.out.printf("Unavailable option please choose one of: ");
                 for(int loop = 0; loop < optionsArray.length; loop++) {
                     if(loop == optionsArray.length - 1) {
                         System.out.printf(" or ");
@@ -64,7 +64,7 @@ public class Scan {
                     }
                     System.out.printf("%d", optionsArray[loop]);
                 }
-                System.out.printf("\n");
+                System.out.println("\n");
             }
         }
         return option;
