@@ -9,7 +9,6 @@ public class BrowseMenuCallBack {
         menu.append("  -> Browsing PropertySeeka Properties\n");
         menu.append("\n");
         menu.append("Property Browsing Menu\n");
-        menu.append("\n");
         menu.append("1. Filter By Sale Property\n");
         menu.append("2. Filter By Rent Property\n");
         menu.append("3. Filter By My Preference\n");

@@ -1,5 +1,7 @@
 package property;
 
+import enums.PropertyListType;
+
 public class RentalProperty extends Property {
     private String renterId = null;
 
@@ -13,6 +15,10 @@ public class RentalProperty extends Property {
 
     public void setRenterId(String renterId) {
         this.renterId = renterId;
+    }
+
+    public PropertyListType listType() {
+        return PropertyListType.RENTAL;
     }
 
     public String toCsvFormat() {

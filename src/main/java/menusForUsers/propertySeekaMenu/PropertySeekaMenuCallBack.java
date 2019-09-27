@@ -8,7 +8,6 @@ public class PropertySeekaMenuCallBack {
         menu.append(" -> Property Seeka Main Menu\n");
         menu.append("\n");
         menu.append("Property Main Menu");
-        menu.append("\n");
         menu.append("1. Browsing PropertySeeka Properties\n");
         menu.append("2. View My PropertySeeka Applications\n");
         menu.append("3. View My PropertySeeka Offers\n");

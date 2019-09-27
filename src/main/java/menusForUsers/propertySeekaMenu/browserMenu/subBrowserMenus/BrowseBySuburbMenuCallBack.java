@@ -1,7 +1,7 @@
 package menusForUsers.propertySeekaMenu.browserMenu.subBrowserMenus;
 
 public class BrowseBySuburbMenuCallBack {
-    public String menu() {
+    public String menu(String displayable) {
         StringBuilder menu = new StringBuilder();
 
         menu.append("*******************************************\n");
@@ -9,7 +9,8 @@ public class BrowseBySuburbMenuCallBack {
         menu.append("  -> Browsing PropertySeeka Properties\n");
         menu.append("   -> Filter By My Preference\n");
         menu.append("\n");
-        menu.append("!!ADD METHOD TO DISPLAY PROPERTIES!!\n");
+        menu.append(displayable);
+        menu.append("\n");
         menu.append("\n");
         menu.append("Property Filter By My Preference Menu\n");
         menu.append("\n");

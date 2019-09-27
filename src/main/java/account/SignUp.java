@@ -1,11 +1,9 @@
 package account;
 
-import fileHandler.FileHandler;
-import scanner.Scan;
-import user.Employee;
+import utilities.scanner.Scan;
 import user.*;
 import enums.UserType;
-import engine.UserManager;
+import systemManagers.UserManager;
 
 public class SignUp {
     public User signUp() {
@@ -16,9 +14,7 @@ public class SignUp {
 
         User user = new Customer(null, name, email, password);
         userManager.createUser((Customer) user);
-
-        String userRow = FileHandler.get(email, 2, "src\\main\\java\\csv\\users\\" + UserType.CUSTOMER + ".csv");
-        user = userManager.constructUserObjectFromString(userRow, UserType.CUSTOMER);
+        user = userManager.getUserByEmail(email);
 
         return user;
     }

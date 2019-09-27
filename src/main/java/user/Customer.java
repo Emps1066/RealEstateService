@@ -1,6 +1,8 @@
 package user;
 
 
+import enums.UserType;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -12,12 +14,24 @@ public class Customer extends User {
 
     public boolean addSuburbPreference(String suburb) {
         boolean added = false;
-        if(suburb != null && suburb.length() != 0) {
+        if(suburb != null && suburb.length() != 0 && !suburbs.contains(suburb)) {
             suburb = suburb.substring(0, 1).toUpperCase() + suburb.substring(1);
-            suburbs.add(suburb);
-            added = true;
+            added = suburbs.add(suburb);
         }
         return added;
+    }
+    public boolean removeSuburbPreference(String suburb) {
+        boolean removed = false;
+        if(suburb != null && suburb.length() != 0) {
+            suburb = suburb.substring(0, 1).toUpperCase() + suburb.substring(1);
+            suburbs.remove(suburb);
+            removed = true;
+        }
+        return removed;
+    }
+
+    public UserType userType() {
+        return UserType.CUSTOMER;
     }
 
     public String toCsvString() {

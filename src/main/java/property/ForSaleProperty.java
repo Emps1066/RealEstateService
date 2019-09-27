@@ -1,5 +1,7 @@
 package property;
 
+import enums.PropertyListType;
+
 public class ForSaleProperty extends Property {
     private String buyerId = null;
 
@@ -15,8 +17,12 @@ public class ForSaleProperty extends Property {
         this.buyerId = buyerId;
     }
 
+    public PropertyListType listType() {
+        return PropertyListType.FOR_SALE;
+    }
+
     public String toCsvFormat() {
-        return String.format("%s,%s,%s,%d,%d,%d,%s,%s,%s%s", getID(), getAddress(), getSuburb(), getBedrooms(),
+        return String.format("%s,%s,%s,%d,%d,%d,%s,%s,%s,%s", getID(), getAddress(), getSuburb(), getBedrooms(),
                 getBathrooms(), getCarSpaces(), getType(), buyerId, getOwnerCustomer(), getEmployee());
     }
 

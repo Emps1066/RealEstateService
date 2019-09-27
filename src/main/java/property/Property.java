@@ -1,4 +1,5 @@
 package property;
+import enums.PropertyListType;
 import user.Customer;
 import user.Employee;
 
@@ -10,6 +11,7 @@ import java.util.*;
 
 public abstract class Property
 {
+    private boolean listed = false;
     private String ID;
     private String address;
     private String suburb;
@@ -121,6 +123,16 @@ public abstract class Property
     {
         this.employee = employee;
     }
+
+    public boolean isListed() {
+        return listed;
+    }
+
+    public void setListed(boolean listed) {
+        this.listed = listed;
+    }
+
+    public abstract PropertyListType listType();
 
     public abstract String toCsvFormat();
 

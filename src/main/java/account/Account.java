@@ -3,7 +3,7 @@ package account;
 import user.User;
 import enums.UserType;
 import enums.SystemFunction;
-import scanner.Scan;
+import utilities.scanner.Scan;
 
 public class Account
 {
@@ -25,6 +25,11 @@ public class Account
             user = signUp.signUp();
         }
         else if(logInOption == SystemFunction.BACK)
+        {
+            logUserIn();
+        }
+
+        if(user == null)
         {
             logUserIn();
         }

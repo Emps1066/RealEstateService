@@ -1,10 +1,7 @@
 package engine;
 
 import user.User;
-import property.*;
 import account.Account;
-import enums.PropertyListType;
-import idManager.IdManager;
 import menusForUsers.propertySeekaMenu.PropertySeekaMenu;
 
 public class Main {
@@ -116,7 +113,7 @@ public class Main {
 
 
 //    private static void logIn() {
-//        Scanner scanner = new Scanner(System.in);
+//        Scanner utilities.scanner = new Scanner(System.in);
 //        String enteredUserName;
 //        String enteredPassword;
 //        String userType = null;
@@ -128,7 +125,7 @@ public class Main {
 //        enteredUserName = Scan.askForString("Please enter your username...");
 //        enteredPassword = Scan.askForString("Please enter your password...");
 //        UserManager userManager = new UserManager();
-//        optionlog = scanner.next();
+//        optionlog = utilities.scanner.next();
 //        if (optionlog.equals("A")) {
 //            userType = "customer";
 //

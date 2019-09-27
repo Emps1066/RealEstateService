@@ -1,23 +1,33 @@
 package menusForUsers.propertySeekaMenu.myOffersMenu;
 
+import engine.SystemEngine;
 import menusForUsers.propertySeekaMenu.PropertySeekaMenu;
-import scanner.Scan;
+import utilities.scanner.Scan;
 
 public class MyOffersMenu {
-    public void goToMyOffersMenu() {
+    public void goToMyOffersMenu(SystemEngine engine, String displayable) {
+        System.out.println(displayable);
         MyOffersMenuCallback callBack = new MyOffersMenuCallback();
         int option = Scan.askForOption(3, callBack.menu());
         if(option == 1)
         {
-            goToMyOffersMenu();
+            goToMyOffersMenu(engine, displayable);
         }
         else if(option == 2)
         {
-            goToMyOffersMenu();
+            goToMyOffersMenu(engine, "");
+        }
+        else if(option == 3)
+        {
+            goToMyOffersMenu(engine, "");
+        }
+        else if(option == 4)
+        {
+            goToMyOffersMenu(engine, "");
         }
         else {
             PropertySeekaMenu menu = new PropertySeekaMenu();
-            menu.goToMainMenu();
+            menu.goToMainMenu(engine);
         }
     }
 }

@@ -1,30 +1,31 @@
 package menusForUsers.propertySeekaMenu.browserMenu;
 
+import engine.SystemEngine;
 import menusForUsers.propertySeekaMenu.PropertySeekaMenu;
 import menusForUsers.propertySeekaMenu.browserMenu.subBrowserMenus.*;
-import scanner.Scan;
+import utilities.scanner.Scan;
 
 public class BrowseMenu {
-    public void goToBrowseMenu() {
+    public void goToBrowseMenu(SystemEngine engine) {
         BrowseMenuCallBack callBack = new BrowseMenuCallBack();
         int option = Scan.askForOption(4, callBack.menu());
         if(option == 1) {
             BrowseRentalMenu menu = new BrowseRentalMenu();
-            menu.goToRentalMenu();
+            menu.goToRentalMenu(engine, "");
         }
         else if(option == 2)
         {
             BrowseForSaleMenu menu = new BrowseForSaleMenu();
-            menu.goToForSaleMenu();
+            menu.goToForSaleMenu(engine, "");
         }
         else if(option == 3)
         {
             BrowseBySuburbMenu menu = new BrowseBySuburbMenu();
-            menu.goToSuburbMenu();
+            menu.goToSuburbMenu(engine, "");
         }
         else {
             PropertySeekaMenu menu = new PropertySeekaMenu();
-            menu.goToMainMenu();
+            menu.goToMainMenu(engine);
         }
     }
 }

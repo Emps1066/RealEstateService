@@ -1,5 +1,7 @@
 package user;
 
+import enums.UserType;
+
 import java.util.List;
 
 public class Employee extends User {
@@ -42,6 +44,10 @@ public class Employee extends User {
 
     public void setPayed(boolean payed) {
         this.payed = payed;
+    }
+
+    public UserType userType() {
+        return UserType.EMPLOYEE;
     }
 
     public String toCsvString() {
