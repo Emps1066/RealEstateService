@@ -13,6 +13,10 @@ public enum PropertyListType {
         }
 
         @Override
+        public String underContractIdSerial() { return "UCR"; }
+
+
+        @Override
         public String toString() {
             return "Rental";
         }
@@ -29,6 +33,11 @@ public enum PropertyListType {
         }
 
         @Override
+        public String underContractIdSerial() {
+            return "UCS";
+        }
+
+        @Override
         public String toString() {
             return "ForSale";
         }
@@ -36,5 +45,6 @@ public enum PropertyListType {
 
     public abstract String pendingIdSerial();
     public abstract String IdSerial();
+    public abstract String underContractIdSerial();
     public abstract String toString();
 }

@@ -1,5 +1,7 @@
 package user;
 
+import enums.UserType;
+
 import java.util.List;
 
 public abstract class User {
@@ -48,6 +50,8 @@ public abstract class User {
     public void setEmail(String email) {
         this.email = email;
     }
+
+    public abstract UserType userType();
 
     public abstract String toCsvString();
 }

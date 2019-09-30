@@ -1,32 +1,25 @@
 package account;
 
-import scanner.Scan;
-import user.Customer;
-import user.Employee;
+import utilities.scanner.Scan;
 import user.User;
 import enums.UserType;
-import engine.UserManager;
-import fileHandler.FileHandler;
+import systemManagers.UserManager;
 
 public class SignIn {
 
     public User signIn(UserType userType) {
         UserManager userManager = new UserManager();
-        String email = null;
-        String password;
+        User user = null;
         boolean match = false;
-        while(!match) {
-            email = Scan.askForString("your email");
-            password = Scan.askForString("your password");
-            if(!userManager.passwordEmailMatch(email, password, userType)) {
-                System.out.println("Email or password is incorrect");
-            } else {
-                match = true;
-            }
+        String email = Scan.askForString("your email");
+        String password = Scan.askForString("your password");
+        if(!userManager.passwordEmailMatch(email, password, userType)) {
+            System.out.println("Email or password is incorrect");
+        } else {
+            user = userManager.getUserByEmail(email);
+            match = true;
         }
 
-        String userRow = FileHandler.get(email, 2, "src\\main\\java\\csv\\users\\" + userType + ".csv");
-        User user = userManager.constructUserObject(userRow, userType);
         return user;
     }
 }

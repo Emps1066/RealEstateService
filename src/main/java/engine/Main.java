@@ -1,19 +1,8 @@
 package engine;
 
-import alertSystem.MailSystemTLS;
-import scanner.Scan;
-import user.Customer;
-
-import java.util.Properties;
-import java.util.Scanner;
-
-import engine.PropertyManager;
-import counts.Count;
-import enums.PropertyListType;
-import engine.UserManager;
-import user.Employee;
 import user.User;
 import account.Account;
+import menusForUsers.propertySeekaMenu.PropertySeekaMenu;
 
 public class Main {
 
@@ -21,20 +10,23 @@ public class Main {
     public static void main(String[] args) {
 
 //        PropertyManager propertymanager = new PropertyManager();
-//        propertymanager.createProperty(PropertyListType.FOR_SALE, "lon st", "mel", 5, 6, 4, "room");
-//        propertymanager.createProperty(PropertyListType.RENTAL, "king st", "mel", 5, 6, 4, "room");
-//        propertymanager.createProperty(PropertyListType.RENTAL, "lon st", "mel", 5, 6, 4, "room");
-//        System.out.println("ForSale" + Count.getCount("src\\main\\java\\csv\\IdCounts\\pendingForSaleCount.csv"));
-//        System.out.println("Rental" + Count.getCount("src\\main\\java\\csv\\IdCounts\\pendingRentalCount.csv"));
+//        ForSaleProperty property1 = new ForSaleProperty(null, "lon st", "mel", 5, 6, 4, "room", null);
+//        RentalProperty property2 = new RentalProperty(null, "king st", "mel", 5, 6, 4, "room", null);
+//        RentalProperty property3 = new RentalProperty(null, "Salisbury st", "mel", 5, 6, 4, "room", null);
+//        propertymanager.createProperty(property1,PropertyListType.FOR_SALE);
+//        propertymanager.createProperty(property2,PropertyListType.RENTAL);
+//        propertymanager.createProperty(property3,PropertyListType.RENTAL);
+//        System.out.println("ForSale" + IdManager.getIdCount("pendingForSale"));
+//        System.out.println("Rental" + IdManager.getIdCount("pendingRental"));
 //
 //        System.out.println("Approved");
-//        System.out.println("ForSale" + Count.getCount("src\\main\\java\\csv\\IdCounts\\approvedForSaleCount.csv"));
-//        System.out.println("Rental" + Count.getCount("src\\main\\java\\csv\\IdCounts\\approvedRentalCount.csv"));
-//        propertymanager.approveProperty("PR1");
-//        propertymanager.approveProperty("PR0");
-//        propertymanager.approveProperty("PS0");
-//        System.out.println("ForSale" + Count.getCount("src\\main\\java\\csv\\IdCounts\\approvedForSaleCount.csv"));
-//        System.out.println("Rental" + Count.getCount("src\\main\\java\\csv\\IdCounts\\approvedRentalCount.csv"));
+//        System.out.println("ForSale" + IdManager.getIdCount("approvedForSale"));
+//        System.out.println("Rental" + IdManager.getIdCount("approvedRental"));
+//        propertymanager.approveProperty("PR1", "E1");
+//        propertymanager.approveProperty("PR0", "E2");
+//        propertymanager.approveProperty("PS0", "E3");
+//        System.out.println("ForSale" + IdManager.getIdCount("approvedForSale"));
+//        System.out.println("Rental" + IdManager.getIdCount("approvedRental"));
 //        System.out.println("hi" == "hi");
 //        System.out.println(String.format("%s%d", "hi", 5));
 //        String s = "hi, me";
@@ -45,11 +37,11 @@ public class Main {
 //        Employee employee1 = new Employee("Kristen", "123456", "kristen@hotmail.co.uk", "pass");
 //        Employee employee2 = new Employee("Harry", "123456", "Harry@gmail.com", "pass");
 //        Employee employee3 = new Employee("Chinguun", "123456", "chinguun@gmail.com", "pass");
-//        System.out.println(Count.getCount("src\\main\\java\\csv\\IdCounts\\employeeCount.csv"));
+//        System.out.println(IdManager.getCount("src\\main\\java\\csv\\IdCounts\\employeeCount.csv"));
 //        userManager.createUser(employee1);
 //        userManager.createUser(employee2);
 //        userManager.createUser(employee3);
-//        System.out.println(Count.getCount("src\\main\\java\\IdCounts\\employeeCount.csv"));
+//        System.out.println(IdManager.getCount("src\\main\\java\\IdCounts\\employeeCount.csv"));
 
 //        PropertyManager propertyManager = new PropertyManager();
 //        String fileName = null;
@@ -108,7 +100,11 @@ public class Main {
 //
 //        }
         Account account = new Account();
-        account.logUserIn();
+        User user = account.logUserIn();
+        PropertySeekaMenu menu = new PropertySeekaMenu();
+        menu.goToMainMenu();
+
+//        System.out.println(user.toCsvString());
 //        String email = Scan.askForString("your email");
 //        email = email.toLowerCase();
 //        System.out.println(email);
@@ -117,7 +113,7 @@ public class Main {
 
 
 //    private static void logIn() {
-//        Scanner scanner = new Scanner(System.in);
+//        Scanner utilities.scanner = new Scanner(System.in);
 //        String enteredUserName;
 //        String enteredPassword;
 //        String userType = null;
@@ -129,7 +125,7 @@ public class Main {
 //        enteredUserName = Scan.askForString("Please enter your username...");
 //        enteredPassword = Scan.askForString("Please enter your password...");
 //        UserManager userManager = new UserManager();
-//        optionlog = scanner.next();
+//        optionlog = utilities.scanner.next();
 //        if (optionlog.equals("A")) {
 //            userType = "customer";
 //

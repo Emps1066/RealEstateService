@@ -1,4 +1,5 @@
 package property;
+import enums.PropertyListType;
 import user.Customer;
 import user.Employee;
 
@@ -8,7 +9,8 @@ import java.util.Map;
 import java.util.HashMap;
 import java.util.*;
 
-public abstract class Property {
+public abstract class Property
+{
     private boolean listed = false;
     private String ID;
     private String address;
@@ -17,132 +19,122 @@ public abstract class Property {
     private int bathrooms;
     private int carSpaces;
     private String type;
-    private Map<String, Customer> ownerCustomers = new HashMap<>();
-    private Map<String, Employee> employees = new HashMap<>();
+    private String ownerCustomer;
+    private String employee = null;
 
-    public Property(String ID, String address, String suburb, int bedrooms, int bathrooms, int carSpaces, String type) {
-            this.ID = ID;
-            this.address = address;
-            this.suburb = suburb;
-            this.bedrooms = bedrooms;
-            this.bathrooms = bathrooms;
-            this.carSpaces = carSpaces;
-            this.type = type;
-        }
+    public Property(String ID, String address, String suburb, int bedrooms, int bathrooms, int carSpaces, String type, String ownerCustomer)
+    {
+        this.ID = ID;
+        this.address = address;
+        this.suburb = suburb;
+        this.bedrooms = bedrooms;
+        this.bathrooms = bathrooms;
+        this.carSpaces = carSpaces;
+        this.type = type;
+        this.ownerCustomer = ownerCustomer;
+    }
 
-        public boolean isListed() {
-            return listed;
-        }
+    public String getID()
+    {
+        return ID;
+    }
 
-        public String getID() {
-            return ID;
-        }
+    public void setID(String ID)
+    {
+        this.ID = ID;
+    }
 
-        public void list() {
-            this.listed = true;
-        }
-        public String getAddress() {
-            return address;
-        }
-        public void setAddress(String address) {
-            this.address = address;
-        }
+    public String getAddress()
+    {
+        return address;
+    }
 
-        public String getSuburb() {
-            return suburb;
-        }
+    public void setAddress(String address)
+    {
+        this.address = address;
+    }
 
-        public void setSuburb(String suburb) {
-            this.suburb = suburb;
-        }
+    public String getSuburb()
+    {
+        return suburb;
+    }
 
-        public int getBedrooms() {
-            return bedrooms;
-        }
-        public void setBedrooms(int bedrooms) {
-            this.bedrooms = bedrooms;
-        }
-        public int getBathrooms() {
-            return bathrooms;
-        }
-        public void setBathrooms(int bathrooms) {
-            this.bathrooms = bathrooms;
-        }
+    public void setSuburb(String suburb)
+    {
+        this.suburb = suburb;
+    }
 
-        public int getCarSpaces() {
-            return carSpaces;
-        }
+    public int getBedrooms()
+    {
+        return bedrooms;
+    }
 
-        public void setCarSpaces(int carSpaces) {
-            this.carSpaces = carSpaces;
-        }
+    public void setBedrooms(int bedrooms)
+    {
+        this.bedrooms = bedrooms;
+    }
 
-        public String getType() {
-            return type;
-        }
+    public int getBathrooms()
+    {
+        return bathrooms;
+    }
 
-        public void setType(String type) {
-            this.type = type;
-        }
+    public void setBathrooms(int bathrooms)
+    {
+        this.bathrooms = bathrooms;
+    }
 
-        public boolean addEmployee(Employee employee) {
-            boolean added;
+    public int getCarSpaces()
+    {
+        return carSpaces;
+    }
 
+    public void setCarSpaces(int carSpaces)
+    {
+        this.carSpaces = carSpaces;
+    }
 
-            if(employees.containsKey(employee.getId())) {
-                employees.put(employee.getId(), employee);
-                added = true;
-            } else {
-                added = false;
-            }
-            return added;
-        }
-        public boolean addOwner(Customer owner) {
-            boolean added;
-          
+    public String getType()
+    {
+        return type;
+    }
 
-            if(ownerCustomers.containsKey(owner.getId())) {
-                ownerCustomers.put(owner.getId(), owner);
-                added = true;
-            } else {
-                added = false;
-            }
-            return added;
-        }
+    public void setType(String type)
+    {
+        this.type = type;
+    }
 
-        public Collection<Employee> getEmployees() {
+    public String getOwnerCustomer()
+    {
+        return ownerCustomer;
+    }
 
-            return Collections.unmodifiableCollection(employees.values());
-        }
-        public Collection<Customer> getOwners() {
+    public void setOwnerCustomer(String ownerCustomer)
+    {
+        this.ownerCustomer = ownerCustomer;
+    }
 
-            return Collections.unmodifiableCollection(ownerCustomers.values());
-        }
+    public String getEmployee()
+    {
+        return employee;
+    }
 
-        @Override
-        public boolean equals(Object o) {
-            if (this == o) return true;
-            if (o == null || getClass() != o.getClass()) return false;
-            Property property = (Property) o;
-            return listed == property.listed &&
-                    bedrooms == property.bedrooms &&
-                    bathrooms == property.bathrooms &&
-                    address.equals(property.address) &&
-                    Objects.equals(ownerCustomers, property.ownerCustomers) &&
-                    Objects.equals(employees, property.employees);
-        }
+    public void setEmployee(String employee)
+    {
+        this.employee = employee;
+    }
 
-        @Override
-        public int hashCode() {
-            return Objects.hash(listed, address, bedrooms, bathrooms, ownerCustomers, employees);
-        }
-
-        public String toCsvFormat() {
-            return String.format("%s, %s, %s, %d, %d, %d, %s", ID, address, suburb, bedrooms, bathrooms, carSpaces, type);
-        }
-
+    public boolean isListed() {
+        return listed;
+    }
 
     public void setListed(boolean listed) {
         this.listed = listed;
     }
+
+    public abstract PropertyListType listType();
+
+    public abstract String toCsvFormat();
+
+    public abstract String toListFormat();
 }
