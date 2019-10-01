@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe4ff542-3d17-4a8a-854f-8a2ba744ee6f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/menusForEmployees/branchAdmin/payrollMenu/PayrollManagerMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForEmployees/branchAdmin/payrollMenu/PayrollManagerMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/menusForEmployees/branchAdmin/employeeAccountManager/EmployeeAccountManagerMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/menusForEmployees/branchAdmin/employeeAccountManager/EmployeeAccountManagerMenuCallBack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/menusForEmployees/branchAdmin/BranchAdminMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForEmployees/branchAdmin/BranchAdminMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/menusForEmployees/branchAdmin/BranchAdminMenuCallBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForEmployees/branchAdmin/BranchAdminMenuCallBack.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -126,8 +130,16 @@
       <workItem from="1568914756623" duration="11566000" />
       <workItem from="1568928802806" duration="16088000" />
       <workItem from="1569835348889" duration="3041000" />
-      <workItem from="1569906217787" duration="2839000" />
+      <workItem from="1569906217787" duration="4221000" />
     </task>
+    <task id="LOCAL-00001" summary="branch manager menu">
+      <created>1569912791352</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1569912791352</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -157,7 +169,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="basic menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="basic menu" />
+    <MESSAGE value="branch manager menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="branch manager menu" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />

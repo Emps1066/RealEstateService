@@ -11,7 +11,8 @@ public class BranchAdminMenuCallBack {
         menu.append("1. Payroll Management\n");
         menu.append("2. Enter Documents into System\n");
         menu.append("3. Rent Management\n");
-        menu.append("4. Log Out\n");
+        menu.append("4. Employee Account Manager\n");
+        menu.append("5. Log Out\n");
         menu.append("*******************************************");
 
         return menu.toString();
