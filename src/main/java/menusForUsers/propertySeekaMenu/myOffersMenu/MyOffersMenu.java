@@ -8,7 +8,8 @@ public class MyOffersMenu {
     public void goToMyOffersMenu(SystemEngine engine, String displayable) {
         System.out.println(displayable);
         MyOffersMenuCallback callBack = new MyOffersMenuCallback();
-        int option = Scan.askForOption(3, callBack.menu());
+        /*int option = Scan.askForOption(3, callBack.menu());*/
+        int option = Scan.askForOption(3,callBack.menu(displayable));
         if(option == 1)
         {
             goToMyOffersMenu(engine, displayable);
