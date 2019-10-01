@@ -7,6 +7,6 @@ public class PayrollManagerMenu {
     public void goToPayrollManagerMenu(SystemEngine engine, String displayable) {
         System.out.println(displayable);
         PayrollManagerMenu callBack = new PayrollManagerMenu();
-
+/*Add menu items once backend is known*/
     }
 }
