@@ -1,7 +1,8 @@
 package menusForUsers.propertySeekaMenu.browserMenu;
 
 import engine.SystemEngine;
-import menusForUsers.propertySeekaMenu.PropertySeekaMenu;
+import enums.PropertyListType;
+import menusForUsers.propertySeekaMenu.PropertySeekerMenu;
 import menusForUsers.propertySeekaMenu.browserMenu.subBrowserMenus.*;
 import utilities.scanner.Scan;
 
@@ -10,21 +11,24 @@ public class BrowseMenu {
         BrowseMenuCallBack callBack = new BrowseMenuCallBack();
         int option = Scan.askForOption(4, callBack.menu());
         if(option == 1) {
+            String displayable = engine.getPropertyManager().propertiesToString(PropertyListType.RENTAL);
             BrowseRentalMenu menu = new BrowseRentalMenu();
-            menu.goToRentalMenu(engine, "");
+            menu.goToRentalMenu(engine, displayable);
         }
         else if(option == 2)
         {
+            String displayable = engine.getPropertyManager().propertiesToString(PropertyListType.FOR_SALE);
             BrowseForSaleMenu menu = new BrowseForSaleMenu();
-            menu.goToForSaleMenu(engine, "");
+            menu.goToForSaleMenu(engine, displayable);
         }
         else if(option == 3)
         {
+            String displayable = engine.getPropertyManager().preferencePropertiesToString(engine.getMyPreferredSuburbs());
             BrowseBySuburbMenu menu = new BrowseBySuburbMenu();
-            menu.goToSuburbMenu(engine, "");
+            menu.goToSuburbMenu(engine, displayable);
         }
         else {
-            PropertySeekaMenu menu = new PropertySeekaMenu();
+            PropertySeekerMenu menu = new PropertySeekerMenu();
             menu.goToMainMenu(engine);
         }
     }

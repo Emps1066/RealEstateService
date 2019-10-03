@@ -18,6 +18,8 @@ public class DateTime {
         time = System.currentTimeMillis();
     }
 
+    public DateTime(long time) { this.time = time;}
+
     // setClockForward is for inspection schedule
     public DateTime(int setClockForwardInDays) {
         advance = ((setClockForwardInDays * 24L + 0) * 60L) * 60000L;

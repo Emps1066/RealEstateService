@@ -2,6 +2,7 @@ package menusForUsers.propertySeekaMenu.browserMenu.subBrowserMenus;
 
 import engine.SystemEngine;
 import menusForUsers.propertySeekaMenu.browserMenu.BrowseMenu;
+import systemManagers.OfferManager;
 import utilities.scanner.Scan;
 
 public class BrowseForSaleMenu {
@@ -10,6 +11,8 @@ public class BrowseForSaleMenu {
         int option = Scan.askForOption(2, callBack.menu(displayable));
         if(option == 1)
         {
+            OfferManager offerManager = engine.getOfferManager();
+            offerManager.sendOffer(engine.getUser(), engine.getPropertyManager());
             goToForSaleMenu(engine, displayable);
         }
         else {

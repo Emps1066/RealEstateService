@@ -1,8 +1,10 @@
 package engine;
 
-import user.User;
 import account.Account;
-import menusForUsers.propertySeekaMenu.PropertySeekaMenu;
+import menusForUsers.propertySeekaMenu.PropertySeekerMenu;
+import property.Property;
+import property.RentalProperty;
+import user.User;
 
 public class Main {
 
@@ -101,9 +103,13 @@ public class Main {
 //        }
         Account account = new Account();
         User user = account.logUserIn();
-        PropertySeekaMenu menu = new PropertySeekaMenu();
-        menu.goToMainMenu();
+        SystemEngine engine = new SystemEngine(user);
+        PropertySeekerMenu menu = new PropertySeekerMenu();
+        menu.goToMainMenu(engine);
 
+//        double durations[] = new double[] {3, 4, 53};
+//        Property property = new RentalProperty(null, "Lonsdale street", "Brigthon", 4, 5, 6, "Studio", "C0", durations, 300);
+//        System.out.println(property.toListFormat());
 //        System.out.println(user.toCsvString());
 //        String email = Scan.askForString("your email");
 //        email = email.toLowerCase();

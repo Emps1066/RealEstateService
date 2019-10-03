@@ -7,26 +7,28 @@ public class Offer {
     private String offerId;
     private String offerRecipient;
     private String offerSender;
-    private String offerProperty;
+    private String propertyId;
     private double offerAmount;
     private DateTime offerMade;
-    private DateTime offerAccepted = null;
-    private DateTime offerSetInStone = null;
+    private DateTime offerAccepted;
 
 
-    public Offer(String offerId, String offerRecipient, String offerSender, String offerPropery, double offerAmount, DateTime offerMade, DateTime offerAccepted, DateTime offerSetInStone) {
+    public Offer(String offerId, String offerRecipient, String offerSender, String propertyId, double offerAmount, DateTime offerMade, DateTime offerAccepted) {
         this.offerId = offerId;
         this.offerRecipient = offerRecipient;
         this.offerSender = offerSender;
-        this.offerProperty = offerPropery;
+        this.propertyId = propertyId;
         this.offerAmount = offerAmount;
         this.offerMade = offerMade;
         this.offerAccepted = offerAccepted;
-        this.offerSetInStone = offerSetInStone;
     }
 
     public String getOfferId() {
         return offerId;
+    }
+
+    public void setOfferId(String offerId) {
+        this.offerId = offerId;
     }
 
     public String getOfferRecipient() {
@@ -37,8 +39,8 @@ public class Offer {
         return offerSender;
     }
 
-    public String getOfferProperty() {
-        return offerProperty;
+    public String getPropertyId() {
+        return propertyId;
     }
 
     public double getOfferAmount() {
@@ -49,6 +51,10 @@ public class Offer {
         return offerMade;
     }
 
+    public void setOfferMade(DateTime offerMade) {
+        this.offerMade = offerMade;
+    }
+
     public DateTime getOfferAccepted() {
         return offerAccepted;
     }
@@ -57,35 +63,26 @@ public class Offer {
         this.offerAccepted = offerAccepted;
     }
 
-    public DateTime getOfferSetInStone() {
-        return offerSetInStone;
-    }
-
-    public void setOfferSetInStone(DateTime offerSetInStone) {
-        this.offerSetInStone = offerSetInStone;
-    }
-
     public String toCsvFormat() {
-        return String.format("%s,%s,%s,%s,%f,%d,%d,%d"
-                ,offerId
-                ,offerRecipient
-                ,offerSender
-                ,offerProperty
-                ,offerAmount
-                ,offerMade.getTime()
-                ,offerAccepted == null ? 0 : offerAccepted.getTime()
-                ,offerSetInStone == null ? 0 : offerSetInStone.getTime());
+        return String.format("%s,%s,%s,%s,%f,%d,%d"
+                , offerId
+                , offerRecipient
+                , offerSender
+                , propertyId
+                , offerAmount
+                , offerMade == null ? 0 : offerMade.getTime()
+                , offerAccepted == null ? 0 : offerAccepted.getTime());
     }
 
     public String toListFormat() {
         return String.format("--------------------------------\n" +
                         "Offer ID: %s\n" + "Offer Sender ID: %s\n" +
                         "Offered Property ID: %s\n" +
-                        "Offer Amount: %.2f\n" + "Offer Made on: %s\n" +
+                        "Offer Amount: %.2f $\n" + "Offer Made on: %s\n" +
                         "Offer Accepted on: %s\n" +
                         "--------------------------------",
-                offerId, offerSender, offerProperty, offerAmount, offerMade.toString(), offerAccepted.toString()
-                );
+                offerId, offerSender, propertyId, offerAmount, offerMade.toString(),
+                offerMade == null ? "N/A" : offerAccepted.toString());
     }
 
 }

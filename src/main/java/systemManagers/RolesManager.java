@@ -12,7 +12,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.nio.charset.StandardCharsets;
 
-public class rolesManager {
+public class RolesManager {
 
     public List<List<String>> initRolesFromCSV(String roleToCheck) {
         String path = "csv/roles/" + roleToCheck + ".csv";

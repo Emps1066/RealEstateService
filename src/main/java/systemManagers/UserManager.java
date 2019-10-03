@@ -118,8 +118,8 @@ public class UserManager {
         String reEnteredPass;
         while(!validPass)
         {
-            password = Scan.askForString("your password");
-            reEnteredPass = Scan.askForString("your password again");
+            password = Scan.askForString("Enter your password:");
+            reEnteredPass = Scan.askForString("Enter your password again:");
             validPass = passwordIsValid(password, reEnteredPass);
             if(!validPass) {
                 System.out.println("Passwords do not match please try again");
@@ -134,7 +134,7 @@ public class UserManager {
         String email = null;
         while(!validEmail)
         {
-            email = Scan.askForString("your email");
+            email = Scan.askForString("Enter your email:");
             email = email.toLowerCase();
             if(emailExists(email, userType))
             {
@@ -182,7 +182,7 @@ public class UserManager {
         FileHandler.writeToFile("\n", "src\\main\\java\\csv\\users\\" + user.userType() + ".csv", true);
     }
 
-    private void uploadToSystem() {
+    private void saveToSystem() {
         FileHandler.writeToFile("", "src\\main\\java\\csv\\users\\employee.csv", false);
         FileHandler.writeToFile("", "src\\main\\java\\csv\\users\\customer.csv", false);
         for(User user : users.values()) {
