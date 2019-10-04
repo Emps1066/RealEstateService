@@ -150,6 +150,28 @@ public abstract class Property
                 type, ownerCustomer, employee, propertyBalance);
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Property property = (Property) o;
+        return bedrooms == property.bedrooms &&
+                bathrooms == property.bathrooms &&
+                carSpaces == property.carSpaces &&
+                Double.compare(property.propertyBalance, propertyBalance) == 0 &&
+                ID.equals(property.ID) &&
+                address.equals(property.address) &&
+                suburb.equals(property.suburb) &&
+                type.equals(property.type) &&
+                ownerCustomer.equals(property.ownerCustomer) &&
+                Objects.equals(employee, property.employee);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(ID, address, suburb, bedrooms, bathrooms, carSpaces, type, ownerCustomer, employee, propertyBalance);
+    }
+
     public String toListFormat() {
         return String.format("-----------------------------------------------------------------\n" +
                              "ID: %s\n" +

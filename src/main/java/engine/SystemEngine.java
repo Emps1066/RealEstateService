@@ -4,6 +4,7 @@ import systemManagers.*;
 import user.User;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 public class SystemEngine {
@@ -20,9 +21,9 @@ public class SystemEngine {
         this.user = user;
         myPreferredSuburbs = new ArrayList<>();
         userManager = new UserManager();
-        propertyManager = new PropertyManager();
-        applicationManager = new ApplicationManager();
-        offerManager = new OfferManager();
+        propertyManager = new PropertyManager(new HashMap<>(), new HashMap<>(), new HashMap<>());
+        applicationManager = new ApplicationManager(new HashMap<>());
+        offerManager = new OfferManager(new HashMap<>());
         rolesManager = new RolesManager();
     }
 

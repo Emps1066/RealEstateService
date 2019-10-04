@@ -2,87 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe4ff542-3d17-4a8a-854f-8a2ba744ee6f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/myApplicationMenu/editApplicationsMenu/EditApplicationsMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/myApplicationMenu/editApplicationsMenu/EditApplicationsMenuCallBack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utilities/weekMonthYear/WeekUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/account/SignUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/account/SignUp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/csv/IdCounts/customerCount.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/csv/IdCounts/customerCount.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/engine/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/engine/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/engine/SystemEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/engine/SystemEngine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/PropertySeekaMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/PropertySeekerMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/PropertySeekaMenuCallBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/PropertySeekerMenuCallBack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/browserMenu/BrowseMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/browserMenu/BrowseMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/browserMenu/BrowseMenuCallBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/browserMenu/BrowseMenuCallBack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/BrowseBySuburbMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/BrowseBySuburbMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/BrowseBySuburbMenuCallBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/BrowseBySuburbMenuCallBack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/BrowseForSaleMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/BrowseForSaleMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/BrowseForSaleMenuCallBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/BrowseForSaleMenuCallBack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/BrowseRentalMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/BrowseRentalMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/BrowseRentalMenuCallBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/BrowseRentalMenuCallBack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/EditMySuburbPreferenceMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/EditMySuburbPreferenceMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/EditMySuburbPreferenceMenuCallBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/EditMySuburbPreferenceMenuCallBack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/myApplicationMenu/MyApplicationsMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/myApplicationMenu/MyApplicationsMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/myApplicationMenu/MyApplicationsMenuCallBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/myApplicationMenu/MyApplicationsMenuCallBack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/myOffersMenu/MyOffersMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/myOffersMenu/MyOffersMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/myOffersMenu/MyOffersMenuCallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/myOffersMenu/MyOffersMenuCallback.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/offerAndApplication/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/offerAndApplication/Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/offerAndApplication/Offer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/offerAndApplication/Offer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/property/ForSaleProperty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/property/ForSaleProperty.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/property/Property.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/property/Property.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/property/RentalProperty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/property/RentalProperty.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/systemManagers/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/systemManagers/ApplicationManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/systemManagers/OfferManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/systemManagers/OfferManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/systemManagers/PropertyManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/systemManagers/PropertyManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/systemManagers/UserManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/systemManagers/UserManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/systemManagers/rolesManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/systemManagers/RolesManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/user/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/user/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utilities/dateTime/DateTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utilities/dateTime/DateTime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utilities/fileHandler/FileHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utilities/fileHandler/FileHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utilities/scanner/Scan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utilities/scanner/Scan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/account/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/account/Account.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/account/SignIn.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/account/SignIn.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/account/SignUp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/account/SignUp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/engine/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/engine/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/engine/PropertyManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/engine/UserManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/engine/rolesManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/enums/PropertyListType$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/enums/PropertyListType$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/enums/PropertyListType$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/enums/PropertyListType$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/enums/PropertyListType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/enums/PropertyListType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fileHandler/FileHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/idManager/IdManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/menusForUsers/propertySeekaMenu/PropertySeekaMenu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/menusForUsers/propertySeekaMenu/PropertySeekaMenuCallBack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/menusForUsers/propertySeekaMenu/browserMenu/BrowseMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/menusForUsers/propertySeekaMenu/browserMenu/BrowseMenu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/menusForUsers/propertySeekaMenu/browserMenu/BrowseMenuCallBack.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/menusForUsers/propertySeekaMenu/browserMenu/BrowseMenuCallBack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/BrowseBySuburbMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/BrowseBySuburbMenu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/BrowseBySuburbMenuCallBack.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/BrowseBySuburbMenuCallBack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/BrowseForSaleMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/BrowseForSaleMenu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/BrowseForSaleMenuCallBack.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/BrowseForSaleMenuCallBack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/BrowseRentalMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/BrowseRentalMenu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/BrowseRentalMenuCallBack.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/BrowseRentalMenuCallBack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/EditMySuburbPreferenceMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/EditMySuburbPreferenceMenu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/EditMySuburbPreferenceMenuCallBack.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/EditMySuburbPreferenceMenuCallBack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/menusForUsers/propertySeekaMenu/myApplicationMenu/MyApplicationsMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/menusForUsers/propertySeekaMenu/myApplicationMenu/MyApplicationsMenu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/menusForUsers/propertySeekaMenu/myApplicationMenu/MyApplicationsMenuCallBack.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/menusForUsers/propertySeekaMenu/myApplicationMenu/MyApplicationsMenuCallBack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/menusForUsers/propertySeekaMenu/myOffersMenu/MyOffersMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/menusForUsers/propertySeekaMenu/myOffersMenu/MyOffersMenu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/menusForUsers/propertySeekaMenu/myOffersMenu/MyOffersMenuCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/menusForUsers/propertySeekaMenu/myOffersMenu/MyOffersMenuCallback.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/offer/Offer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/property/ForSaleProperty.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/property/ForSaleProperty.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/property/Property.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/property/Property.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/property/RentalProperty.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/property/RentalProperty.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/roles/BranchAdministrator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/roles/Buyer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/roles/Landlord.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/roles/Roles.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/roles/Tenant.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/roles/Vendor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/scanner/Scan.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/user/Customer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/user/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/user/Employee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/user/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/user/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/realEstateManagementSoftware.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/realEstateManagementSoftware.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/user/User.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -98,10 +22,56 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/offerAndApplication/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="130" column="37" selection-start-line="130" selection-start-column="37" selection-end-line="130" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/systemManagers/PropertyManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
+            <state relative-caret-position="-342">
               <caret line="18" column="57" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/user/Employee.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/user/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="258">
+              <caret line="55" column="37" selection-start-line="55" selection-start-column="37" selection-end-line="55" selection-end-column="37" />
+              <folding>
+                <element signature="e#1350#1351#0" expanded="true" />
+                <element signature="e#1412#1413#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/engine/SystemEngine.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1292">
+              <caret line="25" column="55" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -122,23 +92,9 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/property/ForSaleProperty.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="533">
-              <caret line="37" column="76" selection-start-line="37" selection-start-column="76" selection-end-line="37" selection-end-column="76" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#985#986#0" expanded="true" />
-                <element signature="e#1028#1029#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/utilities/fileHandler/FileHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="508">
+            <state relative-caret-position="1333">
               <caret line="106" column="26" selection-start-line="106" selection-start-column="26" selection-end-line="106" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -147,16 +103,44 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/systemManagers/UserManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2825">
+              <caret line="120" column="62" selection-start-line="120" selection-start-column="62" selection-end-line="120" selection-end-column="62" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/property/Property.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2100">
-              <caret line="150" column="5" selection-start-line="150" selection-start-column="5" selection-end-line="150" selection-end-column="5" />
+            <state relative-caret-position="458">
+              <caret line="153" column="37" selection-start-line="153" selection-start-column="37" selection-end-line="153" selection-end-column="37" />
               <folding>
                 <element signature="e#2657#2658#0" expanded="true" />
                 <element signature="e#2695#2696#0" expanded="true" />
                 <element signature="e#2757#2758#0" expanded="true" />
                 <element signature="e#2811#2812#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/offerAndApplication/Offer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="68" column="37" selection-start-line="68" selection-start-column="37" selection-end-line="68" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1500#1501#0" expanded="true" />
+                <element signature="e#1550#1551#0" expanded="true" />
+                <element signature="e#2107#2108#0" expanded="true" />
+                <element signature="e#2205#2206#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -188,8 +172,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/account/SignIn.java" />
-        <option value="$PROJECT_DIR$/src/main/java/account/Account.java" />
         <option value="$PROJECT_DIR$/src/main/java/engine/UserManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/engine/PropertyManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/offer/Offer.java" />
@@ -225,20 +207,22 @@
         <option value="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/myApplicationMenu/editApplicationsMenu/EditApplicationsMenu.java" />
         <option value="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/myOffersMenu/MyOffersMenu.java" />
         <option value="$PROJECT_DIR$/src/main/java/engine/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/engine/SystemEngine.java" />
         <option value="$PROJECT_DIR$/src/main/java/systemManagers/UserManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/utilities/dateTime/DateTime.java" />
         <option value="$PROJECT_DIR$/src/main/java/user/Customer.java" />
         <option value="$PROJECT_DIR$/src/main/java/systemManagers/ApplicationManager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/offerAndApplication/Application.java" />
         <option value="$PROJECT_DIR$/src/main/java/systemManagers/OfferManager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/offerAndApplication/Offer.java" />
         <option value="$PROJECT_DIR$/src/main/java/account/SignUp.java" />
         <option value="$PROJECT_DIR$/src/main/java/systemManagers/PropertyManager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/property/Property.java" />
         <option value="$PROJECT_DIR$/src/main/java/property/ForSaleProperty.java" />
         <option value="$PROJECT_DIR$/src/main/java/property/RentalProperty.java" />
         <option value="$PROJECT_DIR$/src/main/java/utilities/fileHandler/FileHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/engine/SystemEngine.java" />
+        <option value="$PROJECT_DIR$/src/main/java/user/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/user/Employee.java" />
+        <option value="$PROJECT_DIR$/src/main/java/property/Property.java" />
+        <option value="$PROJECT_DIR$/src/main/java/offerAndApplication/Application.java" />
+        <option value="$PROJECT_DIR$/src/main/java/offerAndApplication/Offer.java" />
       </list>
     </option>
   </component>
@@ -449,6 +433,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projectTrainwreck" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectTrainwreck" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="user" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -594,6 +586,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22013423" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -913,16 +906,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/systemManagers/UserManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="120" column="62" selection-start-line="120" selection-start-column="62" selection-end-line="120" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/myApplicationMenu/MyApplicationsMenu.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
@@ -963,44 +946,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/engine/SystemEngine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-125">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2597#2598#0" expanded="true" />
-            <element signature="e#2624#2625#0" expanded="true" />
-            <element signature="e#2675#2676#0" expanded="true" />
-            <element signature="e#2716#2717#0" expanded="true" />
-            <element signature="e#2759#2760#0" expanded="true" />
-            <element signature="e#2793#2794#0" expanded="true" />
-            <element signature="e#2844#2845#0" expanded="true" />
-            <element signature="e#2882#2883#0" expanded="true" />
-            <element signature="e#2939#2940#0" expanded="true" />
-            <element signature="e#2980#2981#0" expanded="true" />
-            <element signature="e#3025#3026#0" expanded="true" />
-            <element signature="e#3060#3061#0" expanded="true" />
-            <element signature="e#3105#3106#0" expanded="true" />
-            <element signature="e#3140#3141#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/user/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/user/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/user/Customer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1018,16 +963,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/offerAndApplication/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="128" column="42" lean-forward="true" selection-start-line="128" selection-start-column="42" selection-end-line="128" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/systemManagers/ApplicationManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -1037,13 +972,6 @@
             <element signature="e#635#636#0" expanded="true" />
             <element signature="e#682#683#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/offerAndApplication/Offer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="906">
-          <caret line="66" column="41" selection-start-line="66" selection-start-column="41" selection-end-line="66" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -1086,10 +1014,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/systemManagers/PropertyManager.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/property/ForSaleProperty.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="18" column="57" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
+        <state relative-caret-position="533">
+          <caret line="37" column="76" selection-start-line="37" selection-start-column="76" selection-end-line="37" selection-end-column="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#985#986#0" expanded="true" />
+            <element signature="e#1028#1029#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utilities/fileHandler/FileHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1333">
+          <caret line="106" column="26" selection-start-line="106" selection-start-column="26" selection-end-line="106" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/engine/SystemEngine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1292">
+          <caret line="25" column="55" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1106,22 +1056,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/property/ForSaleProperty.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/systemManagers/PropertyManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
-          <caret line="37" column="76" selection-start-line="37" selection-start-column="76" selection-end-line="37" selection-end-column="76" />
+        <state relative-caret-position="-342">
+          <caret line="18" column="57" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#985#986#0" expanded="true" />
-            <element signature="e#1028#1029#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utilities/fileHandler/FileHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/user/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="106" column="26" selection-start-line="106" selection-start-column="26" selection-end-line="106" selection-end-column="26" />
+        <state relative-caret-position="258">
+          <caret line="55" column="37" selection-start-line="55" selection-start-column="37" selection-end-line="55" selection-end-column="37" />
+          <folding>
+            <element signature="e#1350#1351#0" expanded="true" />
+            <element signature="e#1412#1413#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/user/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/systemManagers/UserManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2825">
+          <caret line="120" column="62" selection-start-line="120" selection-start-column="62" selection-end-line="120" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1130,13 +1096,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/property/Property.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2100">
-          <caret line="150" column="5" selection-start-line="150" selection-start-column="5" selection-end-line="150" selection-end-column="5" />
+        <state relative-caret-position="458">
+          <caret line="153" column="37" selection-start-line="153" selection-start-column="37" selection-end-line="153" selection-end-column="37" />
           <folding>
             <element signature="e#2657#2658#0" expanded="true" />
             <element signature="e#2695#2696#0" expanded="true" />
             <element signature="e#2757#2758#0" expanded="true" />
             <element signature="e#2811#2812#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/offerAndApplication/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="130" column="37" selection-start-line="130" selection-start-column="37" selection-end-line="130" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/offerAndApplication/Offer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="68" column="37" selection-start-line="68" selection-start-column="37" selection-end-line="68" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1500#1501#0" expanded="true" />
+            <element signature="e#1550#1551#0" expanded="true" />
+            <element signature="e#2107#2108#0" expanded="true" />
+            <element signature="e#2205#2206#0" expanded="true" />
           </folding>
         </state>
       </provider>
