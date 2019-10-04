@@ -3,6 +3,8 @@ package offerAndApplication;
 
 import utilities.dateTime.DateTime;
 
+import java.util.Objects;
+
 public class Offer {
     private String offerId;
     private String offerRecipient;
@@ -61,6 +63,23 @@ public class Offer {
 
     public void setOfferAccepted(DateTime offerAccepted) {
         this.offerAccepted = offerAccepted;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Offer offer = (Offer) o;
+        return Double.compare(offer.offerAmount, offerAmount) == 0 &&
+                offerId.equals(offer.offerId) &&
+                offerRecipient.equals(offer.offerRecipient) &&
+                offerSender.equals(offer.offerSender) &&
+                propertyId.equals(offer.propertyId);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(offerId, offerRecipient, offerSender, propertyId, offerAmount);
     }
 
     public String toCsvFormat() {

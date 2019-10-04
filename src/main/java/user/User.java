@@ -3,6 +3,7 @@ package user;
 import enums.UserType;
 
 import java.util.List;
+import java.util.Objects;
 
 public abstract class User {
     private String name ;
@@ -49,6 +50,22 @@ public abstract class User {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        User user = (User) o;
+        return name.equals(user.name) &&
+                password.equals(user.password) &&
+                email.equals(user.email) &&
+                Id.equals(user.Id);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name, password, email, Id);
     }
 
     public abstract UserType userType();

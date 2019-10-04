@@ -3,6 +3,8 @@ package offerAndApplication;
 import utilities.dateTime.DateTime;
 import utilities.weekMonthYear.WeekUtil;
 
+import java.util.Objects;
+
 public class Application {
 
     private String appId;
@@ -123,6 +125,29 @@ public class Application {
 
     public void setApplicationAcceptedTime(DateTime applicationAcceptedTime) {
         this.applicationAcceptedTime = applicationAcceptedTime;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Application that = (Application) o;
+        return Double.compare(that.preferredRent, preferredRent) == 0 &&
+                Double.compare(that.preferredDuration, preferredDuration) == 0 &&
+                Double.compare(that.currentIncome, currentIncome) == 0 &&
+                appId.equals(that.appId) &&
+                customerId.equals(that.customerId) &&
+                propertyOwnerId.equals(that.propertyOwnerId) &&
+                propertyId.equals(that.propertyId) &&
+                currentOccupation.equals(that.currentOccupation) &&
+                currentEmployer.equals(that.currentEmployer) &&
+                pastOccupation.equals(that.pastOccupation) &&
+                pastEmployer.equals(that.pastEmployer);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(appId, customerId, propertyOwnerId, propertyId, preferredRent, preferredDuration, currentIncome, currentOccupation, currentEmployer, pastOccupation, pastEmployer);
     }
 
     public String toCsvFormat() {
