@@ -11,9 +11,31 @@ public class Scan {
         int num = 0;
         boolean doAgain = true;
         while(doAgain) {
-            System.out.printf("Enter number of %s:", text);
+            System.out.println(text);
+            System.out.printf("> ");
             if(scanner.hasNextInt()) {
                 num = scanner.nextInt();
+                doAgain = false;
+            } else {
+                System.out.printf("Invalid input type please try again");
+                scanner.nextLine();
+            }
+        }
+        return num;
+    }
+
+    public static double askForDouble(String text) {
+        return askForInt(text, new Scanner(System.in));
+    }
+
+    public static double askForDouble(String text, Scanner scanner) {
+        double num = 0;
+        boolean doAgain = true;
+        while(doAgain) {
+            System.out.println(text);
+            System.out.printf("> ");
+            if(scanner.hasNextDouble()) {
+                num = scanner.nextDouble();
                 doAgain = false;
             } else {
                 System.out.printf("Invalid input type please try again");
@@ -29,7 +51,8 @@ public class Scan {
 
     public static String askForString(String text, Scanner scanner) {
         String string;
-        System.out.printf("Enter %s:", text);
+        System.out.println(text);
+        System.out.printf("> ");
         string = scanner.nextLine();
         return string;
     }

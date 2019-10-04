@@ -21,8 +21,9 @@ public abstract class Property
     private String type;
     private String ownerCustomer;
     private String employee = null;
+    private double propertyBalance = 0;
 
-    public Property(String ID, String address, String suburb, int bedrooms, int bathrooms, int carSpaces, String type, String ownerCustomer)
+    public Property(String ID, String address, String suburb, int bedrooms, int bathrooms, int carSpaces, String type, String ownerCustomer, double propertyBalance)
     {
         this.ID = ID;
         this.address = address;
@@ -32,6 +33,7 @@ public abstract class Property
         this.carSpaces = carSpaces;
         this.type = type;
         this.ownerCustomer = ownerCustomer;
+        this.propertyBalance = propertyBalance;
     }
 
     public String getID()
@@ -132,9 +134,31 @@ public abstract class Property
         this.listed = listed;
     }
 
+    public double getPropertyBalance() {
+        return propertyBalance;
+    }
+
+    public void setPropertyBalance(double propertyBalance) {
+        this.propertyBalance = propertyBalance;
+    }
+
     public abstract PropertyListType listType();
 
-    public abstract String toCsvFormat();
+    public String toCsvFormat() {
+        return String.format("%s,%s,%s,%d,%d,%d,%s,%s,%s,%d",
+                ID, address, suburb, bedrooms, bathrooms, carSpaces,
+                type, ownerCustomer, employee, propertyBalance);
+    }
 
-    public abstract String toListFormat();
+    public String toListFormat() {
+        return String.format("-----------------------------------------------------------------\n" +
+                             "ID: %s\n" +
+                             "Address: %s\n" +
+                             "Suburb: %s\n" +
+                             "Bedrooms: %d\n" +
+                             "Bathrooms: %d\n" +
+                             "Car Spaces: %d\n" +
+                             "Property type: %s\n",
+                             ID, address, suburb, bedrooms, bathrooms, carSpaces, type);
+    }
 }

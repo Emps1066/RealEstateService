@@ -5,8 +5,8 @@ public class EditMySuburbPreferenceMenuCallBack {
         StringBuilder menu = new StringBuilder();
 
         menu.append("*******************************************\n");
-        menu.append(" -> Property Seeka Main Menu\n");
-        menu.append("  -> Browsing PropertySeeka Properties\n");
+        menu.append(" -> Property Seeker Main Menu\n");
+        menu.append("  -> Browsing PropertySeeker Properties\n");
         menu.append("   -> Filter By My Preference\n");
         menu.append("    -> Edit My Preferences\n");
         menu.append("\n");

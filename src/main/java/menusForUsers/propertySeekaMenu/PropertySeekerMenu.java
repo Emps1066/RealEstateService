@@ -5,13 +5,16 @@ import engine.SystemEngine;
 import menusForUsers.propertySeekaMenu.browserMenu.BrowseMenu;
 import menusForUsers.propertySeekaMenu.myApplicationMenu.MyApplicationsMenu;
 import menusForUsers.propertySeekaMenu.myOffersMenu.MyOffersMenu;
+import systemManagers.ApplicationManager;
+import systemManagers.OfferManager;
 import utilities.scanner.Scan;
 
-public class PropertySeekaMenu
+public class PropertySeekerMenu
 {
     public void goToMainMenu(SystemEngine engine) {
-        PropertySeekaMenuCallBack callBack = new PropertySeekaMenuCallBack();
+        PropertySeekerMenuCallBack callBack = new PropertySeekerMenuCallBack();
         int option = Scan.askForOption(4, callBack.menu());
+
         if(option == 1) {
             BrowseMenu menu = new BrowseMenu();
             menu.goToBrowseMenu(engine);
@@ -19,12 +22,16 @@ public class PropertySeekaMenu
         else if(option == 2)
         {
             MyApplicationsMenu menu = new MyApplicationsMenu();
-            menu.goToMyApplicationsMenu(engine, "");
+            ApplicationManager applicationManager = engine.getApplicationManager();
+            String display = applicationManager.seekerAllAppsToListFormat(engine.getUser().getId());
+            menu.goToMyApplicationsMenu(engine, display);
         }
         else if(option == 3)
         {
             MyOffersMenu menu = new MyOffersMenu();
-            menu.goToMyOffersMenu(engine, "");
+            OfferManager offerManager = engine.getOfferManager();
+            String display = offerManager.seekerAllOffersToListFormat(engine.getUser().getId());
+            menu.goToMyOffersMenu(engine, display);
         }
         else {
             Account logOut = new Account();

@@ -1,80 +1,88 @@
 package offerAndApplication;
 
 import utilities.dateTime.DateTime;
+import utilities.weekMonthYear.WeekUtil;
 
 public class Application {
 
     private String appId;
-    private String custId;
+    private String customerId;
     private String propertyOwnerId;
-    private double preferedRent;
-    private String preferedDuration;
-    private double custIncome;
-    private String custOccupation;
+    private String propertyId;
+    private double preferredRent;
+    private double preferredDuration;
+    private double currentIncome;
+    private String currentOccupation;
     private String currentEmployer;
     private String pastOccupation;
     private String pastEmployer;
     private DateTime applicationMadeTime;
     private DateTime applicationAcceptedTime = null;
-    private DateTime applicationSetInStoneTime = null;
 
-    public Application(String appId, String custId, String propertyOwnerId,
-                       double preferedRent,
-                       String preferedDuration, double custIncome,
-                       String custOccupation, String currentEmployer,
+    public Application(String appId, String customerId, String propertyOwnerId,
+                       String propertyId, double preferredRent,
+                       double preferredDuration, double currentIncome,
+                       String currentOccupation, String currentEmployer,
                        String pastOccupation, String pastEmployer,
                        DateTime applicationMadeTime,
-                       DateTime applicationAcceptedTime,
-                       DateTime applicationSetInStoneTime) {
+                       DateTime applicationAcceptedTime) {
         this.appId = appId;
-        this.custId = custId;
+        this.customerId = customerId;
         this.propertyOwnerId = propertyOwnerId;
-        this.preferedRent = preferedRent;
-        this.preferedDuration = preferedDuration;
-        this.custIncome = custIncome;
-        this.custOccupation = custOccupation;
+        this.propertyId = propertyId;
+        this.preferredRent = preferredRent;
+        this.preferredDuration = preferredDuration;
+        this.currentIncome = currentIncome;
+        this.currentOccupation = currentOccupation;
         this.currentEmployer = currentEmployer;
         this.pastOccupation = pastOccupation;
         this.pastEmployer = pastEmployer;
         this.applicationMadeTime = applicationMadeTime;
         this.applicationAcceptedTime = applicationAcceptedTime;
-        this.applicationSetInStoneTime = applicationSetInStoneTime;
     }
 
     public String getAppId() {
         return appId;
     }
 
-    public String getCustId() {
-        return custId;
+    public void setAppId(String appId) {
+        this.appId = appId;
+    }
+
+    public String getCustomerId() {
+        return customerId;
     }
 
     public String getPropertyOwnerId() {
         return propertyOwnerId;
     }
 
-    public double getPreferedRent() {
-        return preferedRent;
+    public String getPropertyId() {
+        return propertyId;
     }
 
-    public String getPreferedDuration() {
-        return preferedDuration;
+    public double getPreferredRent() {
+        return preferredRent;
     }
 
-    public double getCustIncome() {
-        return custIncome;
+    public double getPreferredDuration() {
+        return preferredDuration;
     }
 
-    public void setCustIncome(double custIncome) {
-        this.custIncome = custIncome;
+    public double getCurrentIncome() {
+        return currentIncome;
     }
 
-    public String getCustOccupation() {
-        return custOccupation;
+    public void setCurrentIncome(double currentIncome) {
+        this.currentIncome = currentIncome;
     }
 
-    public void setCustOccupation(String custOccupation) {
-        this.custOccupation = custOccupation;
+    public String getCurrentOccupation() {
+        return currentOccupation;
+    }
+
+    public void setCurrentOccupation(String currentOccupation) {
+        this.currentOccupation = currentOccupation;
     }
 
     public String getCurrentEmployer() {
@@ -117,43 +125,37 @@ public class Application {
         this.applicationAcceptedTime = applicationAcceptedTime;
     }
 
-    public DateTime getApplicationSetInStoneTime() {
-        return applicationSetInStoneTime;
-    }
-
-    public void setApplicationSetInStoneTime(DateTime applicationSetInStoneTime) {
-        this.applicationSetInStoneTime = applicationSetInStoneTime;
-    }
-
     public String toCsvFormat() {
-        return String.format("%s,%s,%s,%f,%s,%f,%s,%s,%s,%s,%d,%d,%d"
-                ,appId
-                ,custId
-                ,propertyOwnerId
-                ,preferedRent
-                ,preferedDuration
-                ,custIncome
-                ,custOccupation
-                ,currentEmployer
-                ,pastOccupation
-                ,pastEmployer
-                ,applicationMadeTime.getTime()
-                ,applicationAcceptedTime == null ? 0 : applicationAcceptedTime.getTime()
-                ,applicationSetInStoneTime == null ? 0 : applicationSetInStoneTime.getTime());
+        return String.format("%s,%s,%s,%s,%f,%f,%f,%s,%s,%s,%s,%d,%d"
+                , appId
+                , customerId
+                , propertyOwnerId
+                , propertyId
+                , preferredRent
+                , preferredDuration
+                , currentIncome
+                , currentOccupation
+                , currentEmployer
+                , pastOccupation
+                , pastEmployer
+                , (applicationMadeTime == null) ? 0 : applicationMadeTime.getTime()
+                , (applicationAcceptedTime == null) ? 0 : applicationAcceptedTime.getTime());
     }
 
     public String toListFormat() {
+        WeekUtil weekUtil = new WeekUtil();
         return String.format("--------------------------------\n" + "Application ID: %s\n" + "Customer ID: %s\n" +
-                        "Preferred Rent Amount: %.2f\n" + "Preferred Duration: %s\n" +
+                        "Property ID: %s\n" +
+                        "Preferred Rent Amount: %.2f $\n" + "Preferred Duration: %s\n" +
                         "Application Sent on: %s\n" + "Application Accepted on: %s\n" +
                         "Income: %.2f\n" +
                         "Current Occupation: %s\n" + "Current Employer: %s\n" +
                         "Past Occupation: %s\n" + "Past Employer: %s\n" + "--------------------------------",
-                appId, custId, preferedRent,
-                preferedDuration, applicationMadeTime.toString(),
+                appId, customerId, propertyId, preferredRent,
+                weekUtil.toString(preferredDuration), applicationMadeTime.toString(),
                 applicationAcceptedTime == null ? "N/A" : applicationAcceptedTime.toString(),
-                custIncome,
-                custOccupation, currentEmployer,
+                currentIncome,
+                currentOccupation, currentEmployer,
                 pastOccupation, pastEmployer);
     }
 }

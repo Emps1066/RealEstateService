@@ -8,7 +8,7 @@ import systemManagers.UserManager;
 public class SignUp {
     public User signUp() {
         UserManager userManager = new UserManager();
-        String name = Scan.askForString("your name");
+        String name = Scan.askForString("Enter your name:");
         String email = userManager.getNewEmail(UserType.CUSTOMER);
         String password = userManager.getNewPassword();
 

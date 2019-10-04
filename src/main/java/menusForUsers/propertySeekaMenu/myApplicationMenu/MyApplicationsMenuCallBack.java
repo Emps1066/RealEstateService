@@ -5,15 +5,15 @@ public class MyApplicationsMenuCallBack {
         StringBuilder menu = new StringBuilder();
 
         menu.append("*******************************************\n");
-        menu.append(" -> Property Seeka Main Menu\n");
-        menu.append("  -> View My PropertySeeka Applications\n");
+        menu.append(" -> Property Seeker Main Menu\n");
+        menu.append("  -> View My PropertySeeker Applications\n");
         menu.append("\n");
         menu.append(displayable);
         menu.append("\n");
         menu.append("\n");
         menu.append("Property View My Application Menu\n");
-        menu.append("1. Pay PropertySeeka Application Deposit\n");
-        menu.append("2. Edit My PropertySeeka Application\n");
+        menu.append("1. Pay PropertySeeker Application Deposit\n");
+        menu.append("2. Edit My PropertySeeker Application\n");
         menu.append("3. Filter By Accepted Applications\n");
         menu.append("4. Filter By Pending Applications\n");
         menu.append("5. Withdraw Application");

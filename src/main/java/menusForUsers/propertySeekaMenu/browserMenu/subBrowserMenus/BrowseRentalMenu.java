@@ -2,6 +2,7 @@ package menusForUsers.propertySeekaMenu.browserMenu.subBrowserMenus;
 
 import engine.SystemEngine;
 import menusForUsers.propertySeekaMenu.browserMenu.BrowseMenu;
+import systemManagers.ApplicationManager;
 import utilities.scanner.Scan;
 
 public class BrowseRentalMenu {
@@ -10,6 +11,8 @@ public class BrowseRentalMenu {
         int option = Scan.askForOption(2, callBack.menu(displayable));
         if(option == 1)
         {
+            ApplicationManager appManager = engine.getApplicationManager();
+            appManager.sendApplication(engine.getUser(), engine.getPropertyManager());
             goToRentalMenu(engine, displayable);
         }
         else {
