@@ -1,5 +1,7 @@
 package alertSystem;
 
+import enums.AlertType;
+import property.Property;
 import user.Customer;
 import user.User;
 
@@ -10,7 +12,7 @@ import java.util.Properties;
 
 public class MailSystemTLS {
 
-        public void sendEmail()
+        public void sendEmail(AlertType alertType, User user, Property property)
         {
 
             String systemEmail = "projecttrainwreckrmit@gmail.com";
@@ -33,11 +35,11 @@ public class MailSystemTLS {
                 message.setFrom(new InternetAddress(systemEmail));
                 message.setRecipients(
                         Message.RecipientType.TO,
-                        InternetAddress.parse("harryluke@hotmail.com")
+                        InternetAddress.parse(user.getEmail())
                 );
-                message.setSubject("Testing Gmail TLS");
-                message.setText("Dear Mail Crawler,"
-                        + "\n\n Please do not spam my email!");
+
+                message.setSubject(alertType.subject());
+                message.setText(alertType.message(property));
 
                 Transport.send(message);
 
