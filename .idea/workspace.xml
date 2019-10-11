@@ -211,11 +211,10 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="950" />
-    <option name="y" value="21" />
-    <option name="width" value="1085" />
-    <option name="height" value="1040" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-9" />
+    <option name="width" value="1083" />
+    <option name="height" value="1039" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -565,6 +564,7 @@
       <workItem from="1568891058693" duration="6313000" />
       <workItem from="1568914756623" duration="11566000" />
       <workItem from="1568928802806" duration="16088000" />
+      <workItem from="1570152647451" duration="3608000" />
     </task>
     <servers />
   </component>
@@ -601,7 +601,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73238000" />
+    <option name="totallyTimeSpent" value="76846000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -632,7 +632,7 @@
       <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.04249292" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.049099836" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.26912183" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
