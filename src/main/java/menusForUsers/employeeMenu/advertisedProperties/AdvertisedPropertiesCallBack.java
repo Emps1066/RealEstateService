@@ -1,4 +1,4 @@
-package menusForUsers.propertySeekaMenu.employeeMenu.advertisedProperties;
+package menusForUsers.employeeMenu.advertisedProperties;
 
 public class AdvertisedPropertiesCallBack {
     public String menu(String displayable) {

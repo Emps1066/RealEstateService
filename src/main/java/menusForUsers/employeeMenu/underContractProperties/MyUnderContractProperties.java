@@ -1,7 +1,7 @@
-package menusForUsers.propertySeekaMenu.employeeMenu.underContractProperties;
+package menusForUsers.employeeMenu.underContractProperties;
 
 import engine.SystemEngine;
-import menusForUsers.propertySeekaMenu.employeeMenu.MyEmployeeMenu;
+import menusForUsers.employeeMenu.MyEmployeeMenu;
 import utilities.scanner.Scan;
 
 public class MyUnderContractProperties {

@@ -1,4 +1,4 @@
-package menusForUsers.propertySeekaMenu.employeeMenu.underContractProperties;
+package menusForUsers.employeeMenu.underContractProperties;
 
 public class MyUnderContractPropertiesTwoCallBack {
     public String menu(String displayable) {

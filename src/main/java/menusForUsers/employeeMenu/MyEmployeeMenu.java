@@ -1,11 +1,11 @@
-package menusForUsers.propertySeekaMenu.employeeMenu;
+package menusForUsers.employeeMenu;
 
-import account.Account;
+import account.Logger;
 import engine.SystemEngine;
-import menusForUsers.propertySeekaMenu.employeeMenu.advertisedProperties.AdvertisedProperties;
-import menusForUsers.propertySeekaMenu.propertySeekaMenu.browserMenu.BrowseMenu;
-import menusForUsers.propertySeekaMenu.propertySeekaMenu.myApplicationMenu.MyApplicationsMenu;
-import menusForUsers.propertySeekaMenu.propertySeekaMenu.myOffersMenu.MyOffersMenu;
+import menusForUsers.employeeMenu.advertisedProperties.AdvertisedProperties;
+import menusForUsers.employeeMenu.underContractProperties.MyUnderContractProperties;
+import menusForUsers.employeeMenu.underContractProperties.MyUnderContractPropertiesTwo;
+import menusForUsers.propertySeekerMenu.myApplicationMenu.MyApplicationsMenu;
 import utilities.scanner.Scan;
 
 public class MyEmployeeMenu {
@@ -23,15 +23,18 @@ public class MyEmployeeMenu {
         }
         else if(option == 3)
         {
-            MyOffersMenu menu = new MyOffersMenu();
-            menu.goToMyOffersMenu(engine, "");
+            MyUnderContractProperties myUnderContractProperties = new MyUnderContractProperties();
+            myUnderContractProperties.goToUnderContractProperties(engine, "");
+
+            MyUnderContractPropertiesTwo myUnderContractPropertiesTwo = new MyUnderContractPropertiesTwo();
+            myUnderContractPropertiesTwo.goToUnderContractPropertiesTwo(engine, "");
         }
         else if(option == 4)
         {
             goToMyEmployeeMenu(engine);
         }
         else {
-            Account logOut = new Account();
+            Logger logOut = new Logger();
             logOut.logUserIn();
         }
     }

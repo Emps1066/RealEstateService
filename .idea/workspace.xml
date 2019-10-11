@@ -2,134 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe4ff542-3d17-4a8a-854f-8a2ba744ee6f" name="Default Changelist" comment="basic menu">
-      <change afterPath="$PROJECT_DIR$/src/main/java/engine/RunSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/MyEmployeeMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/MyEmployeeMenuCallBack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/advertisedProperties/AdvertisedProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/advertisedProperties/AdvertisedPropertiesCallBack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/advertisedProperties/inspectionMenu/MyInspectionMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/advertisedProperties/inspectionMenu/MyInspectionMenuCallBack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/advertisedProperties/propertyApplications/MyPropertyApplications.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/advertisedProperties/propertyApplications/MyPropertyApplicationsCallBack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/advertisedProperties/propertyOffers/MyPropertyOffers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/advertisedProperties/propertyOffers/MyPropertyOffersCallBack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/unadvertisedProperties/MyUnadvertisedProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/unadvertisedProperties/MyUnadvertisedPropertiesCallBack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/underContractProperties/MyUnderContractProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/underContractProperties/MyUnderContractPropertiesCallBack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/underContractProperties/MyUnderContractPropertiesTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/underContractProperties/MyUnderContractPropertiesTwoCallBack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/menuType/ChooseCustomerInterfaceMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/menuType/ChooseCustomerInterfaceMenuCallBack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/account/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/account/Logger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/account/AccountCallBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/account/LoggerCallBack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/account/SignIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/account/SignIn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/account/SignUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/account/SignUp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/csv/IdCounts/acceptedOfferCount.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/csv/IdCounts/acceptedOfferCount.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/csv/IdCounts/customerCount.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/csv/IdCounts/customerCount.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/csv/IdCounts/pendingApplicationCount.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/csv/IdCounts/pendingApplicationCount.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/csv/IdCounts/pendingForSaleCount.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/csv/IdCounts/pendingForSaleCount.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/csv/IdCounts/pendingOfferCount.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/csv/IdCounts/pendingOfferCount.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/csv/IdCounts/underContractForSaleCount.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/csv/IdCounts/underContractForSaleCount.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/csv/application/application.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/csv/application/application.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/csv/offers/offer.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/csv/offer/offer.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/csv/properties/approvedForSaleProperties.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/csv/properties/approvedForSaleProperties.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/csv/properties/approvedRentalProperties.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/csv/properties/approvedRentalProperties.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/csv/properties/pendingForSaleProperties.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/csv/properties/pendingForSaleProperties.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/csv/properties/pendingRentalProperties.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/csv/properties/pendingRentalProperties.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/csv/properties/underContractForSaleProperties.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/csv/properties/underContractForSaleProperties.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/csv/users/customer.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/csv/users/customer.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/csv/users/employee.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/csv/users/employee.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/csv/users/pendingEmployees.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/engine/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/engine/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/engine/SystemEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/engine/SystemEngine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/propertyOwnerMenu/PropertyOwnerMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/propertyOwnerMenu/PropertyOwnerMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/propertyOwnerMenu/PropertyOwnerMenuCallBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/propertyOwnerMenu/PropertyOwnerMenuCallBack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/propertyOwnerMenu/myApplicantsMenu/MyApplicantsMenuCallBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/propertyOwnerMenu/myApplicantsMenu/MyApplicantsMenuCallBack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/propertyOwnerMenu/myOffersMenu/MyOffersMenuCallBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/propertyOwnerMenu/myOffersMenu/MyOffersMenuCallBack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/propertyOwnerMenu/myPropertiesMenu/MyPropertiesMenuCallBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/propertyOwnerMenu/myPropertiesMenu/MyPropertiesMenuCallBack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/propertyOwnerMenu/myPropertiesMenu/editPropertyDetailsMenu/EditPropertyDetailsMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/propertyOwnerMenu/myPropertiesMenu/editPropertyDetailsMenu/EditPropertyDetailsMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/propertyOwnerMenu/myPropertiesMenu/editPropertyDetailsMenu/EditPropertyDetailsMenuCallBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/propertyOwnerMenu/myPropertiesMenu/editPropertyDetailsMenu/EditPropertyDetailsMenuCallBack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/PropertySeekerMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekerMenu/PropertySeekerMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/PropertySeekerMenuCallBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekerMenu/PropertySeekerMenuCallBack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/browserMenu/BrowseMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekerMenu/browserMenu/BrowseMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/browserMenu/BrowseMenuCallBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekerMenu/browserMenu/BrowseMenuCallBack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/BrowseBySuburbMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekerMenu/browserMenu/subBrowserMenus/BrowseBySuburbMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/BrowseBySuburbMenuCallBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekerMenu/browserMenu/subBrowserMenus/BrowseBySuburbMenuCallBack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/BrowseForSaleMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekerMenu/browserMenu/subBrowserMenus/BrowseForSaleMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/BrowseForSaleMenuCallBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekerMenu/browserMenu/subBrowserMenus/BrowseForSaleMenuCallBack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/BrowseRentalMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekerMenu/browserMenu/subBrowserMenus/BrowseRentalMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/BrowseRentalMenuCallBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekerMenu/browserMenu/subBrowserMenus/BrowseRentalMenuCallBack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/EditMySuburbPreferenceMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekerMenu/browserMenu/subBrowserMenus/EditMySuburbPreferenceMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/EditMySuburbPreferenceMenuCallBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekerMenu/browserMenu/subBrowserMenus/EditMySuburbPreferenceMenuCallBack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/myApplicationMenu/MyApplicationsMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekerMenu/myApplicationMenu/MyApplicationsMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/myApplicationMenu/MyApplicationsMenuCallBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekerMenu/myApplicationMenu/MyApplicationsMenuCallBack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/myApplicationMenu/editApplicationsMenu/EditApplicationsMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekerMenu/myApplicationMenu/editApplicationsMenu/EditApplicationsMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/myApplicationMenu/editApplicationsMenu/EditApplicationsMenuCallBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekerMenu/myApplicationMenu/editApplicationsMenu/EditApplicationsMenuCallBack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/myOffersMenu/MyOffersMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekerMenu/myOffersMenu/MyOffersMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/myOffersMenu/MyOffersMenuCallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekerMenu/myOffersMenu/MyOffersMenuCallback.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/property/Property.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/property/Property.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/systemManagers/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/systemManagers/ApplicationManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/systemManagers/OfferManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/systemManagers/OfferManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/systemManagers/PropertyManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/systemManagers/PropertyManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/systemManagers/UserManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/systemManagers/UserManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/user/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/user/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/user/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/user/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/user/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utilities/fileHandler/FileHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utilities/fileHandler/FileHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/systemManagers/PropertyManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/systemManagers/PropertyManagerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/systemManagers/UserManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/systemManagers/UserManagerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/account/Account.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/account/AccountCallBack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/account/SignIn.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/account/SignIn.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/account/SignUp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/account/SignUp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/engine/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/engine/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/engine/SystemEngine.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/engine/SystemEngine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/menusForUsers/propertyOwnerMenu/PropertyOwnerMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/menusForUsers/propertyOwnerMenu/PropertyOwnerMenu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/menusForUsers/propertyOwnerMenu/PropertyOwnerMenuCallBack.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/menusForUsers/propertyOwnerMenu/PropertyOwnerMenuCallBack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/menusForUsers/propertyOwnerMenu/myApplicantsMenu/MyApplicantsMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/menusForUsers/propertyOwnerMenu/myApplicantsMenu/MyApplicantsMenu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/menusForUsers/propertyOwnerMenu/myApplicantsMenu/MyApplicantsMenuCallBack.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/menusForUsers/propertyOwnerMenu/myApplicantsMenu/MyApplicantsMenuCallBack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/menusForUsers/propertyOwnerMenu/myOffersMenu/MyOffersMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/menusForUsers/propertyOwnerMenu/myOffersMenu/MyOffersMenu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/menusForUsers/propertyOwnerMenu/myOffersMenu/MyOffersMenuCallBack.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/menusForUsers/propertyOwnerMenu/myOffersMenu/MyOffersMenuCallBack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/menusForUsers/propertyOwnerMenu/myPropertiesMenu/MyPropertiesMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/menusForUsers/propertyOwnerMenu/myPropertiesMenu/MyPropertiesMenu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/menusForUsers/propertyOwnerMenu/myPropertiesMenu/MyPropertiesMenuCallBack.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/menusForUsers/propertyOwnerMenu/myPropertiesMenu/MyPropertiesMenuCallBack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/menusForUsers/propertyOwnerMenu/myPropertiesMenu/editPropertyDetailsMenu/EditPropertyDetailsMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/menusForUsers/propertyOwnerMenu/myPropertiesMenu/editPropertyDetailsMenu/EditPropertyDetailsMenu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/menusForUsers/propertyOwnerMenu/myPropertiesMenu/editPropertyDetailsMenu/EditPropertyDetailsMenuCallBack.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/menusForUsers/propertyOwnerMenu/myPropertiesMenu/editPropertyDetailsMenu/EditPropertyDetailsMenuCallBack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/menusForUsers/propertySeekaMenu/PropertySeekerMenu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/menusForUsers/propertySeekaMenu/PropertySeekerMenuCallBack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/menusForUsers/propertySeekaMenu/browserMenu/BrowseMenu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/menusForUsers/propertySeekaMenu/browserMenu/BrowseMenuCallBack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/BrowseBySuburbMenu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/BrowseBySuburbMenuCallBack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/BrowseForSaleMenu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/BrowseForSaleMenuCallBack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/BrowseRentalMenu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/BrowseRentalMenuCallBack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/EditMySuburbPreferenceMenu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/EditMySuburbPreferenceMenuCallBack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/menusForUsers/propertySeekaMenu/myApplicationMenu/MyApplicationsMenu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/menusForUsers/propertySeekaMenu/myApplicationMenu/MyApplicationsMenuCallBack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/menusForUsers/propertySeekaMenu/myApplicationMenu/editApplicationsMenu/EditApplicationsMenu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/menusForUsers/propertySeekaMenu/myApplicationMenu/editApplicationsMenu/EditApplicationsMenuCallBack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/menusForUsers/propertySeekaMenu/myOffersMenu/MyOffersMenu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/menusForUsers/propertySeekaMenu/myOffersMenu/MyOffersMenuCallback.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/offerAndApplication/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/offerAndApplication/Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/property/ForSaleProperty.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/property/ForSaleProperty.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/property/Property.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/property/Property.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/property/RentalProperty.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/property/RentalProperty.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/systemManagers/ApplicationManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/systemManagers/ApplicationManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/systemManagers/OfferManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/systemManagers/OfferManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/systemManagers/PropertyManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/systemManagers/PropertyManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/systemManagers/UserManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/systemManagers/UserManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/user/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/user/Customer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/user/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/user/Employee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/user/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/user/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utilities/fileHandler/FileHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utilities/fileHandler/FileHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utilities/scanner/Scan.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utilities/scanner/Scan.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/realEstateManagementSoftware.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/realEstateManagementSoftware.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/systemManagers/PropertyManagerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/systemManagers/PropertyManagerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/systemManagers/UserManagerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/systemManagers/UserManagerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/MyEmployeeMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/MyEmployeeMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/MyEmployeeMenuCallBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/MyEmployeeMenuCallBack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/advertisedProperties/AdvertisedProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/advertisedProperties/AdvertisedProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/advertisedProperties/AdvertisedPropertiesCallBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/advertisedProperties/AdvertisedPropertiesCallBack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/advertisedProperties/inspectionMenu/MyInspectionMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/advertisedProperties/inspectionMenu/MyInspectionMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/advertisedProperties/inspectionMenu/MyInspectionMenuCallBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/advertisedProperties/inspectionMenu/MyInspectionMenuCallBack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/advertisedProperties/propertyApplications/MyPropertyApplications.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/advertisedProperties/propertyApplications/MyPropertyApplications.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/advertisedProperties/propertyApplications/MyPropertyApplicationsCallBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/advertisedProperties/propertyApplications/MyPropertyApplicationsCallBack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/advertisedProperties/propertyOffers/MyPropertyOffers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/advertisedProperties/propertyOffers/MyPropertyOffers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/advertisedProperties/propertyOffers/MyPropertyOffersCallBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/advertisedProperties/propertyOffers/MyPropertyOffersCallBack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/unadvertisedProperties/MyUnadvertisedProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/unadvertisedProperties/MyUnadvertisedProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/unadvertisedProperties/MyUnadvertisedPropertiesCallBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/unadvertisedProperties/MyUnadvertisedPropertiesCallBack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/underContractProperties/MyUnderContractProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/underContractProperties/MyUnderContractProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/underContractProperties/MyUnderContractPropertiesCallBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/underContractProperties/MyUnderContractPropertiesCallBack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/underContractProperties/MyUnderContractPropertiesTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/underContractProperties/MyUnderContractPropertiesTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/underContractProperties/MyUnderContractPropertiesTwoCallBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/underContractProperties/MyUnderContractPropertiesTwoCallBack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/PropertyManagerMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/PropertyManagerMenuCallBack.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -145,10 +37,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/systemManagers/OfferManager.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/advertisedProperties/AdvertisedProperties.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="98" column="99" selection-start-line="98" selection-start-column="99" selection-end-line="98" selection-end-column="99" />
+            <state relative-caret-position="283">
+              <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -157,99 +49,85 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/systemManagers/ApplicationManager.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/unadvertisedProperties/MyUnadvertisedPropertiesCallBack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="110" column="106" selection-start-line="110" selection-start-column="106" selection-end-line="110" selection-end-column="106" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state>
+              <caret column="22" selection-start-column="22" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/csv/properties/underContractForSaleProperties.csv">
-          <provider editor-type-id="csv-table-editor">
-            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-          </provider>
-          <provider selected="true" editor-type-id="csv-text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/systemManagers/PropertyManager.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/unadvertisedProperties/MyUnadvertisedProperties.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="590">
-              <caret line="121" selection-start-line="121" selection-end-line="121" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/csv/properties/approvedRentalProperties.csv">
-          <provider editor-type-id="csv-table-editor">
-            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-          </provider>
-          <provider selected="true" editor-type-id="csv-text-editor">
-            <state relative-caret-position="25">
-              <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/csv/properties/approvedForSaleProperties.csv">
-          <provider editor-type-id="csv-table-editor">
-            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-          </provider>
-          <provider selected="true" editor-type-id="csv-text-editor">
-            <state relative-caret-position="25">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/utilities/fileHandler/FileHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="80" selection-start-line="80" selection-end-line="80" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekerMenu/browserMenu/BrowseMenu.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="4" column="59" selection-start-line="4" selection-start-column="59" selection-end-line="4" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/menusForUsers/menuType/ChooseCustomerInterfaceMenu.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="75">
+              <caret line="3" column="49" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/menusForUsers/menuType/ChooseCustomerInterfaceMenuCallBack.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/MyEmployeeMenu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-442">
+              <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/MyEmployeeMenuCallBack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/underContractProperties/MyUnderContractProperties.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/underContractProperties/MyUnderContractPropertiesTwo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/underContractProperties/MyUnderContractPropertiesTwoCallBack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="22" selection-start-column="22" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/underContractProperties/MyUnderContractPropertiesCallBack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="22" selection-start-column="22" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/advertisedProperties/AdvertisedPropertiesCallBack.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="50">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -281,22 +159,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/offerAndApplication/Offer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/menusForUsers/propertyOwnerMenu/editPropertyDetailsMenu/EditPropertyDetailsMenu.java" />
-        <option value="$PROJECT_DIR$/src/main/java/utilities/scanner/Scan.java" />
-        <option value="$PROJECT_DIR$/src/main/java/property/RentalProperty.java" />
-        <option value="$PROJECT_DIR$/src/main/java/offerAndApplication/Application.java" />
-        <option value="$PROJECT_DIR$/src/main/java/menusForUsers/propertyOwnerMenu/myApplicantsMenu/MyApplicantsMenu.java" />
-        <option value="$PROJECT_DIR$/src/main/java/menusForUsers/propertyOwnerMenu/myPropertiesMenu/editPropertyDetailsMenu/EditPropertyDetailsMenu.java" />
-        <option value="$PROJECT_DIR$/src/main/java/menusForUsers/propertyOwnerMenu/myPropertiesMenu/MyPropertiesMenu.java" />
-        <option value="$PROJECT_DIR$/src/main/java/menusForUsers/propertyOwnerMenu/myOffersMenu/MyOffersMenu.java" />
-        <option value="$PROJECT_DIR$/src/test/java/systemManagers/PropertyManagerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/myApplicationMenu/editApplicationsMenu/EditApplicationsMenuCallBack.java" />
-        <option value="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/myApplicationMenu/MyApplicationsMenuCallBack.java" />
-        <option value="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/myOffersMenu/MyOffersMenuCallback.java" />
-        <option value="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekerMenu/myOffersMenu/MyOffersMenuCallback.java" />
-        <option value="$PROJECT_DIR$/src/main/java/user/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/user/Employee.java" />
         <option value="$PROJECT_DIR$/src/main/java/account/SignUp.java" />
         <option value="$PROJECT_DIR$/src/main/java/account/Account.java" />
         <option value="$PROJECT_DIR$/src/main/java/account/AccountCallBack.java" />
@@ -332,6 +194,22 @@
         <option value="$PROJECT_DIR$/src/main/java/utilities/fileHandler/FileHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekerMenu/browserMenu/BrowseMenu.java" />
         <option value="$PROJECT_DIR$/src/main/java/menusForUsers/menuType/ChooseCustomerInterfaceMenu.java" />
+        <option value="$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/advertisedProperties/AdvertisedPropertiesCallBack.java" />
+        <option value="$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/advertisedProperties/inspectionMenu/MyInspectionMenuCallBack.java" />
+        <option value="$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/advertisedProperties/inspectionMenu/MyInspectionMenu.java" />
+        <option value="$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/advertisedProperties/propertyApplications/MyPropertyApplicationsCallBack.java" />
+        <option value="$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/advertisedProperties/propertyApplications/MyPropertyApplications.java" />
+        <option value="$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/advertisedProperties/propertyOffers/MyPropertyOffersCallBack.java" />
+        <option value="$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/advertisedProperties/propertyOffers/MyPropertyOffers.java" />
+        <option value="$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/unadvertisedProperties/MyUnadvertisedPropertiesCallBack.java" />
+        <option value="$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/unadvertisedProperties/MyUnadvertisedProperties.java" />
+        <option value="$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/underContractProperties/MyUnderContractPropertiesCallBack.java" />
+        <option value="$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/underContractProperties/MyUnderContractProperties.java" />
+        <option value="$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/underContractProperties/MyUnderContractPropertiesTwo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/underContractProperties/MyUnderContractPropertiesTwoCallBack.java" />
+        <option value="$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/MyEmployeeMenuCallBack.java" />
+        <option value="$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/advertisedProperties/AdvertisedProperties.java" />
+        <option value="$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/MyEmployeeMenu.java" />
       </list>
     </option>
   </component>
@@ -342,10 +220,10 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="48" />
-    <option name="y" value="32" />
-    <option name="width" value="1085" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="46" />
+    <option name="y" value="30" />
+    <option name="width" value="1344" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -356,8 +234,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -457,6 +333,57 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="menusForUsers" type="462c0819:PsiDirectoryNode" />
+              <item name="employeeMenu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projectTrainwreck" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectTrainwreck" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="menusForUsers" type="462c0819:PsiDirectoryNode" />
+              <item name="employeeMenu" type="462c0819:PsiDirectoryNode" />
+              <item name="advertisedProperties" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projectTrainwreck" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectTrainwreck" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="menusForUsers" type="462c0819:PsiDirectoryNode" />
+              <item name="employeeMenu" type="462c0819:PsiDirectoryNode" />
+              <item name="advertisedProperties" type="462c0819:PsiDirectoryNode" />
+              <item name="inspectionMenu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projectTrainwreck" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectTrainwreck" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="menusForUsers" type="462c0819:PsiDirectoryNode" />
+              <item name="employeeMenu" type="462c0819:PsiDirectoryNode" />
+              <item name="advertisedProperties" type="462c0819:PsiDirectoryNode" />
+              <item name="propertyApplications" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projectTrainwreck" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectTrainwreck" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="menusForUsers" type="462c0819:PsiDirectoryNode" />
+              <item name="employeeMenu" type="462c0819:PsiDirectoryNode" />
+              <item name="underContractProperties" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projectTrainwreck" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectTrainwreck" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="property" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -505,6 +432,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -714,9 +643,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="39" y="26" width="868" height="832" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.45915842" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32416108" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -725,14 +655,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.81161475" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27285713" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.27285713" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.049099836" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.049099836" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.6954674" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -804,142 +734,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/utilities/scanner/Scan.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1917">
-          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
-          <folding>
-            <element signature="e#738#739#0" expanded="true" />
-            <element signature="e#799#800#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/systemManagers/PropertyManagerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/csv/properties/underContractRentalProperties.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/property/RentalProperty.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-408">
-          <caret line="21" column="86" selection-start-line="21" selection-start-column="86" selection-end-line="21" selection-end-column="86" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/csv/IdCounts/customerCount.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekerMenu/myApplicationMenu/editApplicationsMenu/EditApplicationsMenuCallBack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekerMenu/myOffersMenu/MyOffersMenuCallback.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/menusForUsers/propertyOwnerMenu/myOffersMenu/MyOffersMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="31" column="96" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="96" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/offerAndApplication/Offer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="105" selection-start-line="105" selection-end-line="105" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2107#2108#0" expanded="true" />
-            <element signature="e#2205#2206#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/user/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="72" column="38" selection-start-line="72" selection-start-column="38" selection-end-line="72" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/account/SignUp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/csv/IdCounts/approvedRentalCount.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/csv/IdCounts/pendingApplicationCount.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/csv/IdCounts/acceptedApplicationCount.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/account/LoggerCallBack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="18" column="31" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="18" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/menusForUsers/propertyOwnerMenu/PropertyOwnerMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="47" column="34" lean-forward="true" selection-start-line="46" selection-start-column="12" selection-end-line="47" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekerMenu/PropertySeekerMenu.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="431">
           <caret line="39" column="34" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/engine/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="112" column="30" selection-start-line="112" selection-start-column="30" selection-end-line="112" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -1021,16 +819,16 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/csv/properties/pendingForSaleProperties.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/csv/properties/pendingRentalProperties.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/engine/SystemEngine.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1122,7 +920,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/systemManagers/OfferManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
+        <state relative-caret-position="2200">
           <caret line="98" column="99" selection-start-line="98" selection-start-column="99" selection-end-line="98" selection-end-column="99" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1132,7 +930,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/systemManagers/ApplicationManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
+        <state relative-caret-position="2500">
           <caret line="110" column="106" selection-start-line="110" selection-start-column="106" selection-end-line="110" selection-end-column="106" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1140,19 +938,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/csv/properties/approvedRentalProperties.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/main/java/csv/properties/underContractForSaleProperties.csv">
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/systemManagers/PropertyManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="590">
+        <state relative-caret-position="2850">
           <caret line="121" selection-start-line="121" selection-end-line="121" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1160,25 +954,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/csv/properties/underContractForSaleProperties.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/csv/properties/approvedRentalProperties.csv">
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/csv/properties/approvedForSaleProperties.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="25">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/utilities/fileHandler/FileHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
+        <state relative-caret-position="1625">
           <caret line="80" selection-start-line="80" selection-end-line="80" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1188,14 +986,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekerMenu/browserMenu/BrowseMenu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
+        <state relative-caret-position="100">
           <caret line="4" column="59" selection-start-line="4" selection-start-column="59" selection-end-line="4" selection-end-column="59" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/menusForUsers/menuType/ChooseCustomerInterfaceMenu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
+        <state relative-caret-position="100">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1207,6 +1005,134 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/engine/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="79" column="19" selection-start-line="79" selection-start-column="19" selection-end-line="79" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/advertisedProperties/inspectionMenu/MyInspectionMenuCallBack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/advertisedProperties/inspectionMenu/MyInspectionMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="31" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/advertisedProperties/propertyApplications/MyPropertyApplicationsCallBack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/advertisedProperties/propertyApplications/MyPropertyApplications.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/advertisedProperties/propertyOffers/MyPropertyOffersCallBack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/advertisedProperties/propertyOffers/MyPropertyOffers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/advertisedProperties/AdvertisedPropertiesCallBack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/unadvertisedProperties/MyUnadvertisedPropertiesCallBack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/unadvertisedProperties/MyUnadvertisedProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="49" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/underContractProperties/MyUnderContractPropertiesCallBack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/underContractProperties/MyUnderContractProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/underContractProperties/MyUnderContractPropertiesTwoCallBack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/underContractProperties/MyUnderContractPropertiesTwo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/advertisedProperties/AdvertisedProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/MyEmployeeMenuCallBack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/MyEmployeeMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-442">
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
         </state>
       </provider>
     </entry>

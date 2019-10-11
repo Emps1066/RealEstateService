@@ -1,4 +1,4 @@
-package menusForUsers.propertySeekaMenu.employeeMenu;
+package menusForUsers.employeeMenu;
 
 
 public class MyEmployeeMenuCallBack {

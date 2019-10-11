@@ -1,7 +1,7 @@
-package menusForUsers.propertySeekaMenu.employeeMenu.advertisedProperties.inspectionMenu;
+package menusForUsers.employeeMenu.advertisedProperties.inspectionMenu;
 
 import engine.SystemEngine;
-import menusForUsers.propertySeekaMenu.employeeMenu.advertisedProperties.AdvertisedProperties;
+import menusForUsers.employeeMenu.advertisedProperties.AdvertisedProperties;
 import utilities.scanner.Scan;
 
 public class MyInspectionMenu {

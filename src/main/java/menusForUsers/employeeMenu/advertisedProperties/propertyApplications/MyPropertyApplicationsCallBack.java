@@ -1,4 +1,4 @@
-package menusForUsers.propertySeekaMenu.employeeMenu.advertisedProperties.propertyApplications;
+package menusForUsers.employeeMenu.advertisedProperties.propertyApplications;
 
 public class MyPropertyApplicationsCallBack {
     public String menu(String displayable) {

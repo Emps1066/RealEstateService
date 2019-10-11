@@ -1,10 +1,12 @@
-package menusForUsers.propertySeekaMenu.employeeMenu.advertisedProperties;
+package menusForUsers.employeeMenu.advertisedProperties;
 
 import engine.SystemEngine;
-import menusForUsers.propertySeekaMenu.employeeMenu.MyEmployeeMenu;
-import menusForUsers.propertySeekaMenu.employeeMenu.advertisedProperties.inspectionMenu.MyInspectionMenu;
-import menusForUsers.propertySeekaMenu.employeeMenu.advertisedProperties.propertyApplications.MyPropertyApplications;
-import menusForUsers.propertySeekaMenu.employeeMenu.advertisedProperties.propertyOffers.MyPropertyOffers;
+
+
+import menusForUsers.employeeMenu.MyEmployeeMenu;
+import menusForUsers.employeeMenu.advertisedProperties.inspectionMenu.MyInspectionMenu;
+import menusForUsers.employeeMenu.advertisedProperties.propertyApplications.MyPropertyApplications;
+import menusForUsers.employeeMenu.advertisedProperties.propertyOffers.MyPropertyOffers;
 import utilities.scanner.Scan;
 
 public class AdvertisedProperties {
@@ -20,7 +22,7 @@ public class AdvertisedProperties {
             menu.goToMyPropertyApplicationsMenu(engine, "");
 
             MyPropertyOffers menu1 = new MyPropertyOffers();
-            menu1.goToMyPropertyOfferMenu(engine, displayable);
+            menu1.goToMyPropertyOfferMenu(engine, "");
         }
         else {
             MyEmployeeMenu employeeMenu = new MyEmployeeMenu();
