@@ -1,5 +1,6 @@
 package menusForUsers.propertyOwnerMenu;
 
+import engine.RunSystem;
 import engine.SystemEngine;
 import menusForUsers.propertyOwnerMenu.myApplicantsMenu.MyApplicantsMenu;
 import menusForUsers.propertyOwnerMenu.myPropertiesMenu.MyPropertiesMenu;
@@ -8,7 +9,6 @@ import systemManagers.ApplicationManager;
 import systemManagers.OfferManager;
 import systemManagers.PropertyManager;
 import utilities.scanner.Scan;
-import account.Account;
 
 public class PropertyOwnerMenu {
 
@@ -40,8 +40,9 @@ public class PropertyOwnerMenu {
             menu.goToMyOffersMenu(engine,display);
         }
         else {
-            Account logOut = new Account();
-            logOut.logUserIn();
+            engine.saveToSystem();
+            RunSystem runSystem = new RunSystem();
+            runSystem.runSystem();
         }
     }
 }

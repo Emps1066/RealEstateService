@@ -1,7 +1,6 @@
 package menusForUsers.propertyOwnerMenu.myPropertiesMenu.editPropertyDetailsMenu;
 
 import menusForUsers.propertyOwnerMenu.myPropertiesMenu.MyPropertiesMenu;
-import property.Property;
 import systemManagers.PropertyManager;
 import utilities.scanner.Scan;
 import engine.SystemEngine;

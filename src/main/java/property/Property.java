@@ -144,7 +144,7 @@ public abstract class Property
     public abstract PropertyListType listType();
 
     public String toCsvFormat() {
-        return String.format("%s,%s,%s,%s,%d,%d,%d,%s,%s,%s,%d",
+        return String.format("%s,%s,%s,%s,%d,%d,%d,%s,%s,%s,%f",
                 listed == true ? "true" : "false", ID, address, suburb, bedrooms, bathrooms, carSpaces,
                 type, ownerCustomer, employee, propertyBalance);
     }

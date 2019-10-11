@@ -70,5 +70,5 @@ public abstract class User {
 
     public abstract UserType userType();
 
-    public abstract String toCsvString();
+    public abstract String toCsvFormat();
 }

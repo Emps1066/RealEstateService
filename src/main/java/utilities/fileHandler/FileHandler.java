@@ -1,5 +1,6 @@
 package utilities.fileHandler;
 
+import engine.SystemEngine;
 import enums.PropertyListType;
 import offerAndApplication.Application;
 import offerAndApplication.Offer;
@@ -7,6 +8,9 @@ import property.ForSaleProperty;
 import property.Property;
 import property.RentalProperty;
 import systemManagers.PropertyManager;
+import user.Customer;
+import user.Employee;
+import user.User;
 import utilities.dateTime.DateTime;
 
 import java.io.*;
@@ -73,9 +77,12 @@ public class FileHandler {
                         Integer.parseInt(rowArray[5]), Integer.parseInt(rowArray[6]),
                         rowArray[7], rowArray[8].equals("null") ? null : rowArray[8],
                         Double.parseDouble(rowArray[11]));
-                property.setBuyerId(rowArray[12].equals("null") ? null : rowArray[13]);
-                if(fileName.equals("approved")) {
+                property.setBuyerId(rowArray[12].equals("null") ? null : rowArray[12]);
+
+                if(rowArray[0].equals("true")) {
                     property.setListed(true);
+                } else {
+                    property.setListed(false);
                 }
                 property.setPropertyBalance(Double.parseDouble(rowArray[10]));
                 property.setEmployee(rowArray[9].equals("null") ? null : rowArray[9]);
@@ -102,8 +109,10 @@ public class FileHandler {
                         Double.parseDouble(rowArray[13]), Double.parseDouble(rowArray[14]));
                 property.setRenterId(rowArray[15].equals("null") ? null : rowArray[15]);
 
-                if(fileName.equals("approved")) {
+                if(rowArray[0].equals("true")) {
                     property.setListed(true);
+                } else {
+                    property.setListed(false);
                 }
                 property.setEmployee(rowArray[9].equals("null") ? null : rowArray[9]);
                 property.setPropertyBalance(Double.parseDouble(rowArray[10]));
@@ -119,7 +128,7 @@ public class FileHandler {
     public Map<String, Offer> readOfferManager(PropertyManager propertyManager) {
         Map<String, Offer> offers = new HashMap<>();
 
-        String file = "src\\main\\java\\csv\\offers\\offer.csv";
+        String file = "src\\main\\java\\csv\\offer\\offer.csv";
         try {
             BufferedReader fileReader = new BufferedReader(new FileReader(file));
             String row;
@@ -130,7 +139,7 @@ public class FileHandler {
                 DateTime offerAcceptedTime;
                 int daysTillExpiration;
                 DateTime timerStartDate;
-                if(Integer.parseInt(rowArray[6]) == 0) {
+                if(Long.parseLong(rowArray[6]) == 0) {
                     offerAcceptedTime = null;
                     daysTillExpiration = DAYS_TO_ACCEPT_PENDING_OFFER;
                     timerStartDate = offerMadeTime;
@@ -172,7 +181,7 @@ public class FileHandler {
                 DateTime appAcceptedTime;
                 int daysTillExpiration;
                 DateTime timerStartDate;
-                if(Integer.parseInt(rowArray[12]) == 0) {
+                if(Long.parseLong(rowArray[12]) == 0) {
                     appAcceptedTime = null;
                     daysTillExpiration = DAYS_TO_ACCEPT_PENDING_APPLICATION;
                     timerStartDate = appMadeTime;
@@ -199,6 +208,47 @@ public class FileHandler {
         }
 
         return applications;
+    }
+
+    public Map<String, User> readUsersFile() {
+        Map<String, User> users = new HashMap<>();
+
+        String file = "src\\main\\java\\csv\\users\\customer.csv";
+        try {
+            BufferedReader fileReader = new BufferedReader(new FileReader(file));
+            String row;
+            while((row = fileReader.readLine()) != null) {
+                String rowArray[] = row.split(",");
+
+                Customer customer = new Customer(rowArray[0], rowArray[1], rowArray[2], rowArray[3]);
+                users.put(rowArray[0], customer);
+            }
+            fileReader.close();
+        } catch(IOException e) {
+            System.err.printf("Error reading from %s\n", file);
+        }
+
+        file = "src\\main\\java\\csv\\users\\employee.csv";
+        try {
+            BufferedReader fileReader = new BufferedReader(new FileReader(file));
+            String row;
+            while((row = fileReader.readLine()) != null) {
+                String rowArray[] = row.split(",");
+
+                Employee employee = new Employee(rowArray[0], rowArray[1], rowArray[2], rowArray[3]);
+                employee.setCommission(Double.parseDouble(rowArray[4]));
+                employee.setHoursWorked(Double.parseDouble(rowArray[5]));
+                employee.setPaidSalary(Double.parseDouble(rowArray[6]));
+                employee.setPaid(rowArray[7].equals("true") ? true : false);
+
+                users.put(rowArray[0], employee);
+            }
+            fileReader.close();
+        } catch(IOException e) {
+            System.err.printf("Error reading from %s\n", file);
+        }
+
+        return users;
     }
 
     public static void writeToFile(String data, String file, boolean append) {

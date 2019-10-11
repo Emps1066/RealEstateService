@@ -2,13 +2,11 @@ package user;
 
 import enums.UserType;
 
-import java.util.List;
-
 public class Employee extends User {
     private double commission = 0.0;
     private double paidSalary = 0.0;
     private double hoursWorked = 0.0;
-    private boolean payed = false;
+    private boolean paid = false;
 
     public Employee(String Id, String name, String email, String password){
     super(Id, name, email, password);
@@ -38,21 +36,21 @@ public class Employee extends User {
         this.hoursWorked = hoursWorked;
     }
 
-    public boolean isPayed() {
-        return payed;
+    public boolean isPaid() {
+        return paid;
     }
 
-    public void setPayed(boolean payed) {
-        this.payed = payed;
+    public void setPaid(boolean paid) {
+        this.paid = paid;
     }
 
     public UserType userType() {
         return UserType.EMPLOYEE;
     }
 
-    public String toCsvString() {
+    public String toCsvFormat() {
         return String.format("%s,%s,%s,%s,%f,%f,%f,%s", getId(), getName(), getEmail(), getPassword(),
-                commission, hoursWorked, paidSalary, payed ? "True" : "False");
+                commission, hoursWorked, paidSalary, paid ? "true" : "false");
     }
 
 }
