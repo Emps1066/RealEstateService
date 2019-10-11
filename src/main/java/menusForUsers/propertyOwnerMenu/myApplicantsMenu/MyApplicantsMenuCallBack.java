@@ -11,8 +11,7 @@ public class MyApplicantsMenuCallBack {
         menu.append("\n");
         menu.append(display);
         menu.append("\n");
-        menu.append("\n");
-        menu.append("My Applicants Menu");
+        menu.append("My Applicants Menu\n");
         menu.append("1. Accept Applications\n");
         menu.append("2. Reject Applications\n");
         menu.append("3. Back to Property Owner Menu\n");

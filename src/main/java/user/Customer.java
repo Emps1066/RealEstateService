@@ -12,7 +12,7 @@ public class Customer extends User {
         return UserType.CUSTOMER;
     }
 
-    public String toCsvString() {
+    public String toCsvFormat() {
         return String.format("%s,%s,%s,%s", getId(), getName(), getEmail(), getPassword());
     }
 }

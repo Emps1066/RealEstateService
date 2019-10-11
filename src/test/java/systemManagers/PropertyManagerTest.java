@@ -12,7 +12,7 @@ class PropertyManagerTest {
     void addProperty() {
         PropertyManager propertyManager = new PropertyManager(new HashMap<>(), new HashMap<>(), new HashMap<>());
         ForSaleProperty property = new ForSaleProperty(null, "23 Swann Street", "Kyneton", 3,
-                3, 3, "Sale", "billy", 3000000, 10000000);
+                3, 3, "Sale", "billy", 3000000);
 
         property.setListed(true);
         propertyManager.addProperty(property);

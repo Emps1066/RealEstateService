@@ -17,10 +17,10 @@ public class SystemEngine {
     private OfferManager offerManager;
     private RolesManager rolesManager;
 
-    public SystemEngine(User user, PropertyManager propertyManager, ApplicationManager applicationManager, OfferManager offerManager) {
+    public SystemEngine(User user, PropertyManager propertyManager, UserManager userManager, ApplicationManager applicationManager, OfferManager offerManager) {
         this.user = user;
         myPreferredSuburbs = new ArrayList<>();
-        userManager = new UserManager();
+        this.userManager = userManager;
         this.propertyManager = propertyManager;
         this.applicationManager = applicationManager;
         this.offerManager = offerManager;
@@ -107,5 +107,12 @@ public class SystemEngine {
 
     public RolesManager getRolesManager() {
         return rolesManager;
+    }
+
+    public void saveToSystem() {
+        userManager.saveToSystem();
+        propertyManager.saveToSystem();
+        applicationManager.saveToSystem();
+        offerManager.saveToSystem();
     }
 }

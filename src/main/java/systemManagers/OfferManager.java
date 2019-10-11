@@ -4,6 +4,7 @@ import enums.PropertyListType;
 import offerAndApplication.Offer;
 import user.User;
 import utilities.dateTime.DateTime;
+import utilities.fileHandler.FileHandler;
 import utilities.scanner.Scan;
 
 import java.util.HashMap;
@@ -95,8 +96,8 @@ public class OfferManager {
                 if(!offerIsExpired(offer, DAYS_TO_ACCEPT_ACCEPTED_OFFER) &&
                         offer.getOfferSender().equals(buyerCustomerId)) {
 
-                    propertyManager.setPropertyUnderContract(offer.getPropertyId());
-                    propertyManager.completeForSaleUC(offer.getPropertyId(), buyerCustomerId);
+                    propertyManager.setPropertyUnderContract(offer.getPropertyId(), buyerCustomerId);
+
                     withdrawOffer(offerId, buyerCustomerId);
                     System.out.println("\nPayments Have Been Finalised The Property Is Yours\n");
                     finalised = true;
@@ -153,6 +154,7 @@ public class OfferManager {
                 if(offer.getOfferSender().equals(seekerId) &&
                         !offerIsExpired(offer, daysTillExpiration)) {
                     list.append(offer.toListFormat());
+                    list.append("\n");
                 }
             }
         }
@@ -177,11 +179,12 @@ public class OfferManager {
     public String propertyOwnerOffersToListFormat(String ownerId) {
         StringBuilder list = new StringBuilder();
         for(Offer offer : offers.values()) {
-            if(offer.getOfferId().startsWith(pendingIdSerial)) {
+            if(offer.getOfferId().startsWith(pendingIdSerial) || offer.getOfferId().startsWith(acceptedIdSerial)) {
 
                 if(offer.getOfferRecipient().equals(ownerId) &&
                         !offerIsExpired(offer, DAYS_TO_ACCEPT_PENDING_OFFER)) {
                     list.append(offer.toListFormat());
+                    list.append("\n");
                 }
             }
         }
@@ -205,5 +208,17 @@ public class OfferManager {
         }
 
         return expired;
+    }
+
+    private void saveOfferToFile(Offer offer) {
+        FileHandler.writeToFile(offer.toCsvFormat(), "src\\main\\java\\csv\\offer\\offer.csv", true);
+        FileHandler.writeToFile("\n", "src\\main\\java\\csv\\offer\\offer.csv", true);
+    }
+
+    public void saveToSystem() {
+        FileHandler.writeToFile("", "src\\main\\java\\csv\\offer\\offer.csv", false);
+        for(Offer offer : offers.values()) {
+            saveOfferToFile(offer);
+        }
     }
 }

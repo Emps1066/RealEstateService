@@ -96,7 +96,7 @@ public class PropertyManager
         return approved;
     }
 
-    public boolean setPropertyUnderContract(String propertyId) {
+    public boolean setPropertyUnderContract(String propertyId, String buyerOrRenter) {
         boolean underContract = false;
         Property propertyToBeUnderContract = approvedProperties.remove(propertyId);
         propertyToBeUnderContract.setListed(false);
@@ -108,17 +108,16 @@ public class PropertyManager
             propertyToBeUnderContract.setID(newId);
             underContractProperties.put(newId, propertyToBeUnderContract);
             IdManager.updateUniqueIdValue("underContract" + propertyToBeUnderContract.listType());
+
+            if(propertyToBeUnderContract.listType() == PropertyListType.FOR_SALE) {
+                ((ForSaleProperty) propertyToBeUnderContract).setBuyerId(buyerOrRenter);
+            } else {
+                ((RentalProperty) propertyToBeUnderContract).setRenterId(buyerOrRenter);
+            }
+
             underContract = true;
         }
         return underContract;
-    }
-
-    public void completeRentalUC(String propertyId, String renterId) {
-        ((RentalProperty) approvedProperties.get(propertyId)).setRenterId(renterId);
-    }
-
-    public void completeForSaleUC(String propertyId, String buyerId) {
-        ((ForSaleProperty) approvedProperties.get(propertyId)).setBuyerId(buyerId);
     }
 
     public String getPropertyOwnerId(String propertyId) {
@@ -297,7 +296,7 @@ public class PropertyManager
         }
     }
 
-    private void saveToSystem() {
+    public void saveToSystem() {
         discardFileContent("approvedRental");
         discardFileContent("approvedForSale");
         for(Property property : approvedProperties.values()) {

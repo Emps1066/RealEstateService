@@ -1,7 +1,5 @@
 package menusForUsers.propertyOwnerMenu.myPropertiesMenu.editPropertyDetailsMenu;
 
-import property.Property;
-
 public class EditPropertyDetailsMenuCallBack {
 
         public String menu(String displayable) {
@@ -15,7 +13,7 @@ public class EditPropertyDetailsMenuCallBack {
             menu.append(displayable);
             menu.append("\n");
             menu.append("\n");
-            menu.append(" Edit Property Details Menu");
+            menu.append(" Edit Property Details Menu\n");
             menu.append("1. Edit Address\n");
             menu.append("2. Edit Suburb\n");
             menu.append("3. Edit Number Of Bedrooms\n");

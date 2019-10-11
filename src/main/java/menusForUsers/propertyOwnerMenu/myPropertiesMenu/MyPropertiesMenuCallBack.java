@@ -12,7 +12,7 @@ public class MyPropertiesMenuCallBack {
         menu.append(display);
         menu.append("\n");
         menu.append("\n");
-        menu.append("My Properties Menu");
+        menu.append("My Properties Menu\n");
         menu.append("1. Add rental property\n");
         menu.append("2. Add for sale property\n");
         menu.append("3. Edit Property Details\n");

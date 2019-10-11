@@ -15,7 +15,11 @@ import java.util.Map;
 
 public class UserManager {
 
-    private Map<String, User>  users = new HashMap<>();
+    private Map<String, User>  users;
+
+    public UserManager(Map<String, User>  users) {
+        this.users = users;
+    }
 
     // GENERAL USER METHODS
     public void createUser(User user)
@@ -172,13 +176,13 @@ public class UserManager {
         return exists;
     }
 
-    public boolean passwordEmailMatch(String email, String password, UserType userType)
+    public boolean passwordEmailMatch(String email, String password)
     {
         boolean match = false;
         for(User user : users.values())
         {
             if(email.equals(user.getEmail()) &&
-                    password.equals(user.getEmail()))
+                    password.equals(user.getPassword()))
             {
                 match = true;
             }
@@ -190,11 +194,11 @@ public class UserManager {
 
     private void saveUserToFile(User user)
     {
-        FileHandler.writeToFile(user.toCsvString(), "src\\main\\java\\csv\\users\\" + user.userType() + ".csv", true);
+        FileHandler.writeToFile(user.toCsvFormat(), "src\\main\\java\\csv\\users\\" + user.userType() + ".csv", true);
         FileHandler.writeToFile("\n", "src\\main\\java\\csv\\users\\" + user.userType() + ".csv", true);
     }
 
-    private void saveToSystem() {
+    public void saveToSystem() {
         FileHandler.writeToFile("", "src\\main\\java\\csv\\users\\employee.csv", false);
         FileHandler.writeToFile("", "src\\main\\java\\csv\\users\\customer.csv", false);
         for(User user : users.values()) {

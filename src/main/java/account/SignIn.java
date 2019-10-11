@@ -7,17 +7,14 @@ import systemManagers.UserManager;
 
 public class SignIn {
 
-    public User signIn(UserType userType) {
-        UserManager userManager = new UserManager();
+    public User signIn(UserManager userManager) {
         User user = null;
-        boolean match = false;
         String email = Scan.askForString("your email");
         String password = Scan.askForString("your password");
-        if(!userManager.passwordEmailMatch(email, password, userType)) {
+        if(!userManager.passwordEmailMatch(email, password)) {
             System.out.println("Email or password is incorrect");
         } else {
             user = userManager.getUserByEmail(email);
-            match = true;
         }
 
         return user;

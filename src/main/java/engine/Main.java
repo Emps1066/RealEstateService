@@ -1,16 +1,5 @@
 package engine;
 
-import account.Account;
-import menusForUsers.propertySeekaMenu.PropertySeekerMenu;
-import offerAndApplication.Application;
-import property.Property;
-import property.RentalProperty;
-import systemManagers.ApplicationManager;
-import systemManagers.OfferManager;
-import systemManagers.PropertyManager;
-import user.User;
-import utilities.fileHandler.FileHandler;
-
 public class Main {
 
 
@@ -58,7 +47,7 @@ public class Main {
 //        UserManager userManager = new UserManager();
 //        User currentUser;
 //
-//        choice = Scan.askForString("Hi there, would you like to log in, or make a new account? (A = log in, B = create new account, C = continue as non-user");
+//        choice = Scan.askForString("Hi there, would you like to log in, or make a new logger? (A = log in, B = create new logger, C = continue as non-user");
 //        mailSystemTLS.sendEmail();
 //
 //        if (choice.equals("A")) {
@@ -106,21 +95,13 @@ public class Main {
 //            }
 //
 //        }
-        FileHandler fileHandler = new FileHandler();
-        Account account = new Account();
-        User user = account.logUserIn();
-        PropertyManager propertyManager = new PropertyManager(fileHandler.readPropertyManagerComponents("approved"), fileHandler.readPropertyManagerComponents("pending"), fileHandler.readPropertyManagerComponents("underContract"));
-        OfferManager offerManager = new OfferManager(fileHandler.readOfferManager(propertyManager));
-        ApplicationManager applicationManager = new ApplicationManager(fileHandler.readApplicationManager(propertyManager));
-        SystemEngine engine = new SystemEngine(user, propertyManager, applicationManager, offerManager);
 
-        PropertySeekerMenu menu = new PropertySeekerMenu();
-        menu.goToMainMenu(engine);
-
+        RunSystem runSystem = new RunSystem();
+        runSystem.runSystem();
 //        double durations[] = new double[] {3, 4, 53};
 //        Property property = new RentalProperty(null, "Lonsdale street", "Brigthon", 4, 5, 6, "Studio", "C0", durations, 300);
 //        System.out.println(property.toListFormat());
-//        System.out.println(user.toCsvString());
+//        System.out.println(user.toCsvFormat());
 //        String email = Scan.askForString("your email");
 //        email = email.toLowerCase();
 //        System.out.println(email);

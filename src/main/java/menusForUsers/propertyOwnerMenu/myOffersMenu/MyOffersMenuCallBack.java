@@ -11,8 +11,7 @@ public class MyOffersMenuCallBack {
         menu.append("\n");
         menu.append(display);
         menu.append("\n");
-        menu.append("\n");
-        menu.append("My Offers Menu");
+        menu.append("My Offers Menu\n");
         menu.append("1. Accept Offers\n");
         menu.append("2. Reject Offers\n");
         menu.append("3. Back to Property Owner Menu\n");

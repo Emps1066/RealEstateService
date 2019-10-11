@@ -4,6 +4,7 @@ import enums.PropertyListType;
 import offerAndApplication.Application;
 import user.User;
 import utilities.dateTime.DateTime;
+import utilities.fileHandler.FileHandler;
 import utilities.scanner.Scan;
 
 import java.util.HashMap;
@@ -107,8 +108,8 @@ public class ApplicationManager {
                 if (!applicationIsExpired(application, DAYS_TO_ACCEPT_ACCEPTED_APPLICATION) &&
                         application.getAppSenderId().equals(renterCustomerId)) {
 
-                    propertyManager.setPropertyUnderContract(application.getPropertyId());
-                    propertyManager.completeRentalUC(application.getPropertyId(), renterCustomerId);
+                    propertyManager.setPropertyUnderContract(application.getPropertyId(), renterCustomerId);
+
                     withdrawApplication(appId, renterCustomerId);
                     System.out.println("\nPayments Have Been Finalised Rental Property Ready To Move In\n");
                     finalised = true;
@@ -170,6 +171,7 @@ public class ApplicationManager {
                 if(application.getAppSenderId().equals(seekerId) &&
                         !applicationIsExpired(application, daysTillExpiration)) {
                     list.append(application.toListFormat());
+                    list.append("\n");
                 }
             }
         }
@@ -199,6 +201,7 @@ public class ApplicationManager {
                     if(application.getAppReceiverId().equals(propertyOwnerId) &&
                         !applicationIsExpired(application, DAYS_TO_ACCEPT_PENDING_APPLICATION)) {
                     list.append(application.toListFormat());
+                    list.append("\n");
                 }
             }
         }
@@ -257,7 +260,17 @@ public class ApplicationManager {
         applications.get(appId).setPastEmployer(pastEmployer);
     }
 
+    private void saveApplicationToFile(Application application) {
+        FileHandler.writeToFile(application.toCsvFormat(), "src\\main\\java\\csv\\application\\application.csv", true);
+        FileHandler.writeToFile("\n", "src\\main\\java\\csv\\application\\application.csv", true);
+    }
 
+    public void saveToSystem() {
+        FileHandler.writeToFile("", "src\\main\\java\\csv\\application\\application.csv", false);
+        for(Application application : applications.values()) {
+            saveApplicationToFile(application);
+        }
+    }
 
 //
 //    private boolean acceptedApplicationExists(String appId) {

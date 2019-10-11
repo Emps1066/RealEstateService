@@ -8,7 +8,7 @@ public class PropertyOwnerMenuCallBack {
         menu.append("*******************************************\n");
         menu.append(" -> Property Owner Menu\n");
         menu.append("\n");
-        menu.append("Property Owner Menu");
+        menu.append("Property Owner Menu\n");
         menu.append("1. My Properties\n");
         menu.append("2. My Property's Applicants\n");
         menu.append("3. My Property's Offers\n");
