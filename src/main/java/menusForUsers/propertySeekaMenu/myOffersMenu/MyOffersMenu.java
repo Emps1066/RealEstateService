@@ -16,7 +16,7 @@ public class MyOffersMenu {
             OfferManager offerManager = engine.getOfferManager();
             offerManager.finaliseOffer(offerId, engine.getUser().getId(), engine.getPropertyManager());
 
-            String display = offerManager.seekerAllOffersToListFormat(engine.getUser().getId());
+            String display = offerManager.propertySeekerAllOffersToListFormat(engine.getUser().getId());
             goToMyOffersMenu(engine, display);
         }
         else if(option == 2)
@@ -26,19 +26,19 @@ public class MyOffersMenu {
             OfferManager offerManager = engine.getOfferManager();
             offerManager.withdrawOffer(offerId, engine.getUser().getId());
 
-            String display = offerManager.seekerAllOffersToListFormat(engine.getUser().getId());
+            String display = offerManager.propertySeekerAllOffersToListFormat(engine.getUser().getId());
             goToMyOffersMenu(engine, display);
         }
         else if(option == 3)
         {
             OfferManager offerManager = engine.getOfferManager();
-            String display = offerManager.seekerPendingOffersToListFormat(engine.getUser().getId());
+            String display = offerManager.propertySeekerPendingOffersToListFormat(engine.getUser().getId());
             goToMyOffersMenu(engine, display);
         }
         else if(option == 4)
         {
             OfferManager offerManager = engine.getOfferManager();
-            String display = offerManager.seekerAcceptedOffersToListFormat(engine.getUser().getId());
+            String display = offerManager.propertySeekerAcceptedOffersToListFormat(engine.getUser().getId());
             goToMyOffersMenu(engine, display);
         }
         else {

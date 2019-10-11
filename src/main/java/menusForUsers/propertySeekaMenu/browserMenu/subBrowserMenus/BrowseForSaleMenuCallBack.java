@@ -13,7 +13,7 @@ public class BrowseForSaleMenuCallBack {
         menu.append("\n");
         menu.append("\n");
         menu.append("Property Filter By Sale Menu\n");
-        menu.append("1. Send PropertySeeker Application\n");
+        menu.append("1. Send PropertySeeker Offer\n");
         menu.append("2. Back to Browsing Menu\n");
         menu.append("*******************************************");
 

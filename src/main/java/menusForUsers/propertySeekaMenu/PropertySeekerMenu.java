@@ -23,14 +23,14 @@ public class PropertySeekerMenu
         {
             MyApplicationsMenu menu = new MyApplicationsMenu();
             ApplicationManager applicationManager = engine.getApplicationManager();
-            String display = applicationManager.seekerAllAppsToListFormat(engine.getUser().getId());
+            String display = applicationManager.propertySeekerAllAppsToListFormat(engine.getUser().getId());
             menu.goToMyApplicationsMenu(engine, display);
         }
         else if(option == 3)
         {
             MyOffersMenu menu = new MyOffersMenu();
             OfferManager offerManager = engine.getOfferManager();
-            String display = offerManager.seekerAllOffersToListFormat(engine.getUser().getId());
+            String display = offerManager.propertySeekerAllOffersToListFormat(engine.getUser().getId());
             menu.goToMyOffersMenu(engine, display);
         }
         else {

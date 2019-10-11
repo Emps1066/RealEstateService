@@ -72,7 +72,7 @@ public class ApplicationManager {
         if(application != null) {
             if(application.getAppId().startsWith(pendingIdSerial)) {
                 if (!applicationIsExpired(application, DAYS_TO_ACCEPT_PENDING_APPLICATION) &&
-                        application.getPropertyOwnerId().equals(propertyOwnerId)) {
+                        application.getAppReceiverId().equals(propertyOwnerId)) {
 
                     DateTime currTime = new DateTime();
                     String Id = IdManager.generateUniqueID(acceptedIdSerial, "acceptedApplication");
@@ -105,7 +105,7 @@ public class ApplicationManager {
         if(application != null) {
             if(application.getAppId().startsWith(acceptedIdSerial)) {
                 if (!applicationIsExpired(application, DAYS_TO_ACCEPT_ACCEPTED_APPLICATION) &&
-                        application.getCustomerId().equals(renterCustomerId)) {
+                        application.getAppSenderId().equals(renterCustomerId)) {
 
                     propertyManager.setPropertyUnderContract(application.getPropertyId());
                     propertyManager.completeRentalUC(application.getPropertyId(), renterCustomerId);
@@ -125,14 +125,30 @@ public class ApplicationManager {
         return finalised;
     }
 
-    // WithDraw Applications
+    // WithDraw/Reject Applications
 
     public void withdrawApplication(String appId, String renterCustomerId) {
         Application application = applications.get(appId);
         if(application != null) {
-            if(application.getCustomerId().equals(renterCustomerId)) {
+            if(application.getAppSenderId().equals(renterCustomerId)) {
                 applications.remove(appId);
                 System.out.println("\nApplication Has Been Withdrawn\n");
+            } else {
+                System.out.println("Application Is Not Yours To Withdraw");
+            }
+        } else {
+            System.out.println("Application Does Not Exist Or Is Expired");
+        }
+    }
+
+    public void rejectApplication(String appId, String appReceiverId) {
+        Application application = applications.get(appId);
+        if(application != null) {
+            if(application.getAppReceiverId().equals(appReceiverId)) {
+                applications.remove(appId);
+                System.out.println("\nApplication Has Been Rejected\n");
+            } else {
+                System.out.println("Application Is Not Yours To Reject");
             }
         } else {
             System.out.println("Application Does Not Exist Or Is Expired");
@@ -145,13 +161,13 @@ public class ApplicationManager {
         return applications.get(appId).toListFormat();
     }
 
-    private String seekerAppsToListFormat(String seekerId, int daysTillExpiration, String appIdSerial) {
+    private String propertySeekerAppsToListFormat(String seekerId, int daysTillExpiration, String appIdSerial) {
 
         StringBuilder list = new StringBuilder();
         for(Application application : applications.values()) {
             if(application.getAppId().startsWith(appIdSerial)) {
 
-                if(application.getCustomerId().equals(seekerId) &&
+                if(application.getAppSenderId().equals(seekerId) &&
                         !applicationIsExpired(application, daysTillExpiration)) {
                     list.append(application.toListFormat());
                 }
@@ -160,18 +176,32 @@ public class ApplicationManager {
         return list.toString();
     }
 
-    public String seekerAcceptedAppsToListFormat(String seekerId) {
-        return seekerAppsToListFormat(seekerId, DAYS_TO_ACCEPT_ACCEPTED_APPLICATION, acceptedIdSerial);
+    public String propertySeekerAcceptedAppsToListFormat(String seekerId) {
+        return propertySeekerAppsToListFormat(seekerId, DAYS_TO_ACCEPT_ACCEPTED_APPLICATION, acceptedIdSerial);
     }
 
-    public String seekerPendingAppsToListFormat(String seekerId) {
-        return seekerAppsToListFormat(seekerId, DAYS_TO_ACCEPT_PENDING_APPLICATION, pendingIdSerial);
+    public String propertySeekerPendingAppsToListFormat(String seekerId) {
+        return propertySeekerAppsToListFormat(seekerId, DAYS_TO_ACCEPT_PENDING_APPLICATION, pendingIdSerial);
     }
 
-    public String seekerAllAppsToListFormat(String seekerId) {
+    public String propertySeekerAllAppsToListFormat(String seekerId) {
         StringBuilder list = new StringBuilder();
-        list.append(seekerAcceptedAppsToListFormat(seekerId));
-        list.append(seekerPendingAppsToListFormat(seekerId));
+        list.append(propertySeekerAcceptedAppsToListFormat(seekerId));
+        list.append(propertySeekerPendingAppsToListFormat(seekerId));
+        return list.toString();
+    }
+
+    public String  propertyOwnerAppsToListFormat(String propertyOwnerId) {
+        StringBuilder list = new StringBuilder();
+        for(Application application : applications.values()) {
+            if(application.getAppId().startsWith(pendingIdSerial)) {
+
+                    if(application.getAppReceiverId().equals(propertyOwnerId) &&
+                        !applicationIsExpired(application, DAYS_TO_ACCEPT_PENDING_APPLICATION)) {
+                    list.append(application.toListFormat());
+                }
+            }
+        }
         return list.toString();
     }
 
@@ -198,7 +228,7 @@ public class ApplicationManager {
         boolean can = false;
         Application application = applications.get(appId);
         if(application != null) {
-            if(application.getCustomerId().equals(renterId)) {
+            if(application.getAppSenderId().equals(renterId)) {
                 can = true;
             }
         }

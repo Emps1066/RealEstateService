@@ -8,8 +8,8 @@ public class ForSaleProperty extends Property {
     private double price;
 
     public ForSaleProperty(String ID, String address, String suburb, int bedrooms, int bathrooms, int carSpaces, String type,
-                           String ownerCustomer, double propertyBalance, double price) {
-        super(ID, address, suburb, bedrooms, bathrooms, carSpaces, type, ownerCustomer, propertyBalance);
+                           String ownerCustomer, double price) {
+        super(ID, address, suburb, bedrooms, bathrooms, carSpaces, type, ownerCustomer);
         this.price = price;
     }
 

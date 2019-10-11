@@ -2,9 +2,14 @@ package engine;
 
 import account.Account;
 import menusForUsers.propertySeekaMenu.PropertySeekerMenu;
+import offerAndApplication.Application;
 import property.Property;
 import property.RentalProperty;
+import systemManagers.ApplicationManager;
+import systemManagers.OfferManager;
+import systemManagers.PropertyManager;
 import user.User;
+import utilities.fileHandler.FileHandler;
 
 public class Main {
 
@@ -101,9 +106,14 @@ public class Main {
 //            }
 //
 //        }
+        FileHandler fileHandler = new FileHandler();
         Account account = new Account();
         User user = account.logUserIn();
-        SystemEngine engine = new SystemEngine(user);
+        PropertyManager propertyManager = new PropertyManager(fileHandler.readPropertyManagerComponents("approved"), fileHandler.readPropertyManagerComponents("pending"), fileHandler.readPropertyManagerComponents("underContract"));
+        OfferManager offerManager = new OfferManager(fileHandler.readOfferManager(propertyManager));
+        ApplicationManager applicationManager = new ApplicationManager(fileHandler.readApplicationManager(propertyManager));
+        SystemEngine engine = new SystemEngine(user, propertyManager, applicationManager, offerManager);
+
         PropertySeekerMenu menu = new PropertySeekerMenu();
         menu.goToMainMenu(engine);
 

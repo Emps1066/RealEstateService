@@ -17,13 +17,13 @@ public class SystemEngine {
     private OfferManager offerManager;
     private RolesManager rolesManager;
 
-    public SystemEngine(User user) {
+    public SystemEngine(User user, PropertyManager propertyManager, ApplicationManager applicationManager, OfferManager offerManager) {
         this.user = user;
         myPreferredSuburbs = new ArrayList<>();
         userManager = new UserManager();
-        propertyManager = new PropertyManager(new HashMap<>(), new HashMap<>(), new HashMap<>());
-        applicationManager = new ApplicationManager(new HashMap<>());
-        offerManager = new OfferManager(new HashMap<>());
+        this.propertyManager = propertyManager;
+        this.applicationManager = applicationManager;
+        this.offerManager = offerManager;
         rolesManager = new RolesManager();
     }
 
