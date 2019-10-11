@@ -1,136 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fe4ff542-3d17-4a8a-854f-8a2ba744ee6f" name="Default Changelist" comment="basic menu">
-      <change afterPath="$PROJECT_DIR$/src/main/java/engine/RunSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/MyEmployeeMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/MyEmployeeMenuCallBack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/advertisedProperties/AdvertisedProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/advertisedProperties/AdvertisedPropertiesCallBack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/advertisedProperties/inspectionMenu/MyInspectionMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/advertisedProperties/inspectionMenu/MyInspectionMenuCallBack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/advertisedProperties/propertyApplications/MyPropertyApplications.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/advertisedProperties/propertyApplications/MyPropertyApplicationsCallBack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/advertisedProperties/propertyOffers/MyPropertyOffers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/advertisedProperties/propertyOffers/MyPropertyOffersCallBack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/unadvertisedProperties/MyUnadvertisedProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/unadvertisedProperties/MyUnadvertisedPropertiesCallBack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/underContractProperties/MyUnderContractProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/underContractProperties/MyUnderContractPropertiesCallBack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/underContractProperties/MyUnderContractPropertiesTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/underContractProperties/MyUnderContractPropertiesTwoCallBack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/menuType/ChooseCustomerInterfaceMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/menuType/ChooseCustomerInterfaceMenuCallBack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/account/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/account/Logger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/account/AccountCallBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/account/LoggerCallBack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/account/SignIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/account/SignIn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/account/SignUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/account/SignUp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/csv/IdCounts/acceptedOfferCount.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/csv/IdCounts/acceptedOfferCount.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/csv/IdCounts/customerCount.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/csv/IdCounts/customerCount.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/csv/IdCounts/pendingApplicationCount.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/csv/IdCounts/pendingApplicationCount.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/csv/IdCounts/pendingForSaleCount.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/csv/IdCounts/pendingForSaleCount.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/csv/IdCounts/pendingOfferCount.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/csv/IdCounts/pendingOfferCount.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/csv/IdCounts/underContractForSaleCount.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/csv/IdCounts/underContractForSaleCount.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/csv/application/application.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/csv/application/application.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/csv/offers/offer.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/csv/offer/offer.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/csv/properties/approvedForSaleProperties.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/csv/properties/approvedForSaleProperties.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/csv/properties/approvedRentalProperties.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/csv/properties/approvedRentalProperties.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/csv/properties/pendingForSaleProperties.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/csv/properties/pendingForSaleProperties.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/csv/properties/pendingRentalProperties.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/csv/properties/pendingRentalProperties.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/csv/properties/underContractForSaleProperties.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/csv/properties/underContractForSaleProperties.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/csv/users/customer.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/csv/users/customer.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/csv/users/employee.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/csv/users/employee.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/csv/users/pendingEmployees.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/engine/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/engine/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/engine/SystemEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/engine/SystemEngine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/propertyOwnerMenu/PropertyOwnerMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/propertyOwnerMenu/PropertyOwnerMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/propertyOwnerMenu/PropertyOwnerMenuCallBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/propertyOwnerMenu/PropertyOwnerMenuCallBack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/propertyOwnerMenu/myApplicantsMenu/MyApplicantsMenuCallBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/propertyOwnerMenu/myApplicantsMenu/MyApplicantsMenuCallBack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/propertyOwnerMenu/myOffersMenu/MyOffersMenuCallBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/propertyOwnerMenu/myOffersMenu/MyOffersMenuCallBack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/propertyOwnerMenu/myPropertiesMenu/MyPropertiesMenuCallBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/propertyOwnerMenu/myPropertiesMenu/MyPropertiesMenuCallBack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/propertyOwnerMenu/myPropertiesMenu/editPropertyDetailsMenu/EditPropertyDetailsMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/propertyOwnerMenu/myPropertiesMenu/editPropertyDetailsMenu/EditPropertyDetailsMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/propertyOwnerMenu/myPropertiesMenu/editPropertyDetailsMenu/EditPropertyDetailsMenuCallBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/propertyOwnerMenu/myPropertiesMenu/editPropertyDetailsMenu/EditPropertyDetailsMenuCallBack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/PropertySeekerMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekerMenu/PropertySeekerMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/PropertySeekerMenuCallBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekerMenu/PropertySeekerMenuCallBack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/browserMenu/BrowseMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekerMenu/browserMenu/BrowseMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/browserMenu/BrowseMenuCallBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekerMenu/browserMenu/BrowseMenuCallBack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/BrowseBySuburbMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekerMenu/browserMenu/subBrowserMenus/BrowseBySuburbMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/BrowseBySuburbMenuCallBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekerMenu/browserMenu/subBrowserMenus/BrowseBySuburbMenuCallBack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/BrowseForSaleMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekerMenu/browserMenu/subBrowserMenus/BrowseForSaleMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/BrowseForSaleMenuCallBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekerMenu/browserMenu/subBrowserMenus/BrowseForSaleMenuCallBack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/BrowseRentalMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekerMenu/browserMenu/subBrowserMenus/BrowseRentalMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/BrowseRentalMenuCallBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekerMenu/browserMenu/subBrowserMenus/BrowseRentalMenuCallBack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/EditMySuburbPreferenceMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekerMenu/browserMenu/subBrowserMenus/EditMySuburbPreferenceMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/EditMySuburbPreferenceMenuCallBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekerMenu/browserMenu/subBrowserMenus/EditMySuburbPreferenceMenuCallBack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/myApplicationMenu/MyApplicationsMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekerMenu/myApplicationMenu/MyApplicationsMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/myApplicationMenu/MyApplicationsMenuCallBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekerMenu/myApplicationMenu/MyApplicationsMenuCallBack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/myApplicationMenu/editApplicationsMenu/EditApplicationsMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekerMenu/myApplicationMenu/editApplicationsMenu/EditApplicationsMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/myApplicationMenu/editApplicationsMenu/EditApplicationsMenuCallBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekerMenu/myApplicationMenu/editApplicationsMenu/EditApplicationsMenuCallBack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/myOffersMenu/MyOffersMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekerMenu/myOffersMenu/MyOffersMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/myOffersMenu/MyOffersMenuCallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekerMenu/myOffersMenu/MyOffersMenuCallback.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/property/Property.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/property/Property.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/systemManagers/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/systemManagers/ApplicationManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/systemManagers/OfferManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/systemManagers/OfferManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/systemManagers/PropertyManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/systemManagers/PropertyManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/systemManagers/UserManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/systemManagers/UserManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/user/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/user/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/user/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/user/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/user/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utilities/fileHandler/FileHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utilities/fileHandler/FileHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/systemManagers/PropertyManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/systemManagers/PropertyManagerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/systemManagers/UserManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/systemManagers/UserManagerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/account/Account.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/account/AccountCallBack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/account/SignIn.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/account/SignIn.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/account/SignUp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/account/SignUp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/engine/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/engine/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/engine/SystemEngine.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/engine/SystemEngine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/menusForUsers/propertyOwnerMenu/PropertyOwnerMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/menusForUsers/propertyOwnerMenu/PropertyOwnerMenu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/menusForUsers/propertyOwnerMenu/PropertyOwnerMenuCallBack.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/menusForUsers/propertyOwnerMenu/PropertyOwnerMenuCallBack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/menusForUsers/propertyOwnerMenu/myApplicantsMenu/MyApplicantsMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/menusForUsers/propertyOwnerMenu/myApplicantsMenu/MyApplicantsMenu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/menusForUsers/propertyOwnerMenu/myApplicantsMenu/MyApplicantsMenuCallBack.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/menusForUsers/propertyOwnerMenu/myApplicantsMenu/MyApplicantsMenuCallBack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/menusForUsers/propertyOwnerMenu/myOffersMenu/MyOffersMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/menusForUsers/propertyOwnerMenu/myOffersMenu/MyOffersMenu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/menusForUsers/propertyOwnerMenu/myOffersMenu/MyOffersMenuCallBack.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/menusForUsers/propertyOwnerMenu/myOffersMenu/MyOffersMenuCallBack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/menusForUsers/propertyOwnerMenu/myPropertiesMenu/MyPropertiesMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/menusForUsers/propertyOwnerMenu/myPropertiesMenu/MyPropertiesMenu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/menusForUsers/propertyOwnerMenu/myPropertiesMenu/MyPropertiesMenuCallBack.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/menusForUsers/propertyOwnerMenu/myPropertiesMenu/MyPropertiesMenuCallBack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/menusForUsers/propertyOwnerMenu/myPropertiesMenu/editPropertyDetailsMenu/EditPropertyDetailsMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/menusForUsers/propertyOwnerMenu/myPropertiesMenu/editPropertyDetailsMenu/EditPropertyDetailsMenu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/menusForUsers/propertyOwnerMenu/myPropertiesMenu/editPropertyDetailsMenu/EditPropertyDetailsMenuCallBack.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/menusForUsers/propertyOwnerMenu/myPropertiesMenu/editPropertyDetailsMenu/EditPropertyDetailsMenuCallBack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/menusForUsers/propertySeekaMenu/PropertySeekerMenu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/menusForUsers/propertySeekaMenu/PropertySeekerMenuCallBack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/menusForUsers/propertySeekaMenu/browserMenu/BrowseMenu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/menusForUsers/propertySeekaMenu/browserMenu/BrowseMenuCallBack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/BrowseBySuburbMenu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/BrowseBySuburbMenuCallBack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/BrowseForSaleMenu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/BrowseForSaleMenuCallBack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/BrowseRentalMenu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/BrowseRentalMenuCallBack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/EditMySuburbPreferenceMenu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/EditMySuburbPreferenceMenuCallBack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/menusForUsers/propertySeekaMenu/myApplicationMenu/MyApplicationsMenu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/menusForUsers/propertySeekaMenu/myApplicationMenu/MyApplicationsMenuCallBack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/menusForUsers/propertySeekaMenu/myApplicationMenu/editApplicationsMenu/EditApplicationsMenu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/menusForUsers/propertySeekaMenu/myApplicationMenu/editApplicationsMenu/EditApplicationsMenuCallBack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/menusForUsers/propertySeekaMenu/myOffersMenu/MyOffersMenu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/menusForUsers/propertySeekaMenu/myOffersMenu/MyOffersMenuCallback.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/offerAndApplication/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/offerAndApplication/Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/property/ForSaleProperty.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/property/ForSaleProperty.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/property/Property.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/property/Property.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/property/RentalProperty.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/property/RentalProperty.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/systemManagers/ApplicationManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/systemManagers/ApplicationManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/systemManagers/OfferManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/systemManagers/OfferManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/systemManagers/PropertyManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/systemManagers/PropertyManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/systemManagers/UserManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/systemManagers/UserManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/user/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/user/Customer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/user/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/user/Employee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/user/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/user/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utilities/fileHandler/FileHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utilities/fileHandler/FileHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utilities/scanner/Scan.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utilities/scanner/Scan.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/realEstateManagementSoftware.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/realEstateManagementSoftware.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/systemManagers/PropertyManagerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/systemManagers/PropertyManagerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/systemManagers/UserManagerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/systemManagers/UserManagerTest.class" afterDir="false" />
-    </list>
+    <list default="true" id="fe4ff542-3d17-4a8a-854f-8a2ba744ee6f" name="Default Changelist" comment="basic menu" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -342,7 +213,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="48" />
     <option name="y" value="32" />
     <option name="width" value="1085" />
@@ -724,7 +595,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.81161475" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27285713" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.27285713" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.32936078" />
