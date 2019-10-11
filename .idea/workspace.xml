@@ -1,12 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fe4ff542-3d17-4a8a-854f-8a2ba744ee6f" name="Default Changelist" comment="">
+    <list default="true" id="fe4ff542-3d17-4a8a-854f-8a2ba744ee6f" name="Default Changelist" comment="basic menu">
+      <change afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/propertyOwnerMenu/PropertyOwnerMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/propertyOwnerMenu/PropertyOwnerMenuCallBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/propertyOwnerMenu/myApplicantsMenu/MyApplicantsMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/propertyOwnerMenu/myApplicantsMenu/MyApplicantsMenuCallBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/propertyOwnerMenu/myOffersMenu/MyOffersMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/propertyOwnerMenu/myOffersMenu/MyOffersMenuCallBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/propertyOwnerMenu/myPropertiesMenu/MyPropertiesMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/propertyOwnerMenu/myPropertiesMenu/MyPropertiesMenuCallBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/propertyOwnerMenu/myPropertiesMenu/editPropertyDetailsMenu/EditPropertyDetailsMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/propertyOwnerMenu/myPropertiesMenu/editPropertyDetailsMenu/EditPropertyDetailsMenuCallBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/systemManagers/ApplicationManagerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/systemManagers/IdManagerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/systemManagers/PropertyManagerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/systemManagers/UserManagerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/csv/IdCounts/acceptedApplicationCount.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/csv/IdCounts/acceptedApplicationCount.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/csv/IdCounts/approvedForSaleCount.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/csv/IdCounts/approvedForSaleCount.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/csv/IdCounts/customerCount.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/csv/IdCounts/customerCount.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/csv/IdCounts/employeeCount.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/csv/IdCounts/employeeCount.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/csv/IdCounts/pendingApplicationCount.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/csv/IdCounts/pendingApplicationCount.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/csv/IdCounts/pendingForSaleCount.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/csv/IdCounts/pendingForSaleCount.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/csv/IdCounts/pendingOfferCount.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/csv/IdCounts/pendingOfferCount.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/csv/properties/approvedForSaleProperties.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/csv/properties/approvedForSaleProperties.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/csv/properties/approvedRentalProperties.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/csv/properties/approvedRentalProperties.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/csv/properties/pendingForSaleProperties.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/csv/properties/pendingForSaleProperties.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/csv/properties/pendingRentalProperties.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/csv/properties/pendingRentalProperties.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/engine/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/engine/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/engine/SystemEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/engine/SystemEngine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/PropertySeekerMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/PropertySeekerMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/browserMenu/BrowseMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/browserMenu/BrowseMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/BrowseForSaleMenuCallBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/BrowseForSaleMenuCallBack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/BrowseRentalMenuCallBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/BrowseRentalMenuCallBack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/myApplicationMenu/MyApplicationsMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/myApplicationMenu/MyApplicationsMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/myApplicationMenu/editApplicationsMenu/EditApplicationsMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/myApplicationMenu/editApplicationsMenu/EditApplicationsMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/myOffersMenu/MyOffersMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/myOffersMenu/MyOffersMenu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/offerAndApplication/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/offerAndApplication/Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/offerAndApplication/Offer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/offerAndApplication/Offer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/property/ForSaleProperty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/property/ForSaleProperty.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/property/Property.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/property/Property.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/user/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/property/RentalProperty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/property/RentalProperty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/systemManagers/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/systemManagers/ApplicationManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/systemManagers/OfferManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/systemManagers/OfferManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/systemManagers/PropertyManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/systemManagers/PropertyManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/systemManagers/UserManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/systemManagers/UserManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utilities/fileHandler/FileHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utilities/fileHandler/FileHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utilities/scanner/Scan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utilities/scanner/Scan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/account/SignUp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/account/SignUp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/engine/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/engine/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/engine/SystemEngine.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/engine/SystemEngine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/menusForUsers/propertySeekaMenu/browserMenu/BrowseMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/menusForUsers/propertySeekaMenu/browserMenu/BrowseMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/BrowseForSaleMenuCallBack.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/BrowseForSaleMenuCallBack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/BrowseRentalMenuCallBack.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/BrowseRentalMenuCallBack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/offerAndApplication/Offer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/offerAndApplication/Offer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/property/ForSaleProperty.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/property/ForSaleProperty.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/property/Property.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/property/Property.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/property/RentalProperty.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/property/RentalProperty.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/systemManagers/UserManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/systemManagers/UserManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/user/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/user/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/realEstateManagementSoftware.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/realEstateManagementSoftware.jar" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,127 +74,50 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/offerAndApplication/Application.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/systemManagers/OfferManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="130" column="37" selection-start-line="130" selection-start-column="37" selection-end-line="130" selection-end-column="37" />
+            <state relative-caret-position="478">
+              <caret line="137" column="64" selection-start-line="137" selection-start-column="64" selection-end-line="137" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/systemManagers/PropertyManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-342">
-              <caret line="18" column="57" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/user/Employee.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/user/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="55" column="37" selection-start-line="55" selection-start-column="37" selection-end-line="55" selection-end-column="37" />
-              <folding>
-                <element signature="e#1350#1351#0" expanded="true" />
-                <element signature="e#1412#1413#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/engine/SystemEngine.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1292">
-              <caret line="25" column="55" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="55" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/property/RentalProperty.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="933">
-              <caret line="51" column="47" selection-start-line="51" selection-start-column="47" selection-end-line="51" selection-end-column="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/utilities/fileHandler/FileHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1333">
-              <caret line="106" column="26" selection-start-line="106" selection-start-column="26" selection-end-line="106" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/systemManagers/UserManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2825">
-              <caret line="120" column="62" selection-start-line="120" selection-start-column="62" selection-end-line="120" selection-end-column="62" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/property/Property.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="458">
-              <caret line="153" column="37" selection-start-line="153" selection-start-column="37" selection-end-line="153" selection-end-column="37" />
-              <folding>
-                <element signature="e#2657#2658#0" expanded="true" />
-                <element signature="e#2695#2696#0" expanded="true" />
-                <element signature="e#2757#2758#0" expanded="true" />
-                <element signature="e#2811#2812#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/offerAndApplication/Offer.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/menusForUsers/propertyOwnerMenu/PropertyOwnerMenu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="68" column="37" selection-start-line="68" selection-start-column="37" selection-end-line="68" selection-end-column="37" />
+            <state relative-caret-position="278">
+              <caret line="39" column="48" selection-start-line="39" selection-start-column="48" selection-end-line="39" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1500#1501#0" expanded="true" />
-                <element signature="e#1550#1551#0" expanded="true" />
-                <element signature="e#2107#2108#0" expanded="true" />
-                <element signature="e#2205#2206#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/menusForUsers/propertyOwnerMenu/myApplicantsMenu/MyApplicantsMenu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="353">
+              <caret line="30" column="100" lean-forward="true" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="100" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/menusForUsers/propertyOwnerMenu/myOffersMenu/MyOffersMenu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="31" column="96" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="96" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -153,6 +130,7 @@
       <list>
         <option value="Enum" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -172,29 +150,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/engine/UserManager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/engine/PropertyManager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/offer/Offer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/offerAndApplication/DateTime.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dateTime/DateTime.java" />
-        <option value="$PROJECT_DIR$/src/main/java/enums/PropertyListType.java" />
-        <option value="$PROJECT_DIR$/src/main/java/csv/IdCounts/pendingApplicationCount.csv" />
-        <option value="$PROJECT_DIR$/src/main/java/csv/IdCounts/acceptedOfferCount.csv" />
-        <option value="$PROJECT_DIR$/src/main/java/csv/IdCounts/acceptedApplicationCount.csv" />
-        <option value="$PROJECT_DIR$/src/main/java/csv/IdCounts/pendingOfferCount.csv" />
-        <option value="$PROJECT_DIR$/src/main/java/csv/IdCounts/underContractRentalCount.csv" />
-        <option value="$PROJECT_DIR$/src/main/java/csv/IdCounts/underContractForSaleCount.csv" />
-        <option value="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/PropertySeekaMenu.java" />
-        <option value="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/PropertySeekaMenuCallBack.java" />
-        <option value="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/PropertySeekerMenuCallBack.java" />
-        <option value="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/EditMySuburbPreferenceMenuCallBack.java" />
-        <option value="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/BrowseRentalMenuCallBack.java" />
-        <option value="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/BrowseForSaleMenuCallBack.java" />
-        <option value="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/myOffersMenu/MyOffersMenuCallback.java" />
-        <option value="$PROJECT_DIR$/src/main/java/utilities/weekMonthYear/WeekUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/browserMenu/BrowseMenu.java" />
         <option value="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/BrowseBySuburbMenuCallBack.java" />
-        <option value="$PROJECT_DIR$/src/main/java/utilities/scanner/Scan.java" />
         <option value="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/browserMenu/BrowseMenuCallBack.java" />
         <option value="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/BrowseBySuburbMenu.java" />
         <option value="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/BrowseRentalMenu.java" />
@@ -206,23 +163,44 @@
         <option value="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/myApplicationMenu/MyApplicationsMenu.java" />
         <option value="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/myApplicationMenu/editApplicationsMenu/EditApplicationsMenu.java" />
         <option value="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/myOffersMenu/MyOffersMenu.java" />
-        <option value="$PROJECT_DIR$/src/main/java/engine/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/systemManagers/UserManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/utilities/dateTime/DateTime.java" />
         <option value="$PROJECT_DIR$/src/main/java/user/Customer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/systemManagers/ApplicationManager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/systemManagers/OfferManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/account/SignUp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/systemManagers/PropertyManager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/property/ForSaleProperty.java" />
-        <option value="$PROJECT_DIR$/src/main/java/property/RentalProperty.java" />
-        <option value="$PROJECT_DIR$/src/main/java/utilities/fileHandler/FileHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/engine/SystemEngine.java" />
         <option value="$PROJECT_DIR$/src/main/java/user/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/user/Employee.java" />
-        <option value="$PROJECT_DIR$/src/main/java/property/Property.java" />
-        <option value="$PROJECT_DIR$/src/main/java/offerAndApplication/Application.java" />
+        <option value="$PROJECT_DIR$/src/main/java/engine/SystemEngine.java" />
+        <option value="$PROJECT_DIR$/src/main/java/engine/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/csv/properties/pendingForSaleProperties.csv" />
+        <option value="$PROJECT_DIR$/src/main/java/csv/properties/approvedForSaleProperties.csv" />
+        <option value="$PROJECT_DIR$/src/main/java/csv/properties/underContractForSaleProperties.csv" />
+        <option value="$PROJECT_DIR$/src/main/java/csv/properties/underContractRentalProperties.csv" />
+        <option value="$PROJECT_DIR$/src/main/java/csv/properties/approvedRentalProperties.csv" />
+        <option value="$PROJECT_DIR$/src/main/java/csv/properties/pendingRentalProperties.csv" />
+        <option value="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/BrowseForSaleMenuCallBack.java" />
+        <option value="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/BrowseRentalMenuCallBack.java" />
+        <option value="$PROJECT_DIR$/src/test/java/systemManagers/PropertyManagerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/systemManagers/ApplicationManagerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/systemManagers/IdManagerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/systemManagers/UserManager.java" />
+        <option value="$PROJECT_DIR$/src/test/java/systemManagers/UserManagerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/offerAndApplication/Offer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/menusForUsers/propertyOwnerMenu/myPropertiesMenu/MyPropertiesMenuCallBack.java" />
+        <option value="$PROJECT_DIR$/src/main/java/menusForUsers/propertyOwnerMenu/editPropertyDetailsMenu/EditPropertyDetailsMenu.java" />
+        <option value="$PROJECT_DIR$/src/main/java/utilities/scanner/Scan.java" />
+        <option value="$PROJECT_DIR$/src/main/java/property/RentalProperty.java" />
+        <option value="$PROJECT_DIR$/src/main/java/property/ForSaleProperty.java" />
+        <option value="$PROJECT_DIR$/src/main/java/property/Property.java" />
+        <option value="$PROJECT_DIR$/src/main/java/utilities/fileHandler/FileHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/systemManagers/PropertyManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/menusForUsers/propertyOwnerMenu/myPropertiesMenu/editPropertyDetailsMenu/EditPropertyDetailsMenuCallBack.java" />
+        <option value="$PROJECT_DIR$/src/main/java/offerAndApplication/Application.java" />
+        <option value="$PROJECT_DIR$/src/main/java/systemManagers/ApplicationManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/systemManagers/OfferManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/menusForUsers/propertyOwnerMenu/myApplicantsMenu/MyApplicantsMenu.java" />
+        <option value="$PROJECT_DIR$/src/main/java/menusForUsers/propertyOwnerMenu/myPropertiesMenu/editPropertyDetailsMenu/EditPropertyDetailsMenu.java" />
+        <option value="$PROJECT_DIR$/src/main/java/menusForUsers/propertyOwnerMenu/myPropertiesMenu/MyPropertiesMenu.java" />
+        <option value="$PROJECT_DIR$/src/main/java/menusForUsers/propertyOwnerMenu/myOffersMenu/MyOffersMenu.java" />
+        <option value="$PROJECT_DIR$/src/main/java/menusForUsers/propertyOwnerMenu/PropertyOwnerMenu.java" />
       </list>
     </option>
   </component>
@@ -234,15 +212,18 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="width" value="1083" />
-    <option name="height" value="1039" />
+    <option name="x" value="950" />
+    <option name="y" value="21" />
+    <option name="width" value="1085" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -274,67 +255,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="account" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projectTrainwreck" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectTrainwreck" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="csv" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projectTrainwreck" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectTrainwreck" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="csv" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projectTrainwreck" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectTrainwreck" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="csv" type="462c0819:PsiDirectoryNode" />
-              <item name="IdCounts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projectTrainwreck" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectTrainwreck" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="csv" type="462c0819:PsiDirectoryNode" />
-              <item name="offers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projectTrainwreck" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectTrainwreck" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="csv" type="462c0819:PsiDirectoryNode" />
-              <item name="properties" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projectTrainwreck" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectTrainwreck" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="csv" type="462c0819:PsiDirectoryNode" />
-              <item name="users" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projectTrainwreck" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectTrainwreck" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="engine" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -343,14 +263,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="enums" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projectTrainwreck" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectTrainwreck" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="menusForUsers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -360,7 +272,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="menusForUsers" type="462c0819:PsiDirectoryNode" />
-              <item name="propertySeekaMenu" type="462c0819:PsiDirectoryNode" />
+              <item name="propertyOwnerMenu" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="projectTrainwreck" type="b2602c69:ProjectViewProjectNode" />
@@ -369,8 +281,8 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="menusForUsers" type="462c0819:PsiDirectoryNode" />
-              <item name="propertySeekaMenu" type="462c0819:PsiDirectoryNode" />
-              <item name="browserMenu" type="462c0819:PsiDirectoryNode" />
+              <item name="propertyOwnerMenu" type="462c0819:PsiDirectoryNode" />
+              <item name="myApplicantsMenu" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="projectTrainwreck" type="b2602c69:ProjectViewProjectNode" />
@@ -379,29 +291,48 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="menusForUsers" type="462c0819:PsiDirectoryNode" />
-              <item name="propertySeekaMenu" type="462c0819:PsiDirectoryNode" />
-              <item name="myApplicationMenu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projectTrainwreck" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectTrainwreck" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="menusForUsers" type="462c0819:PsiDirectoryNode" />
-              <item name="propertySeekaMenu" type="462c0819:PsiDirectoryNode" />
-              <item name="myApplicationMenu" type="462c0819:PsiDirectoryNode" />
-              <item name="editApplicationsMenu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projectTrainwreck" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectTrainwreck" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="menusForUsers" type="462c0819:PsiDirectoryNode" />
-              <item name="propertySeekaMenu" type="462c0819:PsiDirectoryNode" />
+              <item name="propertyOwnerMenu" type="462c0819:PsiDirectoryNode" />
               <item name="myOffersMenu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projectTrainwreck" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectTrainwreck" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="menusForUsers" type="462c0819:PsiDirectoryNode" />
+              <item name="propertyOwnerMenu" type="462c0819:PsiDirectoryNode" />
+              <item name="myPropertiesMenu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projectTrainwreck" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectTrainwreck" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="menusForUsers" type="462c0819:PsiDirectoryNode" />
+              <item name="propertyOwnerMenu" type="462c0819:PsiDirectoryNode" />
+              <item name="myPropertiesMenu" type="462c0819:PsiDirectoryNode" />
+              <item name="editPropertyDetailsMenu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projectTrainwreck" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectTrainwreck" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="menusForUsers" type="462c0819:PsiDirectoryNode" />
+              <item name="propertySeekaMenu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projectTrainwreck" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectTrainwreck" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="menusForUsers" type="462c0819:PsiDirectoryNode" />
+              <item name="propertySeekaMenu" type="462c0819:PsiDirectoryNode" />
+              <item name="myApplicationMenu" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="projectTrainwreck" type="b2602c69:ProjectViewProjectNode" />
@@ -426,14 +357,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="systemManagers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projectTrainwreck" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectTrainwreck" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="projectTrainwreck" type="b2602c69:ProjectViewProjectNode" />
@@ -482,8 +405,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -495,7 +416,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568950436815" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/csv/properties" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/menusForUsers/menusForUsers/propertyOwnerMenu" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -506,11 +429,20 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="systemManagers" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\61423\Documents\projectTrainwreck\src\main\java\csv\IdCounts" />
-      <recent name="C:\Users\61423\Documents\projectTrainwreck\src\main\java\csv\properties" />
+      <recent name="C:\Users\61423\Documents\projectTrainwreck\src\main\java\menusForUsers\propertyOwnerMenu\editPropertyDetailsMenu" />
+      <recent name="C:\Users\61423\Documents\projectTrainwreck\src\main\java\menusForUsers\propertyOwnerMenu\myApplicantsMenu" />
+      <recent name="C:\Users\61423\Documents\projectTrainwreck\src\main\java\menusForUsers\propertyOwnerMenu\myOffersMenu" />
+      <recent name="C:\Users\61423\Documents\projectTrainwreck\src\main\java\menusForUsers\propertyOwnerMenu\myPropertiesMenu" />
+      <recent name="C:\Users\61423\Documents\projectTrainwreck\src\main\java\menusForUsers\propertyOwnerMenu" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -529,7 +461,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="engine.Main" />
       <module name="realEstateManagementSoftware" />
@@ -543,9 +475,73 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ApplicationManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="realEstateManagementSoftware" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="systemManagers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="systemManagers" />
+      <option name="MAIN_CLASS_NAME" value="systemManagers.ApplicationManagerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IdManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="realEstateManagementSoftware" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="systemManagers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="systemManagers" />
+      <option name="MAIN_CLASS_NAME" value="systemManagers.IdManagerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PropertyManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="realEstateManagementSoftware" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="systemManagers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="systemManagers" />
+      <option name="MAIN_CLASS_NAME" value="systemManagers.PropertyManagerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="realEstateManagementSoftware" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="systemManagers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="systemManagers" />
+      <option name="MAIN_CLASS_NAME" value="systemManagers.UserManagerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.IdManagerTest" />
+        <item itemvalue="JUnit.PropertyManagerTest" />
+        <item itemvalue="JUnit.ApplicationManagerTest" />
+        <item itemvalue="JUnit.UserManagerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -572,6 +568,38 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="PropertyManagerTest - 2019.10.04 at 15h 34m 58s.xml">
+      <configuration name="PropertyManagerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PropertyManagerTest - 2019.10.04 at 15h 36m 03s.xml">
+      <configuration name="PropertyManagerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IdManagerTest - 2019.10.04 at 15h 45m 27s.xml">
+      <configuration name="IdManagerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IdManagerTest - 2019.10.04 at 15h 46m 37s.xml">
+      <configuration name="IdManagerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserManagerTest - 2019.10.04 at 15h 57m 08s.xml">
+      <configuration name="UserManagerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserManagerTest - 2019.10.04 at 16h 00m 04s.xml">
+      <configuration name="UserManagerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserManagerTest - 2019.10.04 at 16h 00m 35s.xml">
+      <configuration name="UserManagerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApplicationManagerTest - 2019.10.04 at 16h 00m 40s.xml">
+      <configuration name="ApplicationManagerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PropertyManagerTest - 2019.10.04 at 16h 02m 14s.xml">
+      <configuration name="PropertyManagerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IdManagerTest - 2019.10.04 at 16h 04m 12s.xml">
+      <configuration name="IdManagerTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="73238000" />
   </component>
@@ -588,7 +616,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22013423" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24899329" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -597,7 +625,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.062322944" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.04249292" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.32936078" />
@@ -606,7 +634,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.04249292" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.05382436" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.26912183" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24966443" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -619,38 +647,6 @@
       <window_info anchor="right" id="Maven Projects" order="9" />
       <window_info anchor="right" id="Debug" order="10" side_tool="true" weight="0.39943343" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22013423" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.062322944" />
-      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="5" weight="0.32936078" />
-      <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.04249292" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.05382436" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24966443" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Maven Projects" order="9" />
-      <window_info anchor="right" id="Debug" order="10" side_tool="true" weight="0.39943343" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -676,396 +672,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/csv/IdCounts/pendingOfferCount.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state>
-          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/csv/IdCounts/underContractForSaleCount.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/csv/properties/underContractForSaleProperties.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/csv/properties/underContractRentalProperties.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/csv/application/application.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/csv/IdCounts/underContractRentalCount.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/csv/IdCounts/acceptedOfferCount.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/csv/users/customer.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="30" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/enums/SystemFunction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/enums/PropertyListType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
-          <folding>
-            <element signature="e#206#207#0" expanded="true" />
-            <element signature="e#241#242#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utilities/weekMonthYear/WeekUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utilities/scanner/Scan.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/systemManagers/IdManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-350">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/myApplicationMenu/MyApplicationsMenuCallBack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="59" lean-forward="true" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/PropertySeekerMenuCallBack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/myApplicationMenu/editApplicationsMenu/EditApplicationsMenuCallBack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="20" column="64" selection-start-line="20" selection-start-column="64" selection-end-line="20" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/PropertySeekerMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="33" column="49" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/BrowseBySuburbMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="13" column="69" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/BrowseBySuburbMenuCallBack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="63" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/BrowseForSaleMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="14" column="82" selection-start-line="14" selection-start-column="82" selection-end-line="14" selection-end-column="82" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/BrowseForSaleMenuCallBack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/BrowseRentalMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="14" column="86" selection-start-line="14" selection-start-column="86" selection-end-line="14" selection-end-column="86" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/BrowseRentalMenuCallBack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/EditMySuburbPreferenceMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="12" column="56" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/EditMySuburbPreferenceMenuCallBack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/browserMenu/BrowseMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="25" column="122" lean-forward="true" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="122" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/browserMenu/BrowseMenuCallBack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="49" lean-forward="true" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/myOffersMenu/MyOffersMenuCallback.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/myApplicationMenu/MyApplicationsMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="16" column="90" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="90" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/myApplicationMenu/editApplicationsMenu/EditApplicationsMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/myOffersMenu/MyOffersMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="950">
-          <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/engine/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="105" column="51" selection-start-line="105" selection-start-column="51" selection-end-line="105" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/user/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utilities/dateTime/DateTime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/systemManagers/ApplicationManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="13" selection-end-column="68" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#635#636#0" expanded="true" />
-            <element signature="e#682#683#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/csv/IdCounts/customerCount.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/systemManagers/OfferManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#581#582#0" expanded="true" />
-            <element signature="e#616#617#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/account/Account.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/account/SignUp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="10" column="57" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/account/SignIn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/property/ForSaleProperty.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
-          <caret line="37" column="76" selection-start-line="37" selection-start-column="76" selection-end-line="37" selection-end-column="76" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#985#986#0" expanded="true" />
-            <element signature="e#1028#1029#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utilities/fileHandler/FileHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1333">
-          <caret line="106" column="26" selection-start-line="106" selection-start-column="26" selection-end-line="106" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/engine/SystemEngine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1292">
-          <caret line="25" column="55" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/property/RentalProperty.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="933">
-          <caret line="51" column="47" selection-start-line="51" selection-start-column="47" selection-end-line="51" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/systemManagers/PropertyManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-342">
-          <caret line="18" column="57" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/user/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="258">
@@ -1084,49 +690,421 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/systemManagers/UserManager.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/account/Account.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2825">
-          <caret line="120" column="62" selection-start-line="120" selection-start-column="62" selection-end-line="120" selection-end-column="62" />
+        <state relative-caret-position="25">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/engine/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="114" column="102" selection-start-line="114" selection-start-column="102" selection-end-line="114" selection-end-column="102" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/csv/IdCounts/pendingForSaleCount.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/csv/properties/approvedForSaleProperties.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state>
+          <caret column="27" selection-start-column="27" selection-end-column="27" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/csv/properties/underContractForSaleProperties.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/csv/properties/underContractRentalProperties.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/csv/properties/pendingForSaleProperties.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state>
+          <caret column="35" lean-forward="true" selection-start-column="35" selection-end-column="46" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/csv/properties/approvedRentalProperties.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state>
+          <caret column="42" lean-forward="true" selection-start-column="42" selection-end-column="46" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/csv/properties/pendingRentalProperties.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state>
+          <caret column="48" selection-start-column="48" selection-end-column="48" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/BrowseForSaleMenuCallBack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/BrowseBySuburbMenuCallBack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="63" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/enums/PropertyListType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+          <folding>
+            <element signature="e#206#207#0" expanded="true" />
+            <element signature="e#241#242#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test/property/ForSalePropertyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/systemManagers/IdManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/systemManagers/RolesManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/systemManagers/UserManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/systemManagers/UserManagerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/BrowseRentalMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="14" column="86" selection-start-line="14" selection-start-column="86" selection-end-line="14" selection-end-column="86" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/browserMenu/subBrowserMenus/BrowseRentalMenuCallBack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="55" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/offerAndApplication/Offer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2025">
+          <caret line="105" selection-start-line="105" selection-end-line="105" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2107#2108#0" expanded="true" />
+            <element signature="e#2205#2206#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/PropertySeekerMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="30" column="51" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/engine/SystemEngine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/PropertySeekerMenuCallBack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/systemManagers/PropertyManagerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/systemManagers/IdManagerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/systemManagers/ApplicationManagerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/property/ForSaleProperty.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-156">
+          <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/myApplicationMenu/editApplicationsMenu/EditApplicationsMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/menusForUsers/propertyOwnerMenu/myPropertiesMenu/editPropertyDetailsMenu/EditPropertyDetailsMenuCallBack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utilities/fileHandler/FileHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="107" column="86" selection-start-line="107" selection-start-column="86" selection-end-line="107" selection-end-column="86" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/property/RentalProperty.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="21" column="86" selection-start-line="21" selection-start-column="86" selection-end-line="21" selection-end-column="86" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utilities/scanner/Scan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="16" column="6" lean-forward="true" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+          <folding>
+            <element signature="e#738#739#0" expanded="true" />
+            <element signature="e#799#800#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/menusForUsers/propertyOwnerMenu/myPropertiesMenu/MyPropertiesMenuCallBack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="57" lean-forward="true" selection-start-column="57" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/menusForUsers/propertyOwnerMenu/PropertyOwnerMenuCallBack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utilities/dateTime/DateTime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1100">
+          <caret line="9" column="55" selection-start-line="7" selection-start-column="3" selection-end-line="9" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/user/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/property/Property.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="153" column="37" selection-start-line="153" selection-start-column="37" selection-end-line="153" selection-end-column="37" />
+        <state relative-caret-position="1925">
+          <caret line="147" column="48" selection-start-line="147" selection-start-column="48" selection-end-line="147" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekaMenu/myApplicationMenu/MyApplicationsMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-700">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/systemManagers/PropertyManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1628">
+          <caret line="282" column="33" selection-start-line="282" selection-start-column="33" selection-end-line="282" selection-end-column="33" />
           <folding>
-            <element signature="e#2657#2658#0" expanded="true" />
-            <element signature="e#2695#2696#0" expanded="true" />
-            <element signature="e#2757#2758#0" expanded="true" />
-            <element signature="e#2811#2812#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/offerAndApplication/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="130" column="37" selection-start-line="130" selection-start-column="37" selection-end-line="130" selection-end-column="37" />
+        <state relative-caret-position="175">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/offerAndApplication/Offer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/systemManagers/OfferManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="68" column="37" selection-start-line="68" selection-start-column="37" selection-end-line="68" selection-end-column="37" />
+        <state relative-caret-position="478">
+          <caret line="137" column="64" selection-start-line="137" selection-start-column="64" selection-end-line="137" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1500#1501#0" expanded="true" />
-            <element signature="e#1550#1551#0" expanded="true" />
-            <element signature="e#2107#2108#0" expanded="true" />
-            <element signature="e#2205#2206#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/systemManagers/ApplicationManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="127" column="16" lean-forward="true" selection-start-line="127" selection-start-column="16" selection-end-line="127" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/menusForUsers/propertyOwnerMenu/myApplicantsMenu/MyApplicantsMenuCallBack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/menusForUsers/propertyOwnerMenu/myPropertiesMenu/editPropertyDetailsMenu/EditPropertyDetailsMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="18" column="61" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/menusForUsers/propertyOwnerMenu/myPropertiesMenu/MyPropertiesMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/menusForUsers/propertyOwnerMenu/myOffersMenu/MyOffersMenuCallBack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/menusForUsers/propertyOwnerMenu/myApplicantsMenu/MyApplicantsMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="30" column="100" lean-forward="true" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="100" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/menusForUsers/propertyOwnerMenu/myOffersMenu/MyOffersMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="31" column="96" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="96" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/menusForUsers/propertyOwnerMenu/PropertyOwnerMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="39" column="48" selection-start-line="39" selection-start-column="48" selection-end-line="39" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

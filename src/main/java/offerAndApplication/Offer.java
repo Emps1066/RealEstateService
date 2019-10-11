@@ -101,7 +101,7 @@ public class Offer {
                         "Offer Accepted on: %s\n" +
                         "--------------------------------",
                 offerId, offerSender, propertyId, offerAmount, offerMade.toString(),
-                offerMade == null ? "N/A" : offerAccepted.toString());
+                offerAccepted == null ? "N/A" : offerAccepted.toString());
     }
 
 }

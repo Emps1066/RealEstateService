@@ -24,6 +24,7 @@ public class UserManager {
         user.setId(Id);
         addUser(user);
         IdManager.updateUniqueIdValue(user.userType().toString());
+        System.out.println("User created");
     }
 
     public User getUser(String Id)
@@ -80,6 +81,17 @@ public class UserManager {
     public String allEmployeesToString() {
         StringBuilder employeesString = new StringBuilder();
         for(Employee employee : allEmployeesList())
+        {
+            employeesString.append(employee.toString());
+            employeesString.append("\n");
+        }
+        employeesString.deleteCharAt(employeesString.length() - 1);
+        return employeesString.toString();
+    }
+
+    public String allCusomersToString() {
+        StringBuilder employeesString = new StringBuilder();
+        for(Customer employee : allCustomersList())
         {
             employeesString.append(employee.toString());
             employeesString.append("\n");

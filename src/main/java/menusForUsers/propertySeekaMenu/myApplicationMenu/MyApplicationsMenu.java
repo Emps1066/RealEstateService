@@ -4,7 +4,6 @@ package menusForUsers.propertySeekaMenu.myApplicationMenu;
 import engine.SystemEngine;
 import menusForUsers.propertySeekaMenu.PropertySeekerMenu;
 import menusForUsers.propertySeekaMenu.myApplicationMenu.editApplicationsMenu.EditApplicationsMenu;
-import offerAndApplication.Application;
 import systemManagers.ApplicationManager;
 import utilities.scanner.Scan;
 
@@ -20,7 +19,7 @@ public class MyApplicationsMenu {
             applicationManager.finaliseApplication(applicationId, engine.getUser().getId(),
                     engine.getPropertyManager());
 
-            String display = applicationManager.seekerAllAppsToListFormat(engine.getUser().getId());
+            String display = applicationManager.propertySeekerAllAppsToListFormat(engine.getUser().getId());
             goToMyApplicationsMenu(engine, display);
         }
         else if(option == 2)
@@ -40,13 +39,13 @@ public class MyApplicationsMenu {
         else if(option == 3)
         {
             ApplicationManager applicationManager = engine.getApplicationManager();
-            String display = applicationManager.seekerAcceptedAppsToListFormat(engine.getUser().getId());
+            String display = applicationManager.propertySeekerAcceptedAppsToListFormat(engine.getUser().getId());
             goToMyApplicationsMenu(engine, display);
         }
         else if(option == 4)
         {
             ApplicationManager applicationManager = engine.getApplicationManager();
-            String display = applicationManager.seekerPendingAppsToListFormat(engine.getUser().getId());
+            String display = applicationManager.propertySeekerPendingAppsToListFormat(engine.getUser().getId());
             goToMyApplicationsMenu(engine, display);
         }
         else if(option == 5)
@@ -55,7 +54,7 @@ public class MyApplicationsMenu {
 
             ApplicationManager applicationManager = engine.getApplicationManager();
             applicationManager.withdrawApplication(applicationId, engine.getUser().getId());
-            String display = applicationManager.seekerAllAppsToListFormat(engine.getUser().getId());
+            String display = applicationManager.propertySeekerAllAppsToListFormat(engine.getUser().getId());
             goToMyApplicationsMenu(engine, display);
         }
         else {

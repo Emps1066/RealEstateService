@@ -112,7 +112,7 @@ public class OfferManager {
         return finalised;
     }
 
-    // WithDraw Offers
+    // WithDraw/Reject Offers
 
     public void withdrawOffer(String offerId, String buyerCustomerId) {
         Offer offer = offers.get(offerId);
@@ -120,6 +120,22 @@ public class OfferManager {
             if(offer.getOfferSender().equals(buyerCustomerId)) {
                 offers.remove(offerId);
                 System.out.println("\nOffer Has Been Withdrawn\n");
+            } else {
+                System.out.println("Offer Is Not Yours To Withdraw");
+            }
+        } else {
+            System.out.println("Offer Does Not Exist Or Is Expired");
+        }
+    }
+
+    public void rejectOffer(String offerId, String offerReceiverId) {
+        Offer offer = offers.get(offerId);
+        if(offer != null) {
+            if(offer.getOfferRecipient().equals(offerReceiverId)) {
+                offers.remove(offerId);
+                System.out.println("\nOffer Has Been rejected\n");
+            } else {
+                System.out.println("Offer Is Not Yours To Reject");
             }
         } else {
             System.out.println("Offer Does Not Exist Or Is Expired");
@@ -128,7 +144,7 @@ public class OfferManager {
 
     // To Display Offers
 
-    private String seekerOffersToListFormat(String seekerId, int daysTillExpiration, String offerIdSerial) {
+    private String propertySeekerOffersToListFormat(String seekerId, int daysTillExpiration, String offerIdSerial) {
 
         StringBuilder list = new StringBuilder();
         for(Offer offer : offers.values()) {
@@ -143,18 +159,32 @@ public class OfferManager {
         return list.toString();
     }
 
-    public String seekerAcceptedOffersToListFormat(String seekerId) {
-        return seekerOffersToListFormat(seekerId, DAYS_TO_ACCEPT_ACCEPTED_OFFER, acceptedIdSerial);
+    public String propertySeekerAcceptedOffersToListFormat(String seekerId) {
+        return propertySeekerOffersToListFormat(seekerId, DAYS_TO_ACCEPT_ACCEPTED_OFFER, acceptedIdSerial);
     }
 
-    public String seekerPendingOffersToListFormat(String seekerId) {
-        return seekerOffersToListFormat(seekerId, DAYS_TO_ACCEPT_PENDING_OFFER, pendingIdSerial);
+    public String propertySeekerPendingOffersToListFormat(String seekerId) {
+        return propertySeekerOffersToListFormat(seekerId, DAYS_TO_ACCEPT_PENDING_OFFER, pendingIdSerial);
     }
 
-    public String seekerAllOffersToListFormat(String seekerId) {
+    public String propertySeekerAllOffersToListFormat(String seekerId) {
         StringBuilder list = new StringBuilder();
-        list.append(seekerAcceptedOffersToListFormat(seekerId));
-        list.append(seekerPendingOffersToListFormat(seekerId));
+        list.append(propertySeekerAcceptedOffersToListFormat(seekerId));
+        list.append(propertySeekerPendingOffersToListFormat(seekerId));
+        return list.toString();
+    }
+
+    public String propertyOwnerOffersToListFormat(String ownerId) {
+        StringBuilder list = new StringBuilder();
+        for(Offer offer : offers.values()) {
+            if(offer.getOfferId().startsWith(pendingIdSerial)) {
+
+                if(offer.getOfferRecipient().equals(ownerId) &&
+                        !offerIsExpired(offer, DAYS_TO_ACCEPT_PENDING_OFFER)) {
+                    list.append(offer.toListFormat());
+                }
+            }
+        }
         return list.toString();
     }
 

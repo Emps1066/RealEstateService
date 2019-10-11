@@ -17,9 +17,9 @@ public class RentalProperty extends Property {
 
     public RentalProperty(String ID, String address, String suburb, int bedrooms,
                           int bathrooms, int carSpaces, String type, String ownerCustomer,
-                          double propertyBalance, double contractDuration1,
+                          double contractDuration1,
                           double contractDuration2, double contractDuration3, double rentPrice) {
-        super(ID, address, suburb, bedrooms, bathrooms, carSpaces, type, ownerCustomer, propertyBalance);
+        super(ID, address, suburb, bedrooms, bathrooms, carSpaces, type, ownerCustomer);
         this.contractDuration1 = contractDuration1;
         this.contractDuration2 = contractDuration2;
         this.contractDuration3 = contractDuration3;

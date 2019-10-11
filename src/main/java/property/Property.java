@@ -23,7 +23,7 @@ public abstract class Property
     private String employee = null;
     private double propertyBalance = 0;
 
-    public Property(String ID, String address, String suburb, int bedrooms, int bathrooms, int carSpaces, String type, String ownerCustomer, double propertyBalance)
+    public Property(String ID, String address, String suburb, int bedrooms, int bathrooms, int carSpaces, String type, String ownerCustomer)
     {
         this.ID = ID;
         this.address = address;
@@ -33,7 +33,6 @@ public abstract class Property
         this.carSpaces = carSpaces;
         this.type = type;
         this.ownerCustomer = ownerCustomer;
-        this.propertyBalance = propertyBalance;
     }
 
     public String getID()
@@ -145,8 +144,8 @@ public abstract class Property
     public abstract PropertyListType listType();
 
     public String toCsvFormat() {
-        return String.format("%s,%s,%s,%d,%d,%d,%s,%s,%s,%d",
-                ID, address, suburb, bedrooms, bathrooms, carSpaces,
+        return String.format("%s,%s,%s,%s,%d,%d,%d,%s,%s,%s,%d",
+                listed == true ? "true" : "false", ID, address, suburb, bedrooms, bathrooms, carSpaces,
                 type, ownerCustomer, employee, propertyBalance);
     }
 

@@ -68,13 +68,17 @@ public class FileHandler {
             while((row = fileReader.readLine()) != null) {
                 String rowArray[] = row.split(",");
 
-                ForSaleProperty property = new ForSaleProperty(rowArray[0], rowArray[1],
-                        rowArray[2], Integer.parseInt(rowArray[3]),
-                        Integer.parseInt(rowArray[4]), Integer.parseInt(rowArray[5]),
-                        rowArray[6], rowArray[7], Double.parseDouble(rowArray[8]),
-                        Double.parseDouble(rowArray[9]));
-                property.setBuyerId(rowArray[10]);
-
+                ForSaleProperty property = new ForSaleProperty(rowArray[1], rowArray[2],
+                        rowArray[3], Integer.parseInt(rowArray[4]),
+                        Integer.parseInt(rowArray[5]), Integer.parseInt(rowArray[6]),
+                        rowArray[7], rowArray[8].equals("null") ? null : rowArray[8],
+                        Double.parseDouble(rowArray[11]));
+                property.setBuyerId(rowArray[12].equals("null") ? null : rowArray[13]);
+                if(fileName.equals("approved")) {
+                    property.setListed(true);
+                }
+                property.setPropertyBalance(Double.parseDouble(rowArray[10]));
+                property.setEmployee(rowArray[9].equals("null") ? null : rowArray[9]);
                 properties.put(property.getID(), property);
             }
             fileReader.close();
@@ -90,14 +94,19 @@ public class FileHandler {
             while((row = fileReader.readLine()) != null) {
                 String rowArray[] = row.split(",");
 
-                RentalProperty property = new RentalProperty(rowArray[0], rowArray[1],
-                        rowArray[2], Integer.parseInt(rowArray[3]),
-                        Integer.parseInt(rowArray[4]), Integer.parseInt(rowArray[5]),
-                        rowArray[6], rowArray[7], Double.parseDouble(rowArray[8]),
-                        Double.parseDouble(rowArray[9]), Double.parseDouble(rowArray[10]),
-                        Double.parseDouble(rowArray[11]), Double.parseDouble(rowArray[12]));
-                property.setRenterId(rowArray[13]);
+                RentalProperty property = new RentalProperty(rowArray[1], rowArray[2],
+                        rowArray[3], Integer.parseInt(rowArray[4]),
+                        Integer.parseInt(rowArray[5]), Integer.parseInt(rowArray[6]),
+                        rowArray[7], rowArray[8].equals("null") ? null : rowArray[8] ,
+                        Double.parseDouble(rowArray[11]), Double.parseDouble(rowArray[12]),
+                        Double.parseDouble(rowArray[13]), Double.parseDouble(rowArray[14]));
+                property.setRenterId(rowArray[15].equals("null") ? null : rowArray[15]);
 
+                if(fileName.equals("approved")) {
+                    property.setListed(true);
+                }
+                property.setEmployee(rowArray[9].equals("null") ? null : rowArray[9]);
+                property.setPropertyBalance(Double.parseDouble(rowArray[10]));
                 properties.put(property.getID(), property);
             }
             fileReader.close();

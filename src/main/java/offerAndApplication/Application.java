@@ -8,8 +8,8 @@ import java.util.Objects;
 public class Application {
 
     private String appId;
-    private String customerId;
-    private String propertyOwnerId;
+    private String appSenderId;
+    private String appReceiverId;
     private String propertyId;
     private double preferredRent;
     private double preferredDuration;
@@ -21,7 +21,7 @@ public class Application {
     private DateTime applicationMadeTime;
     private DateTime applicationAcceptedTime = null;
 
-    public Application(String appId, String customerId, String propertyOwnerId,
+    public Application(String appId, String appSenderId, String appReceiverId,
                        String propertyId, double preferredRent,
                        double preferredDuration, double currentIncome,
                        String currentOccupation, String currentEmployer,
@@ -29,8 +29,8 @@ public class Application {
                        DateTime applicationMadeTime,
                        DateTime applicationAcceptedTime) {
         this.appId = appId;
-        this.customerId = customerId;
-        this.propertyOwnerId = propertyOwnerId;
+        this.appSenderId = appSenderId;
+        this.appReceiverId = appReceiverId;
         this.propertyId = propertyId;
         this.preferredRent = preferredRent;
         this.preferredDuration = preferredDuration;
@@ -51,12 +51,12 @@ public class Application {
         this.appId = appId;
     }
 
-    public String getCustomerId() {
-        return customerId;
+    public String getAppSenderId() {
+        return appSenderId;
     }
 
-    public String getPropertyOwnerId() {
-        return propertyOwnerId;
+    public String getAppReceiverId() {
+        return appReceiverId;
     }
 
     public String getPropertyId() {
@@ -136,8 +136,8 @@ public class Application {
                 Double.compare(that.preferredDuration, preferredDuration) == 0 &&
                 Double.compare(that.currentIncome, currentIncome) == 0 &&
                 appId.equals(that.appId) &&
-                customerId.equals(that.customerId) &&
-                propertyOwnerId.equals(that.propertyOwnerId) &&
+                appSenderId.equals(that.appSenderId) &&
+                appReceiverId.equals(that.appReceiverId) &&
                 propertyId.equals(that.propertyId) &&
                 currentOccupation.equals(that.currentOccupation) &&
                 currentEmployer.equals(that.currentEmployer) &&
@@ -147,14 +147,14 @@ public class Application {
 
     @Override
     public int hashCode() {
-        return Objects.hash(appId, customerId, propertyOwnerId, propertyId, preferredRent, preferredDuration, currentIncome, currentOccupation, currentEmployer, pastOccupation, pastEmployer);
+        return Objects.hash(appId, appSenderId, appReceiverId, propertyId, preferredRent, preferredDuration, currentIncome, currentOccupation, currentEmployer, pastOccupation, pastEmployer);
     }
 
     public String toCsvFormat() {
         return String.format("%s,%s,%s,%s,%f,%f,%f,%s,%s,%s,%s,%d,%d"
                 , appId
-                , customerId
-                , propertyOwnerId
+                , appSenderId
+                , appReceiverId
                 , propertyId
                 , preferredRent
                 , preferredDuration
@@ -176,7 +176,7 @@ public class Application {
                         "Income: %.2f\n" +
                         "Current Occupation: %s\n" + "Current Employer: %s\n" +
                         "Past Occupation: %s\n" + "Past Employer: %s\n" + "--------------------------------",
-                appId, customerId, propertyId, preferredRent,
+                appId, appSenderId, propertyId, preferredRent,
                 weekUtil.toString(preferredDuration), applicationMadeTime.toString(),
                 applicationAcceptedTime == null ? "N/A" : applicationAcceptedTime.toString(),
                 currentIncome,

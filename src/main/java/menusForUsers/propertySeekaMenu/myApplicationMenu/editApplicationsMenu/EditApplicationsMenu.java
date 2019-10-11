@@ -62,7 +62,7 @@ public class EditApplicationsMenu {
         }
         else {
             ApplicationManager applicationManager = engine.getApplicationManager();
-            String display = applicationManager.seekerAllAppsToListFormat(engine.getUser().getId());
+            String display = applicationManager.propertySeekerAllAppsToListFormat(engine.getUser().getId());
 
             MyApplicationsMenu menu = new MyApplicationsMenu();
             menu.goToMyApplicationsMenu(engine, display);
