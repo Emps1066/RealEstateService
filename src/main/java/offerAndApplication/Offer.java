@@ -103,5 +103,4 @@ public class Offer {
                 offerId, offerSender, propertyId, offerAmount, offerMade.toString(),
                 offerAccepted == null ? "N/A" : offerAccepted.toString());
     }
-
 }
