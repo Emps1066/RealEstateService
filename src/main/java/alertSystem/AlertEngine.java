@@ -1,14 +1,11 @@
 package alertSystem;
 
 import enums.AlertType;
-import org.graalvm.compiler.lir.LIRInstruction;
+import inspections.Inspection;
 import property.Property;
-import user.Customer;
-import user.User;
 import utilities.fileHandler.FileHandler;
 
 import java.io.*;
-import java.util.ArrayList;
 import java.util.List;
 
 
@@ -16,25 +13,49 @@ public class AlertEngine {
 
 
     FileHandler fileHandler = new FileHandler();
+    MailSystemTLS email = new MailSystemTLS();
 
-    public void newPropertyListed(Property property, AlertType alertType) {
+
+    public void sendEmailsToCustomers(List<String> idsToEmail, Property property, AlertType alertType)
+    {
         String userEmail = null;
-        Customer customer = null;
-        List<String> idsToEmail = null;
-
-        MailSystemTLS email = new MailSystemTLS();
-        try {
-            idsToEmail = readData(property);
-        } catch (IOException e) {
-            System.out.println("Could not find file");
-        }
         for (String temp : idsToEmail) {
             for (int i = 0; i < 3; i++) {
                 userEmail = fileHandler.get(temp, 2, "src\\main\\java\\csv\\users\\customer");
             }
             email.sendEmail(alertType, userEmail, property);
         }
+    }
 
+    public void newPropertyListed(Property property, AlertType alertType) {
+        List<String> idsToEmail = getIdsToEmail(property);
+        sendEmailsToCustomers(idsToEmail, property, alertType);
+    }
+
+    public List<String> getIdsToEmail(Property property)
+    {
+        List<String> idsToEmail = null;
+        try {
+            idsToEmail = readData(property);
+        } catch (IOException e) {
+            System.out.println("Could not find file");
+        }
+        return  idsToEmail;
+    }
+
+    public void inspectionAnnounced(Inspection inspection, AlertType alertType) {
+        Property property = inspection.getInspectionProperty();
+        List<String> idsToEmail = getIdsToEmail(property);
+        sendEmailsToCustomers(idsToEmail, property, alertType);
+    }
+
+    public void inspectionCancelled() {
+        //TODO everything
+    }
+
+
+    public void offer()
+    {
 
     }
 

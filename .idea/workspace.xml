@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe4ff542-3d17-4a8a-854f-8a2ba744ee6f" name="Default Changelist" comment="basic menu">
-      <change afterPath="$PROJECT_DIR$/src/main/java/systemManagers/InspectionManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/systemManagers/SuburbManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alertSystem/Alert.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/alertSystem/AlertEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alertSystem/AlertEngine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alertSystem/MailSystemTLS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alertSystem/MailSystemTLS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alertSystem/offer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/enums/AlertType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/enums/AlertType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/inspections/Inspection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inspections/Inspection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/offerAndApplication/Offer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/offerAndApplication/Offer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/systemManagers/IdManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/systemManagers/IdManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/systemManagers/InspectionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/systemManagers/InspectionManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/systemManagers/PropertyManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/systemManagers/PropertyManager.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,20 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/alertSystem/AlertEngine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/alertSystem/MailSystemTLS.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="12" column="63" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
+            <state relative-caret-position="425">
+              <caret line="25" column="56" selection-start-line="25" selection-start-column="56" selection-end-line="25" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -55,44 +40,18 @@
               <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1627#1628#0" expanded="true" />
+                <element signature="e#1626#1627#0" expanded="true" />
                 <element signature="e#1653#1654#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/systemManagers/UserManager.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/systemManagers/InspectionManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="524">
-              <caret line="164" lean-forward="true" selection-start-line="164" selection-end-line="164" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#401#402#0" expanded="true" />
-                <element signature="e#435#436#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/utilities/fileHandler/FileHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1020">
-              <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/systemManagers/SuburbManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+            <state relative-caret-position="493">
+              <caret line="29" column="61" selection-start-line="29" selection-start-column="61" selection-end-line="29" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -103,8 +62,30 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/inspections/Inspection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="748">
+              <caret line="51" column="32" lean-forward="true" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1187#1188#0" expanded="true" />
+                <element signature="e#1219#1220#0" expanded="true" />
+                <element signature="e#1262#1263#0" expanded="true" />
+                <element signature="e#1296#1297#0" expanded="true" />
+                <element signature="e#1339#1340#0" expanded="true" />
+                <element signature="e#1378#1379#0" expanded="true" />
+                <element signature="e#1415#1416#0" expanded="true" />
+                <element signature="e#1448#1449#0" expanded="true" />
+                <element signature="e#1495#1496#0" expanded="true" />
+                <element signature="e#1536#1537#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/systemManagers/PropertyManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2550">
+              <caret line="150" column="30" lean-forward="true" selection-start-line="150" selection-start-column="30" selection-end-line="150" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -113,10 +94,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/systemManagers/InspectionManager.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/engine/SystemEngine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="-665">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/utilities/fileHandler/FileHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="197">
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/alertSystem/MailSystemTLS.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="202">
+              <caret line="12" column="63" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -151,7 +153,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/menusForUsers/propertyOwnerMenu/PropertyOwnerMenu.java" />
         <option value="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekerMenu/PropertySeekerMenu.java" />
         <option value="$PROJECT_DIR$/src/main/java/engine/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/csv/properties/pendingRentalProperties.csv" />
@@ -173,7 +174,6 @@
         <option value="$PROJECT_DIR$/src/main/java/menusForUsers/propertyOwnerMenu/PropertyOwnerMenuCallBack.java" />
         <option value="$PROJECT_DIR$/src/main/java/menusForUsers/propertyOwnerMenu/myOffersMenu/MyOffersMenuCallBack.java" />
         <option value="$PROJECT_DIR$/src/main/java/menusForUsers/propertyOwnerMenu/myApplicantsMenu/MyApplicantsMenuCallBack.java" />
-        <option value="$PROJECT_DIR$/src/main/java/systemManagers/PropertyManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/systemManagers/ApplicationManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/utilities/fileHandler/FileHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekerMenu/browserMenu/BrowseMenu.java" />
@@ -194,13 +194,15 @@
         <option value="$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/MyEmployeeMenuCallBack.java" />
         <option value="$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/advertisedProperties/AdvertisedProperties.java" />
         <option value="$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/MyEmployeeMenu.java" />
-        <option value="$PROJECT_DIR$/src/main/java/inspections/Inspection.java" />
         <option value="$PROJECT_DIR$/src/main/java/offerAndApplication/Offer.java" />
         <option value="$PROJECT_DIR$/src/main/java/systemManagers/OfferManager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/systemManagers/InspectionManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/enums/AlertType.java" />
         <option value="$PROJECT_DIR$/src/main/java/systemManagers/SuburbManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/alertSystem/MailSystemTLS.java" />
+        <option value="$PROJECT_DIR$/src/main/java/systemManagers/PropertyManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/systemManagers/IdManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/inspections/Inspection.java" />
+        <option value="$PROJECT_DIR$/src/main/java/systemManagers/InspectionManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/alertSystem/AlertEngine.java" />
       </list>
     </option>
@@ -226,6 +228,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -255,87 +258,12 @@
               <item name="projectTrainwreck" type="b2602c69:ProjectViewProjectNode" />
               <item name="projectTrainwreck" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="alertSystem" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projectTrainwreck" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectTrainwreck" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="enums" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projectTrainwreck" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectTrainwreck" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="inspections" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projectTrainwreck" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectTrainwreck" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="offerAndApplication" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projectTrainwreck" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectTrainwreck" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="systemManagers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projectTrainwreck" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectTrainwreck" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projectTrainwreck" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectTrainwreck" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="utilities" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projectTrainwreck" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectTrainwreck" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="utilities" type="462c0819:PsiDirectoryNode" />
-              <item name="dateTime" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projectTrainwreck" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectTrainwreck" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="utilities" type="462c0819:PsiDirectoryNode" />
-              <item name="fileHandler" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projectTrainwreck" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectTrainwreck" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -347,7 +275,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570814903103" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570901034101" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -499,6 +427,7 @@
       <workItem from="1568928802806" duration="16088000" />
       <workItem from="1570152647451" duration="3608000" />
       <workItem from="1570800394004" duration="13228000" />
+      <workItem from="1570887771479" duration="11275000" />
     </task>
     <servers />
   </component>
@@ -535,7 +464,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90074000" />
+    <option name="totallyTimeSpent" value="101349000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -549,7 +478,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22547974" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22761194" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -605,13 +534,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/menusForUsers/propertyOwnerMenu/myPropertiesMenu/editPropertyDetailsMenu/EditPropertyDetailsMenuCallBack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="15" column="54" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/menusForUsers/propertyOwnerMenu/myApplicantsMenu/MyApplicantsMenuCallBack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
@@ -635,16 +557,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/csv/offer/offer.csv" />
     <entry file="file://$PROJECT_DIR$/src/main/java/csv/properties/underContractForSaleProperties.csv" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/systemManagers/PropertyManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2850">
-          <caret line="121" selection-start-line="121" selection-end-line="121" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/csv/properties/approvedRentalProperties.csv" />
     <entry file="file://$PROJECT_DIR$/src/main/java/csv/properties/approvedForSaleProperties.csv" />
     <entry file="file://$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekerMenu/browserMenu/BrowseMenu.java">
@@ -799,16 +711,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/systemManagers/ApplicationManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="53" column="5" lean-forward="true" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/offerAndApplication/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-289">
@@ -830,13 +732,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/systemManagers/IdManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/utilities/dateTime/DateTime.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="746">
@@ -844,13 +739,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/alertSystem/offer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alertSystem/offer.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/offerAndApplication/Offer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1273">
@@ -872,43 +761,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/systemManagers/OfferManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
-          <caret line="212" column="2" lean-forward="true" selection-start-line="212" selection-start-column="2" selection-end-line="215" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/alertSystem/Alert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/systemManagers/InspectionManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/inspections/Inspection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alertSystem/Alert.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/user/Customer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -916,10 +769,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utilities/fileHandler/FileHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/enums/UserType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+        <state relative-caret-position="34">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/systemManagers/UserManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2465">
+          <caret line="164" selection-start-line="164" selection-end-line="164" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#401#402#0" expanded="true" />
+            <element signature="e#435#436#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/systemManagers/SuburbManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -936,51 +808,109 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/systemManagers/IdManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="43" column="4" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/systemManagers/ApplicationManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="53" column="5" lean-forward="true" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/systemManagers/OfferManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3570">
+          <caret line="212" column="2" lean-forward="true" selection-start-line="212" selection-start-column="2" selection-end-line="215" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utilities/fileHandler/FileHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/engine/SystemEngine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-665">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/inspections/Inspection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="51" column="32" lean-forward="true" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1187#1188#0" expanded="true" />
+            <element signature="e#1219#1220#0" expanded="true" />
+            <element signature="e#1262#1263#0" expanded="true" />
+            <element signature="e#1296#1297#0" expanded="true" />
+            <element signature="e#1339#1340#0" expanded="true" />
+            <element signature="e#1378#1379#0" expanded="true" />
+            <element signature="e#1415#1416#0" expanded="true" />
+            <element signature="e#1448#1449#0" expanded="true" />
+            <element signature="e#1495#1496#0" expanded="true" />
+            <element signature="e#1536#1537#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/systemManagers/PropertyManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2550">
+          <caret line="150" column="30" lean-forward="true" selection-start-line="150" selection-start-column="30" selection-end-line="150" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/enums/AlertType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1627#1628#0" expanded="true" />
+            <element signature="e#1626#1627#0" expanded="true" />
             <element signature="e#1653#1654#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/systemManagers/UserManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="164" lean-forward="true" selection-start-line="164" selection-end-line="164" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#401#402#0" expanded="true" />
-            <element signature="e#435#436#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/systemManagers/SuburbManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/enums/UserType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/alertSystem/AlertEngine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        <state relative-caret-position="425">
+          <caret line="25" column="56" selection-start-line="25" selection-start-column="56" selection-end-line="25" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/systemManagers/InspectionManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="61" selection-start-line="29" selection-start-column="61" selection-end-line="29" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
