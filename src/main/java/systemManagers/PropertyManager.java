@@ -9,8 +9,7 @@ import utilities.scanner.Scan;
 
 import java.util.*;
 
-public class PropertyManager
-{
+public class PropertyManager {
 
     private static final int NUM_OF_PREFERRED_CONTRACT_DURATIONS = 3;
     private Map<String, Property> approvedProperties;
@@ -25,6 +24,22 @@ public class PropertyManager
         this.underContractProperties = underContractProperties;
     }
 
+
+    public Property getPropertyAsObject(String propertyId, String type) {
+
+        Property propertyToReturn = null;
+        if (type == "approved") {
+            propertyToReturn = approvedProperties.get(propertyId);
+        }
+        if (type == "pending") {
+            propertyToReturn = pendingProperties.get(propertyId);
+        } else {
+            propertyToReturn = underContractProperties.get(propertyId);
+        }
+
+        return propertyToReturn;
+    }
+
     public Property askForPropertyDetails(String ownerId, PropertyListType listType) {
         String address = Scan.askForString("Enter Your Property's Address:");
         String suburb = Scan.askForString("Enter Your Property's Suburb:");
@@ -34,7 +49,7 @@ public class PropertyManager
         String type = Scan.askForString("Enter The Type Of Your Property (Apartment, House, Studio, Room etc):");
 
         Property property;
-        if(listType == PropertyListType.FOR_SALE) {
+        if (listType == PropertyListType.FOR_SALE) {
             double minimumPrice = Scan.askForDouble("Enter Your Base For Sale Price:");
 
             property = new ForSaleProperty(null, address, suburb, bedrooms, bathrooms, carSpaces, type, ownerId, minimumPrice);
@@ -63,8 +78,7 @@ public class PropertyManager
         return property;
     }
 
-    public void addProperty(Property property)
-    {
+    public void addProperty(Property property) {
         String IdSerial = property.listType().pendingIdSerial();
         String Id = IdManager.generateUniqueID(IdSerial, "pending" + property.listType());
         property.setID(Id);
@@ -73,13 +87,12 @@ public class PropertyManager
         System.out.println("Pending property added");
     }
 
-    public boolean approveProperty(String propertyId, String employeeId)
-    {
+    public boolean approveProperty(String propertyId, String employeeId) {
 
         boolean approved = false;
         Property propertyToBeApproved = pendingProperties.remove(propertyId);
 
-        if(propertyToBeApproved != null) {
+        if (propertyToBeApproved != null) {
             // Assign employee and new Id
             String newId = IdManager.generateUniqueID(propertyToBeApproved.listType().IdSerial(),
                     "approved" + propertyToBeApproved.listType());
@@ -100,7 +113,7 @@ public class PropertyManager
         boolean underContract = false;
         Property propertyToBeUnderContract = approvedProperties.remove(propertyId);
         propertyToBeUnderContract.setListed(false);
-        if(propertyToBeUnderContract != null) {
+        if (propertyToBeUnderContract != null) {
             // Assign new Id
             String newId = IdManager.generateUniqueID(propertyToBeUnderContract.listType().underContractIdSerial(),
                     "underContract" + propertyToBeUnderContract.listType());
@@ -109,7 +122,7 @@ public class PropertyManager
             underContractProperties.put(newId, propertyToBeUnderContract);
             IdManager.updateUniqueIdValue("underContract" + propertyToBeUnderContract.listType());
 
-            if(propertyToBeUnderContract.listType() == PropertyListType.FOR_SALE) {
+            if (propertyToBeUnderContract.listType() == PropertyListType.FOR_SALE) {
                 ((ForSaleProperty) propertyToBeUnderContract).setBuyerId(buyerOrRenter);
             } else {
                 ((RentalProperty) propertyToBeUnderContract).setRenterId(buyerOrRenter);
@@ -122,8 +135,8 @@ public class PropertyManager
 
     public String getPropertyOwnerId(String propertyId) {
         String propertyOwnerId = null;
-        for(Property property : approvedProperties.values()) {
-            if(property.getID().equals(propertyId)) {
+        for (Property property : approvedProperties.values()) {
+            if (property.getID().equals(propertyId)) {
                 propertyOwnerId = property.getOwnerCustomer();
             }
         }
@@ -133,8 +146,8 @@ public class PropertyManager
 
     public boolean propertyExistsAsListed(String propertyId, PropertyListType listType) {
         boolean exists = false;
-        for(Property property : getListedProperties()) {
-            if(property.getID().equals(propertyId) && property.listType() == listType) {
+        for (Property property : getListedProperties()) {
+            if (property.getID().equals(propertyId) && property.listType() == listType) {
                 exists = true;
             }
         }
@@ -143,16 +156,16 @@ public class PropertyManager
     }
 
     public void unlistProperty(String propertyId) {
-        for(Property property : getListedProperties()) {
-            if(property.getID().equals(propertyId)) {
+        for (Property property : getListedProperties()) {
+            if (property.getID().equals(propertyId)) {
                 property.setListed(false);
             }
         }
     }
 
     public void listProperty(String propertyId) {
-        for(Property property : getListedProperties()) {
-            if(property.getID().equals(propertyId)) {
+        for (Property property : getListedProperties()) {
+            if (property.getID().equals(propertyId)) {
                 property.setListed(true);
             }
         }
@@ -169,39 +182,37 @@ public class PropertyManager
 
     public List<Property> getListedProperties() {
         List<Property> listedProperties = new ArrayList<>();
-        for(Property property : approvedProperties.values()) {
-            if(property.isListed()) {
+        for (Property property : approvedProperties.values()) {
+            if (property.isListed()) {
                 listedProperties.add(property);
             }
         }
         return listedProperties;
     }
 
-    public String listedPropertiesToString(PropertyListType listType)
-    {
+    public String listedPropertiesToString(PropertyListType listType) {
         StringBuilder string = new StringBuilder();
-        for(Property property : getListedProperties()) {
-            if(property.listType() == listType && property.isListed()) {
+        for (Property property : getListedProperties()) {
+            if (property.listType() == listType && property.isListed()) {
                 string.append(property.toListFormat());
                 string.append("\n");
             }
         }
-        if(!string.toString().equals("")) {
+        if (!string.toString().equals("")) {
             string.deleteCharAt(string.length() - 1);
         }
         return string.toString();
     }
 
-    public String preferencePropertiesToString(List<String> suburbs)
-    {
+    public String preferencePropertiesToString(List<String> suburbs) {
         StringBuilder string = new StringBuilder();
-        for(Property property : getListedProperties()) {
-            if(suburbs.contains(property.getSuburb())) {
+        for (Property property : getListedProperties()) {
+            if (suburbs.contains(property.getSuburb())) {
                 string.append(property.toListFormat());
                 string.append("\n");
             }
         }
-        if(!string.toString().equals("")) {
+        if (!string.toString().equals("")) {
             string.deleteCharAt(string.length() - 1);
         }
         return string.toString();
@@ -210,13 +221,13 @@ public class PropertyManager
     public String myPropertiesToString(String ownerId) {
         StringBuilder propertiesList = new StringBuilder();
 
-        for(Property property : getAllProperties()) {
-            if(property.getOwnerCustomer().equals(ownerId)) {
+        for (Property property : getAllProperties()) {
+            if (property.getOwnerCustomer().equals(ownerId)) {
                 propertiesList.append(property.toListFormat());
                 propertiesList.append("\n");
             }
         }
-        if(!propertiesList.toString().equals("")) {
+        if (!propertiesList.toString().equals("")) {
             propertiesList.deleteCharAt(propertiesList.length() - 1);
         }
 
@@ -226,10 +237,10 @@ public class PropertyManager
     public String getMyPropertyToEdit(String propertyId, String ownerId) {
         StringBuilder propertyString = new StringBuilder();
         Property property = approvedProperties.get(propertyId);
-        if(property == null) {
+        if (property == null) {
             pendingProperties.get(propertyId);
         }
-        if(property != null && property.getOwnerCustomer().equals(ownerId)) {
+        if (property != null && property.getOwnerCustomer().equals(ownerId)) {
             propertyString.append(property.toListFormat());
         }
 
@@ -237,59 +248,59 @@ public class PropertyManager
     }
 
     public void editAddress(String propertyId, String address) {
-        for(Property property : getAllProperties()) {
-            if(property.getID().equals(propertyId)) {
+        for (Property property : getAllProperties()) {
+            if (property.getID().equals(propertyId)) {
                 property.setAddress(address);
             }
         }
     }
 
     public void editSuburb(String propertyId, String suburb) {
-        for(Property property : getAllProperties()) {
-            if(property.getID().equals(propertyId)) {
+        for (Property property : getAllProperties()) {
+            if (property.getID().equals(propertyId)) {
                 property.setSuburb(suburb);
             }
         }
     }
 
     public void editNumberOfBedrooms(String propertyId, int bedrooms) {
-        for(Property property : getAllProperties()) {
-            if(property.getID().equals(propertyId)) {
+        for (Property property : getAllProperties()) {
+            if (property.getID().equals(propertyId)) {
                 property.setBedrooms(bedrooms);
             }
         }
     }
 
     public void editNumberOfBathrooms(String propertyId, int bathrooms) {
-        for(Property property : getAllProperties()) {
-            if(property.getID().equals(propertyId)) {
+        for (Property property : getAllProperties()) {
+            if (property.getID().equals(propertyId)) {
                 property.setBathrooms(bathrooms);
             }
         }
     }
 
     public void editNumberOfCarSpaces(String propertyId, int carSpaces) {
-        for(Property property : getAllProperties()) {
-            if(property.getID().equals(propertyId)) {
+        for (Property property : getAllProperties()) {
+            if (property.getID().equals(propertyId)) {
                 property.setCarSpaces(carSpaces);
             }
         }
     }
 
     public void editPropertyType(String propertyId, String type) {
-        for(Property property : getAllProperties()) {
-            if(property.getID().equals(propertyId)) {
+        for (Property property : getAllProperties()) {
+            if (property.getID().equals(propertyId)) {
                 property.setType(type);
             }
         }
     }
 
     public void editPricing(String propertyId, double price) {
-        for(Property property : getAllProperties()) {
-            if(property.getID().equals(propertyId)) {
-                if(property.listType() == PropertyListType.RENTAL) {
+        for (Property property : getAllProperties()) {
+            if (property.getID().equals(propertyId)) {
+                if (property.listType() == PropertyListType.RENTAL) {
                     ((RentalProperty) property).setRentPrice(price);
-                } else if(property.listType() == PropertyListType.FOR_SALE) {
+                } else if (property.listType() == PropertyListType.FOR_SALE) {
                     ((ForSaleProperty) property).setPrice(price);
                 }
             }
@@ -299,17 +310,17 @@ public class PropertyManager
     public void saveToSystem() {
         discardFileContent("approvedRental");
         discardFileContent("approvedForSale");
-        for(Property property : approvedProperties.values()) {
+        for (Property property : approvedProperties.values()) {
             savePropertyToFile(property.toCsvFormat(), "approved" + property.listType());
         }
         discardFileContent("pendingRental");
         discardFileContent("pendingForSale");
-        for(Property property : pendingProperties.values()) {
+        for (Property property : pendingProperties.values()) {
             savePropertyToFile(property.toCsvFormat(), "pending" + property.listType());
         }
         discardFileContent("underContractRental");
         discardFileContent("underContractForSale");
-        for(Property property : underContractProperties.values()) {
+        for (Property property : underContractProperties.values()) {
             savePropertyToFile(property.toCsvFormat(), "underContract" + property.listType());
         }
     }
@@ -318,9 +329,8 @@ public class PropertyManager
         FileHandler.writeToFile("", "src\\main\\java\\csv\\properties\\" + file + "Properties.csv", false);
     }
 
-    private void savePropertyToFile(String data, String file)
-    {
-        FileHandler.writeToFile(data ,"src\\main\\java\\csv\\properties\\" + file + "Properties.csv", true);
-        FileHandler.writeToFile("\n" ,"src\\main\\java\\csv\\properties\\" + file + "Properties.csv", true);
+    private void savePropertyToFile(String data, String file) {
+        FileHandler.writeToFile(data, "src\\main\\java\\csv\\properties\\" + file + "Properties.csv", true);
+        FileHandler.writeToFile("\n", "src\\main\\java\\csv\\properties\\" + file + "Properties.csv", true);
     }
 }
