@@ -36,7 +36,7 @@ public enum AlertType {
         }
 
         public String message() {
-            String message = "Please be aware that there is a new inspection listed.";
+            String message = "Please be aware that there is a new inspection listed in your area.";
             return message;
         }
     },
@@ -62,7 +62,7 @@ public enum AlertType {
 
     public String subject()
     {
-        String sunject = null;
+        String subject = null;
         return subject();
     }
 

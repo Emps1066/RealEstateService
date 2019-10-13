@@ -9,21 +9,22 @@ public class Inspection {
     IdManager idManager = new IdManager();
     FileHandler fileHandler = new FileHandler();
 
-
     String inspectionId;
     String idOfPropertyToBeInspected;
     String inspectionTimeDate;
     String inspectionSuburb;
     String employeeId;
     Property inspectionProperty;
-    public Inspection(Property property, String inspectionTimeDate)
+    PropertyManager propertyManager;
+    public Inspection(String inspectionId, String propertyId, String inspectionTimeDate, PropertyManager propertyManager)
     {
-        this.inspectionProperty = property;
-        this.inspectionSuburb = property.getSuburb();
-        this.idOfPropertyToBeInspected = property.getID();
+        this.propertyManager = propertyManager;
+        this.inspectionProperty = propertyManager.getPropertyAsObject(propertyId, "approved");
+        this.inspectionSuburb = inspectionProperty.getSuburb();
+        this.idOfPropertyToBeInspected =  inspectionProperty.getID();
         this.inspectionTimeDate = inspectionTimeDate;
-        this.employeeId = property.getEmployee();
-        this.inspectionId =  idManager.generateUniqueID("I", "inspectionCount" );
+        this.employeeId = inspectionProperty.getEmployee();
+        this.inspectionId = inspectionId;
     }
 
     public String getIdOfPropertyToBeInspected() {

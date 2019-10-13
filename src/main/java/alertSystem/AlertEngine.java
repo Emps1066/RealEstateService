@@ -43,19 +43,21 @@ public class AlertEngine {
         return  idsToEmail;
     }
 
-    public void inspectionAnnounced(Inspection inspection, AlertType alertType) {
+    public void inspectionAlert(Inspection inspection, AlertType alertType) {
         Property property = inspection.getInspectionProperty();
         List<String> idsToEmail = getIdsToEmail(property);
         sendEmailsToCustomers(idsToEmail, property, alertType);
     }
 
-    public void inspectionCancelled() {
-        //TODO everything
-    }
 
 
-    public void offer()
+    public void inspectionCancelled(Inspection inspection)
     {
+        Property property = inspection.getInspectionProperty();
+        AlertType alertType = AlertType.INSPECTION_CANCELLED;
+        List<String> idsToEmail = getIdsToEmail(property);
+        idsToEmail.add(inspection.getEmployeeId());
+        sendEmailsToCustomers(idsToEmail, property, alertType);
 
     }
 

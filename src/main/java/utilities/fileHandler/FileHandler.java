@@ -2,6 +2,7 @@ package utilities.fileHandler;
 
 import engine.SystemEngine;
 import enums.PropertyListType;
+import inspections.Inspection;
 import offerAndApplication.Application;
 import offerAndApplication.Offer;
 import property.ForSaleProperty;
@@ -60,6 +61,30 @@ public class FileHandler {
         }
 
         writeToFile(newFileText, file, false);
+    }
+
+
+    public Map<String, Inspection> readInspectionManagerComponents(PropertyManager propertyManager)
+    {
+        Map<String, Inspection> inspections = new HashMap<>();
+        String fileRoute = "src\\main\\java\\csv\\inspections\\inspection.csv";
+        try {
+            BufferedReader fileReader = new BufferedReader(new FileReader(fileRoute));
+            String row;
+            while((row = fileReader.readLine()) != null) {
+                String rowArray[] = row.split(",");
+
+                Inspection inspection = new Inspection(rowArray[0], rowArray[1], rowArray[4]
+                , propertyManager);
+
+                inspections.put(inspection.getInspectionId(), inspection);
+            }
+            fileReader.close();
+        } catch(IOException e) {
+            System.err.printf("Error reading from %s\n", fileRoute);
+        }
+
+        return  inspections;
     }
 
     public Map<String, Property> readPropertyManagerComponents(String fileName) {
