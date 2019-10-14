@@ -21,11 +21,11 @@ public enum AlertType {
 
     OFFER {
         public String subject() {
-            return "You have a new offer!";
+            return "You have news related to offers!";
         }
 
         public String message() {
-            String message = "You have a new offer!";
+            String message = "Check the system to see whats up with your offer related thing!";
             return message;
         }
     },

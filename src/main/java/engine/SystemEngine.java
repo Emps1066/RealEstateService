@@ -16,14 +16,16 @@ public class SystemEngine {
     private ApplicationManager applicationManager;
     private OfferManager offerManager;
     private RolesManager rolesManager;
+    private InspectionManager inspectionManager;
 
-    public SystemEngine(User user, PropertyManager propertyManager, UserManager userManager, ApplicationManager applicationManager, OfferManager offerManager) {
+    public SystemEngine(User user, PropertyManager propertyManager, UserManager userManager, ApplicationManager applicationManager, OfferManager offerManager, InspectionManager inspectionManager) {
         this.user = user;
         myPreferredSuburbs = new ArrayList<>();
         this.userManager = userManager;
         this.propertyManager = propertyManager;
         this.applicationManager = applicationManager;
         this.offerManager = offerManager;
+        this.inspectionManager = inspectionManager;
         rolesManager = new RolesManager();
     }
 
@@ -31,9 +33,9 @@ public class SystemEngine {
 
     public void addSuburbPreference(String suburb) {
         suburb = suburb.toLowerCase();
-        if(suburbExists(suburb) && !suburbExistsInMypreferences(suburb)) {
+        if (suburbExists(suburb) && !suburbExistsInMypreferences(suburb)) {
             myPreferredSuburbs.add(suburb);
-        } else if(suburbExistsInMypreferences(suburb)) {
+        } else if (suburbExistsInMypreferences(suburb)) {
             System.out.println("Sorry Suburb Already Exists In Your Preferences");
         } else {
             System.out.println("Sorry Suburb Does Not Exist");
@@ -42,7 +44,7 @@ public class SystemEngine {
 
     public void deleteSuburbPreference(String suburb) {
         suburb = suburb.toLowerCase();
-        if(suburbExistsInMypreferences(suburb)) {
+        if (suburbExistsInMypreferences(suburb)) {
             myPreferredSuburbs.remove(suburb);
         } else {
             System.out.println("Sorry Suburb Does Not Exist In Your Preferences");
@@ -53,7 +55,7 @@ public class SystemEngine {
         StringBuilder list = new StringBuilder();
         list.append("-----------------------\n");
         list.append("My Preferences\n");
-        for(String suburb : myPreferredSuburbs) {
+        for (String suburb : myPreferredSuburbs) {
             list.append(String.format("%s\n", suburb));
         }
         list.append("-----------------------");
@@ -62,8 +64,8 @@ public class SystemEngine {
 
     private boolean suburbExistsInMypreferences(String suburb) {
         boolean exists = false;
-        for(String suburbItter : myPreferredSuburbs) {
-            if(suburbItter.equals(suburb)) {
+        for (String suburbItter : myPreferredSuburbs) {
+            if (suburbItter.equals(suburb)) {
                 exists = true;
             }
         }
@@ -72,8 +74,8 @@ public class SystemEngine {
 
     private boolean suburbExists(String suburb) {
         boolean exists = false;
-        for(String suburbItter : allExistingSuburbs) {
-            if(suburbItter.equals(suburb)) {
+        for (String suburbItter : allExistingSuburbs) {
+            if (suburbItter.equals(suburb)) {
                 exists = true;
             }
         }
@@ -107,6 +109,11 @@ public class SystemEngine {
 
     public RolesManager getRolesManager() {
         return rolesManager;
+    }
+
+
+    public InspectionManager getInspectionManager() {
+        return inspectionManager;
     }
 
     public void saveToSystem() {

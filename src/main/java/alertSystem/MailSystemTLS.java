@@ -16,7 +16,6 @@ public class MailSystemTLS {
         String password = "s3656005";
         Properties prop = initProperties();
 
-
         Session session = Session.getInstance(prop,
                 new javax.mail.Authenticator() {
                     protected PasswordAuthentication getPasswordAuthentication() {

@@ -14,7 +14,7 @@ public class MyOffersMenu {
             String offerId = Scan.askForString("Enter Offer Id To Finalise:");
 
             OfferManager offerManager = engine.getOfferManager();
-            offerManager.finaliseOffer(offerId, engine.getUser().getId(), engine.getPropertyManager());
+            offerManager.finaliseOffer(offerId, engine.getUser().getId(),engine.getInspectionManager() ,engine.getPropertyManager());
 
             String display = offerManager.propertySeekerAllOffersToListFormat(engine.getUser().getId());
             goToMyOffersMenu(engine, display);
