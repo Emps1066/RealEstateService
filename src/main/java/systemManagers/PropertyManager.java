@@ -239,6 +239,54 @@ public class PropertyManager {
         return propertiesList.toString();
     }
 
+    public String employeesAdvertisedProperties(String employeeId) {
+        StringBuilder propertiesList = new StringBuilder();
+        for(Property property : getListedProperties()) {
+            if(property.getEmployee().equals(employeeId)) {
+                propertiesList.append(property.toListFormat());
+                propertiesList.append("\n");
+            }
+        }
+        if (!propertiesList.toString().equals("")) {
+            propertiesList.deleteCharAt(propertiesList.length() - 1);
+        }
+
+        return propertiesList.toString();
+    }
+
+    public String employeesUnAdvertisedProperties(String employeeId) {
+        StringBuilder propertiesList = new StringBuilder();
+        for(Property property : approvedProperties.values()) {
+            if(property.getEmployee().equals(employeeId)) {
+                if(!property.isListed()) {
+                    propertiesList.append(property.toListFormat());
+                    propertiesList.append("\n");
+                }
+            }
+        }
+        if (!propertiesList.toString().equals("")) {
+            propertiesList.deleteCharAt(propertiesList.length() - 1);
+        }
+
+        return propertiesList.toString();
+    }
+
+    public String employeesUnderContractProperties(String employeeId) {
+        StringBuilder propertiesList = new StringBuilder();
+        for(Property property : underContractProperties.values()) {
+            if(property.getEmployee().equals(employeeId)) {
+
+                propertiesList.append(property.toListFormat());
+                propertiesList.append("\n");
+            }
+        }
+        if (!propertiesList.toString().equals("")) {
+            propertiesList.deleteCharAt(propertiesList.length() - 1);
+        }
+
+        return propertiesList.toString();
+    }
+
     public String getMyPropertyToEdit(String propertyId, String ownerId) {
         StringBuilder propertyString = new StringBuilder();
         Property property = approvedProperties.get(propertyId);
@@ -310,6 +358,21 @@ public class PropertyManager {
                 }
             }
         }
+    }
+
+    public boolean employeeIsAuthorized(String employeeId, String propertyId) {
+        List<Property> properties = new ArrayList<>();
+        properties.addAll(approvedProperties.values());
+        properties.addAll(underContractProperties.values());
+        boolean authorized = false;
+        for(Property property : properties) {
+            if(property.getEmployee().equals(employeeId) &&
+            property.getID().equals(propertyId)) {
+                authorized = true;
+            }
+        }
+
+        return authorized;
     }
 
     public void saveToSystem() {

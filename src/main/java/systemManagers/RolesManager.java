@@ -1,48 +1,43 @@
 package systemManagers;
 
-import com.opencsv.CSVReader;
-import user.Customer;
-
-import java.io.InputStreamReader;
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.util.ArrayList;
-import java.io.IOException;
+import enums.Roles;
 import java.util.Arrays;
 import java.util.List;
-import java.nio.charset.StandardCharsets;
 
 public class RolesManager {
+    List<String> branchAdmins;
+    List<String> propertyManagers;
+    List<String> salesAssociates;
 
-    public List<List<String>> initRolesFromCSV(String roleToCheck) {
-        String path = "csv/roles/" + roleToCheck + ".csv";
-        List<List<String>> rolesList = new ArrayList<>();
-
-        try (CSVReader csvReader = new CSVReader(new FileReader(path))) {
-            String[] values = null;
-            while ((values = csvReader.readNext()) != null) {
-                rolesList.add(Arrays.asList(values));
-            }
-        } catch (IOException ioe) {
-            ioe.printStackTrace();
-
-
+    public void addId(String id, Roles role) {
+        if(role == Roles.BRANCH_ADMIN) {
+            branchAdmins.add(id);
+        } else if(role == Roles.PROPERTY_MANAGER) {
+            propertyManagers.add(id);
+        } else if(role == Roles.SALES_ASSOCIATE) {
+            salesAssociates.add(id);
         }
-        return rolesList;
     }
 
-
-        public boolean verifyRoleExistence(Customer customer, String roleToCheck)
-        {
-            boolean userLegitimate = false;
-            String customerID = customer.getId();
-            List<List<String>> buyerIDs = initRolesFromCSV(roleToCheck);
-            if (buyerIDs.contains(customerID)) {
-                userLegitimate = true;
+    public Roles getRole(String id) {
+        Roles role = null;
+        for(String userId : branchAdmins) {
+            if(userId.equals(id)) {
+                role = Roles.BRANCH_ADMIN;
             }
-            return userLegitimate;
+        }
+        for(String userId : propertyManagers) {
+            if(userId.equals(id)) {
+                role = Roles.PROPERTY_MANAGER;
+            }
+        }
+        for(String userId : salesAssociates) {
+            if(userId.equals(id)) {
+                role = Roles.SALES_ASSOCIATE;
+            }
         }
 
-
+        return role;
     }
+}
 
