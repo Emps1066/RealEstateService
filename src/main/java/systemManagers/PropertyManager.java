@@ -1,5 +1,7 @@
 package systemManagers;
 
+import alertSystem.AlertEngine;
+import enums.AlertType;
 import enums.PropertyListType;
 import property.ForSaleProperty;
 import property.RentalProperty;
@@ -87,7 +89,7 @@ public class PropertyManager {
         System.out.println("Pending property added");
     }
 
-    public boolean approveProperty(String propertyId, String employeeId) {
+    public boolean approveProperty(String propertyId, String employeeId, AlertEngine alertEngine, PropertyManager propertyManager) {
 
         boolean approved = false;
         Property propertyToBeApproved = pendingProperties.remove(propertyId);
@@ -103,13 +105,15 @@ public class PropertyManager {
             IdManager.updateUniqueIdValue("approved" + propertyToBeApproved.listType());
             approved = true;
             System.out.println("Property approved");
+            alertEngine.newPropertyListed(propertyManager.getPropertyAsObject(propertyId, "approved"), AlertType.PROPERTYLISTED);
         } else {
             System.out.println("Property does not exist");
         }
         return approved;
     }
 
-    public boolean setPropertyUnderContract(String propertyId, String buyerOrRenter) {
+    public boolean setPropertyUnderContract(String propertyId, String buyerOrRenter, InspectionManager inspectionManager, PropertyManager propertyManager) {
+
         boolean underContract = false;
         Property propertyToBeUnderContract = approvedProperties.remove(propertyId);
         propertyToBeUnderContract.setListed(false);
@@ -127,9 +131,10 @@ public class PropertyManager {
             } else {
                 ((RentalProperty) propertyToBeUnderContract).setRenterId(buyerOrRenter);
             }
-
             underContract = true;
+            inspectionManager.cancelAllInspectionsOfAProperty(propertyManager.getPropertyAsObject(propertyId, "approved"));
         }
+
         return underContract;
     }
 

@@ -87,7 +87,7 @@ public class OfferManager {
     // To Finalise Applications
 
     //Returns String to put underContract
-    public boolean finaliseOffer(String offerId, String buyerCustomerId, PropertyManager propertyManager) {
+    public boolean finaliseOffer(String offerId, String buyerCustomerId, InspectionManager inspectionManager, PropertyManager propertyManager) {
 
         boolean finalised = false;
         Offer offer = offers.get(offerId);
@@ -96,7 +96,7 @@ public class OfferManager {
                 if(!offerIsExpired(offer, DAYS_TO_ACCEPT_ACCEPTED_OFFER) &&
                         offer.getOfferSender().equals(buyerCustomerId)) {
 
-                    propertyManager.setPropertyUnderContract(offer.getPropertyId(), buyerCustomerId);
+                    propertyManager.setPropertyUnderContract(offer.getPropertyId(), buyerCustomerId, inspectionManager, propertyManager);
 
                     withdrawOffer(offerId, buyerCustomerId);
                     System.out.println("\nPayments Have Been Finalised The Property Is Yours\n");

@@ -120,6 +120,7 @@
       <change beforePath="$PROJECT_DIR$/target/classes/utilities/fileHandler/FileHandler.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/utilities/scanner/Scan.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/utilities/weekMonthYear/WeekUtil.class" beforeDir="false" />
+forePath="$PROJECT_DIR$/src/main/java/systemManagers/PropertyManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/systemManagers/PropertyManager.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -192,7 +193,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/account/SignIn.java" />
-        <option value="$PROJECT_DIR$/src/main/java/account/Logger.java" />
         <option value="$PROJECT_DIR$/src/main/java/csv/offer/offer.csv" />
         <option value="$PROJECT_DIR$/src/main/java/csv/application/application.csv" />
         <option value="$PROJECT_DIR$/src/main/java/property/ForSaleProperty.java" />
@@ -221,12 +221,18 @@
         <option value="$PROJECT_DIR$/src/main/java/menusForUsers/employeeMenu/MyEmployeeMenuCallBack.java" />
         <option value="$PROJECT_DIR$/src/main/java/offerAndApplication/Offer.java" />
         <option value="$PROJECT_DIR$/src/main/java/systemManagers/SuburbManager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/alertSystem/MailSystemTLS.java" />
         <option value="$PROJECT_DIR$/src/main/java/systemManagers/IdManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/inspections/Inspection.java" />
         <option value="$PROJECT_DIR$/src/main/java/utilities/fileHandler/FileHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/account/Logger.java" />
+        <option value="$PROJECT_DIR$/src/main/java/systemManagers/ApplicationManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/engine/SystemEngine.java" />
+        <option value="$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekerMenu/myOffersMenu/MyOffersMenu.java" />
+        <option value="$PROJECT_DIR$/src/main/java/systemManagers/PropertyManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/alertSystem/MailSystemTLS.java" />
         <option value="$PROJECT_DIR$/src/main/java/enums/AlertType.java" />
         <option value="$PROJECT_DIR$/src/main/java/alertSystem/AlertEngine.java" />
+        <option value="$PROJECT_DIR$/src/main/java/systemManagers/OfferManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/systemManagers/InspectionManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/enums/Roles.java" />
         <option value="$PROJECT_DIR$/src/main/java/systemManagers/RolesManager.java" />
@@ -416,6 +422,7 @@
       </pane>
       <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -580,6 +587,7 @@
       <workItem from="1570800394004" duration="13228000" />
       <workItem from="1570887771479" duration="11275000" />
       <workItem from="1570957035039" duration="13833000" />
+      <workItem from="1571016911293" duration="9909000" />
     </task>
     <servers />
   </component>
@@ -616,7 +624,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115182000" />
+    <option name="totallyTimeSpent" value="125091000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -639,7 +647,7 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.8114843" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.8101473" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.27285713" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
@@ -648,7 +656,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.049099836" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.328594" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.6954674" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24966443" />
@@ -719,6 +727,8 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/csv/properties/underContractForSaleProperties.csv" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/csv/properties/approvedRentalProperties.csv" />
     <entry file="file://$PROJECT_DIR$/src/main/java/csv/properties/approvedForSaleProperties.csv" />
     <entry file="file://$PROJECT_DIR$/src/main/java/menusForUsers/propertySeekerMenu/browserMenu/BrowseMenu.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1000,7 +1010,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/systemManagers/ApplicationManager.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/systemManagers/RolesManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="725">
           <caret line="212" column="46" selection-start-line="212" selection-start-column="46" selection-end-line="212" selection-end-column="46" />

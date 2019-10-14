@@ -26,13 +26,11 @@ public class ApplicationManager {
 
     public void sendApplication(User user, PropertyManager propertyManager) {
         String propertyId = Scan.askForString("Enter The ID of the Property To Send Application To:");
-        if(propertyManager.propertyExistsAsListed(propertyId, PropertyListType.RENTAL))
-        {
+        if (propertyManager.propertyExistsAsListed(propertyId, PropertyListType.RENTAL)) {
             Application application = askForApplicationDetails(user.getId(),
                     propertyManager.getPropertyOwnerId(propertyId), propertyId);
             addNewApplication(application);
-        }
-        else {
+        } else {
             System.out.println("Sorry The Property Entered Could Not Be Found, please try again later");
         }
     }
@@ -70,8 +68,8 @@ public class ApplicationManager {
 
         boolean accepted = false;
         Application application = applications.get(appId);
-        if(application != null) {
-            if(application.getAppId().startsWith(pendingIdSerial)) {
+        if (application != null) {
+            if (application.getAppId().startsWith(pendingIdSerial)) {
                 if (!applicationIsExpired(application, DAYS_TO_ACCEPT_PENDING_APPLICATION) &&
                         application.getAppReceiverId().equals(propertyOwnerId)) {
 
@@ -100,15 +98,15 @@ public class ApplicationManager {
     // To Finalise Applications
 
     //Returns String to put underContract
-    public boolean finaliseApplication(String appId, String renterCustomerId, PropertyManager propertyManager) {
+    public boolean finaliseApplication(String appId, String renterCustomerId, InspectionManager inspectionManager, PropertyManager propertyManager) {
         boolean finalised = false;
         Application application = applications.get(appId);
-        if(application != null) {
-            if(application.getAppId().startsWith(acceptedIdSerial)) {
+        if (application != null) {
+            if (application.getAppId().startsWith(acceptedIdSerial)) {
                 if (!applicationIsExpired(application, DAYS_TO_ACCEPT_ACCEPTED_APPLICATION) &&
                         application.getAppSenderId().equals(renterCustomerId)) {
 
-                    propertyManager.setPropertyUnderContract(application.getPropertyId(), renterCustomerId);
+                    propertyManager.setPropertyUnderContract(application.getPropertyId(), renterCustomerId, inspectionManager, propertyManager);
 
                     withdrawApplication(appId, renterCustomerId);
                     System.out.println("\nPayments Have Been Finalised Rental Property Ready To Move In\n");
@@ -130,8 +128,8 @@ public class ApplicationManager {
 
     public void withdrawApplication(String appId, String renterCustomerId) {
         Application application = applications.get(appId);
-        if(application != null) {
-            if(application.getAppSenderId().equals(renterCustomerId)) {
+        if (application != null) {
+            if (application.getAppSenderId().equals(renterCustomerId)) {
                 applications.remove(appId);
                 System.out.println("\nApplication Has Been Withdrawn\n");
             } else {
@@ -144,8 +142,8 @@ public class ApplicationManager {
 
     public void rejectApplication(String appId, String appReceiverId) {
         Application application = applications.get(appId);
-        if(application != null) {
-            if(application.getAppReceiverId().equals(appReceiverId)) {
+        if (application != null) {
+            if (application.getAppReceiverId().equals(appReceiverId)) {
                 applications.remove(appId);
                 System.out.println("\nApplication Has Been Rejected\n");
             } else {
@@ -165,10 +163,10 @@ public class ApplicationManager {
     private String propertySeekerAppsToListFormat(String seekerId, int daysTillExpiration, String appIdSerial) {
 
         StringBuilder list = new StringBuilder();
-        for(Application application : applications.values()) {
-            if(application.getAppId().startsWith(appIdSerial)) {
+        for (Application application : applications.values()) {
+            if (application.getAppId().startsWith(appIdSerial)) {
 
-                if(application.getAppSenderId().equals(seekerId) &&
+                if (application.getAppSenderId().equals(seekerId) &&
                         !applicationIsExpired(application, daysTillExpiration)) {
                     list.append(application.toListFormat());
                     list.append("\n");
@@ -224,7 +222,7 @@ public class ApplicationManager {
     private boolean applicationIsExpired(Application application, int daysTillExpiration) {
         boolean expired = false;
         DateTime dateStarted;
-        if(application.getApplicationAcceptedTime() != null) {
+        if (application.getApplicationAcceptedTime() != null) {
             dateStarted = application.getApplicationAcceptedTime();
         } else {
             dateStarted = application.getApplicationMadeTime();
@@ -241,8 +239,8 @@ public class ApplicationManager {
     public boolean userCanEdit(String appId, String renterId) {
         boolean can = false;
         Application application = applications.get(appId);
-        if(application != null) {
-            if(application.getAppSenderId().equals(renterId)) {
+        if (application != null) {
+            if (application.getAppSenderId().equals(renterId)) {
                 can = true;
             }
         }
@@ -278,7 +276,7 @@ public class ApplicationManager {
 
     public void saveToSystem() {
         FileHandler.writeToFile("", "src\\main\\java\\csv\\application\\application.csv", false);
-        for(Application application : applications.values()) {
+        for (Application application : applications.values()) {
             saveApplicationToFile(application);
         }
     }
