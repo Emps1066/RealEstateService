@@ -3,6 +3,7 @@ package alertSystem;
 import enums.AlertType;
 import inspections.Inspection;
 import property.Property;
+import systemManagers.UserManager;
 import utilities.fileHandler.FileHandler;
 
 import java.io.*;
@@ -32,15 +33,14 @@ public class AlertEngine {
         sendEmailsToCustomers(idsToEmail, property, alertType);
     }
 
-    public List<String> getIdsToEmail(Property property)
-    {
+    public List<String> getIdsToEmail(Property property) {
         List<String> idsToEmail = null;
         try {
             idsToEmail = readData(property);
         } catch (IOException e) {
             System.out.println("Could not find file");
         }
-        return  idsToEmail;
+        return idsToEmail;
     }
 
     public void inspectionAlert(Inspection inspection, AlertType alertType) {
@@ -58,7 +58,6 @@ public class AlertEngine {
         List<String> idsToEmail = getIdsToEmail(property);
         idsToEmail.add(inspection.getEmployeeId());
         sendEmailsToCustomers(idsToEmail, property, alertType);
-
     }
 
     public List<String> readData(Property property) throws IOException {
@@ -73,6 +72,18 @@ public class AlertEngine {
         }
         return content;
     }
+
+
+    public void offerAlert(String userId)
+    {
+        String userEmail = fileHandler.get(userId, 2, "src\\main\\java\\csv\\users\\customer.csv");
+        if(userEmail==null)
+        {
+            userEmail = fileHandler.get(userId, 2, "src\\main\\java\\csv\\users\\employee.csv");
+        }
+        email.sendEmail(AlertType.OFFER, userEmail ,null);
+    }
+
 
 }
 

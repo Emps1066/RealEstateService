@@ -14,15 +14,17 @@ public class Inspection {
     String inspectionTimeDate;
     String inspectionSuburb;
     String employeeId;
+    String inspectionAddress;
     Property inspectionProperty;
     PropertyManager propertyManager;
-    public Inspection(String inspectionId, String propertyId, String inspectionTimeDate, PropertyManager propertyManager)
-    {
+
+    public Inspection(String inspectionId, String propertyId, String inspectionTimeDate, PropertyManager propertyManager) {
         this.propertyManager = propertyManager;
         this.inspectionProperty = propertyManager.getPropertyAsObject(propertyId, "approved");
         this.inspectionSuburb = inspectionProperty.getSuburb();
-        this.idOfPropertyToBeInspected =  inspectionProperty.getID();
+        this.idOfPropertyToBeInspected = inspectionProperty.getID();
         this.inspectionTimeDate = inspectionTimeDate;
+        this.inspectionAddress = inspectionProperty.getAddress();
         this.employeeId = inspectionProperty.getEmployee();
         this.inspectionId = inspectionId;
     }
@@ -35,8 +37,7 @@ public class Inspection {
         return inspectionTimeDate;
     }
 
-    public String getInspectionId()
-    {
+    public String getInspectionId() {
         return inspectionId;
     }
 
@@ -62,9 +63,18 @@ public class Inspection {
     }
 
     public String toCsvFormat() {
-        return String.format("%s,%s,%s","%s","%s","%s", inspectionId,idOfPropertyToBeInspected,inspectionSuburb,idOfPropertyToBeInspected,inspectionTimeDate,employeeId);
+        return String.format("%s,%s,%s", "%s", "%s", "%s", inspectionId, idOfPropertyToBeInspected, inspectionSuburb, idOfPropertyToBeInspected, inspectionTimeDate, employeeId);
     }
 
-
-
+    public String toListFormat() {
+        return String.format("--------------------------\n" +
+                        "ID: %s\n" +
+                        "Address: %s\n" +
+                        "Suburb: %s\n" +
+                        "Inspection time, date: %s\n" +
+                        "Employee Id: %s\n--------------------------",
+                inspectionId, inspectionAddress, inspectionSuburb, inspectionTimeDate, employeeId);
+    }
 }
+
+
