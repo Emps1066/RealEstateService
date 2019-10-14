@@ -176,13 +176,24 @@ public class OfferManager {
         return list.toString();
     }
 
-    public String propertyOwnerOffersToListFormat(String ownerId) {
+    public String propertyOwnerOffersToListFormat(String ownerId, String propertyId) {
         StringBuilder list = new StringBuilder();
+        int daysTillExpiration;
         for(Offer offer : offers.values()) {
-            if(offer.getOfferId().startsWith(pendingIdSerial) || offer.getOfferId().startsWith(acceptedIdSerial)) {
-
-                if(offer.getOfferRecipient().equals(ownerId) &&
-                        !offerIsExpired(offer, DAYS_TO_ACCEPT_PENDING_OFFER)) {
+            if(offer.getOfferId().startsWith(pendingIdSerial)) {
+                daysTillExpiration = DAYS_TO_ACCEPT_PENDING_OFFER;
+            } else {
+                daysTillExpiration = DAYS_TO_ACCEPT_ACCEPTED_OFFER;
+            }
+            if(propertyId == null) {
+                if (offer.getOfferRecipient().equals(ownerId) &&
+                        !offerIsExpired(offer, daysTillExpiration)) {
+                    list.append(offer.toListFormat());
+                    list.append("\n");
+                }
+            } else {
+                if (offer.getPropertyId().equals(propertyId) &&
+                        !offerIsExpired(offer, daysTillExpiration)) {
                     list.append(offer.toListFormat());
                     list.append("\n");
                 }

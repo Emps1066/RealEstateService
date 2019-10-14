@@ -9,8 +9,9 @@ public class MyPropertyOffers {
         MyPropertyOffersCallBack callBack = new MyPropertyOffersCallBack();
         int option = Scan.askForOption(1, callBack.menu(displayable));
         if (option == 1) {
+            String display = engine.getPropertyManager().employeesAdvertisedProperties(engine.getUser().getId());
             AdvertisedProperties advertisedProperties = new AdvertisedProperties();
-            advertisedProperties.goToAdvertisedProperties(engine, "");
+            advertisedProperties.goToAdvertisedProperties(engine, display);
         }
     }
 }

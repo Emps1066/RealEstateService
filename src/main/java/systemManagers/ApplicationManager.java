@@ -193,13 +193,24 @@ public class ApplicationManager {
         return list.toString();
     }
 
-    public String  propertyOwnerAppsToListFormat(String propertyOwnerId) {
+    public String  propertyOwnerAppsToListFormat(String propertyOwnerId, String propertyId) {
         StringBuilder list = new StringBuilder();
+        int daysTillExpiration;
         for(Application application : applications.values()) {
             if(application.getAppId().startsWith(pendingIdSerial)) {
-
-                    if(application.getAppReceiverId().equals(propertyOwnerId) &&
-                        !applicationIsExpired(application, DAYS_TO_ACCEPT_PENDING_APPLICATION)) {
+                daysTillExpiration = DAYS_TO_ACCEPT_PENDING_APPLICATION;
+            } else {
+                daysTillExpiration = DAYS_TO_ACCEPT_ACCEPTED_APPLICATION;
+            }
+            if(propertyId == null) {
+                if (application.getAppReceiverId().equals(propertyOwnerId) &&
+                        !applicationIsExpired(application, daysTillExpiration)) {
+                    list.append(application.toListFormat());
+                    list.append("\n");
+                }
+            } else {
+                if (application.getPropertyId().equals(propertyId) &&
+                        !applicationIsExpired(application, daysTillExpiration)) {
                     list.append(application.toListFormat());
                     list.append("\n");
                 }

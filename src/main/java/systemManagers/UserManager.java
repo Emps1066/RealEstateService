@@ -115,6 +115,14 @@ public class UserManager {
         return employees;
     }
 
+    public void inputWorkHours(String employeeId, double hours) {
+        for(User user : users.values()) {
+            if(user.getId().equals(employeeId)) {
+                ((Employee) user).setHoursWorked(hours);
+            }
+        }
+    }
+
     // ACCOUNT CREATION AND LOGIN METHODS
     public boolean passwordIsValid(String password, String reEnteredPassword)
     {
